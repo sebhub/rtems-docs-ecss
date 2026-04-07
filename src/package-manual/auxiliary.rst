@@ -463,7 +463,7 @@ for the RTEMS pre-qualification project:
 
 * QT-109 Technical Note RTEMS SMP Qualification Target
 
-  * `<${.:/component/deployment-directory}/doc/technical-notes/tn-qt/QT-109.pdf>`_
+  * `<${/pkg/deployment/doc-tn-qt:/file:relpath %(/pkg/component:/prefix-directory)}>`__
 
   The technical note contains the tailoring of ECSS documents for the RTEMS
   pre-qualification project (chapter 4) and other relevant technical

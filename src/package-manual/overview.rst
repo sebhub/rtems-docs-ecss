@@ -199,9 +199,7 @@ The package includes the following technical notes:
 
 * ${/ref/tn/qt-109-r6:/cite-long}
 
-  .. note::
-
-      This document is not included in the package.
+  * `<${/pkg/deployment/doc-tn-qt:/file:relpath %(/pkg/component:/prefix-directory)}>`__
 
 * ${/ref/tn/rtems-space-profile-r6:/cite-long}
 
