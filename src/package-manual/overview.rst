@@ -251,21 +251,15 @@ The package includes the following Formal Methods documentation set:
 
 * ${/ref/tn/rtems-fvp:/cite-long}
 
-  .. note::
-
-      This document is not included in the package.
+  * `<${/pkg/deployment/doc-fm-fvp:/file:relpath %(.:/component/prefix-directory)}>`__
 
 * ${/ref/tn/rtems-fva:/cite-long}
 
-  .. note::
-
-      This document is not included in the package.
+  * `<${/pkg/deployment/doc-fm-fva:/file:relpath %(.:/component/prefix-directory)}>`__
 
 * ${/ref/tn/rtems-fvr:/cite-long}
 
-  .. note::
-
-      This document is not included in the package.
+  * `<${/pkg/deployment/doc-fm-fvr:/file:relpath %(.:/component/prefix-directory)}>`__
 
 .. _ISVVDocs:
 
