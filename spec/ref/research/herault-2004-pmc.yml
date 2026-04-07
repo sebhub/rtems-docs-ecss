@@ -1,0 +1,24 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+author:
+- Thomas Hérault
+- Richard Lassaigne
+- Frédéric Magniette
+- Sylvain Peyronnet
+booktitle: Verification, Model Checking, and Abstract Interpretation, 5th International
+  Conference, VMCAI 2004, Venice, Italy, January 11-13, 2004, Proceedings
+copyrights:
+- Copyright (C) 2025 embedded brains GmbH & Co. KG
+doi: 10.1007/978-3-540-24622-0_8
+editor: Bernhard Steffen and Giorgio Levi
+enabled-by: true
+links: []
+pages: 73--84
+publisher: Springer
+reference-type: inproceedings
+series: Lecture Notes in Computer Science
+title: Approximate Probabilistic Model Checking
+type: reference
+volume: '2937'
+work-hash: null
+work-url: https://doi.org/10.1007/978-3-540-24622-0_8
+year: '2004'

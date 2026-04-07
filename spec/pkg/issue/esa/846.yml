@@ -1,0 +1,20 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2023 European Space Agency and contributors
+created: '2023-06-01T10:36:30.397Z'
+enabled-by: true
+identifier: '846'
+labels:
+- Design Verif.
+- Major/High
+- RTEMS-SMP-ISVV
+- SPR
+links:
+- role: issue-member
+  uid: database
+milestone: null
+pkg-type: issue
+status: closed
+subject: RTEMS-SMP-DESIGN-VER-010 - No architectural design
+type: pkg
+updated: '2023-07-21T15:28:15.994Z'

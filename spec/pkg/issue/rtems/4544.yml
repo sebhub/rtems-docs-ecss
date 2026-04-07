@@ -1,0 +1,23 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2021, 2025 RTEMS Project and contributors
+created: '2021-11-08T09:44:53.000Z'
+enabled-by: true
+identifier: '4544'
+labels:
+- priority::normal
+- qualification
+- resolution::fixed
+- rtems::score
+- smp
+- tickettype::defect
+- version::5
+links:
+- role: issue-member
+  uid: database
+milestone: '5.1'
+pkg-type: issue
+status: closed
+subject: The last processor must not be removed if it is owned by a helping scheduler
+type: pkg
+updated: '2025-09-19T01:11:04.669Z'

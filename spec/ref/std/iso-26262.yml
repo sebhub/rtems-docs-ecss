@@ -1,0 +1,13 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+author: ISO
+copyrights:
+- Copyright (C) 2025 embedded brains GmbH & Co. KG
+enabled-by: true
+links: []
+organization: International Organization for Standardization
+reference-type: manual
+title: ISO 26262 Road vehicles -- Functional safety
+type: reference
+work-hash: null
+work-url: https://www.iso.org/standard/43464.html
+year: '2011'

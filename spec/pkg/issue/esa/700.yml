@@ -1,0 +1,17 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2021 European Space Agency and contributors
+created: '2021-05-17T12:30:09.192Z'
+enabled-by: true
+identifier: '700'
+labels:
+- RTEMS
+links:
+- role: issue-member
+  uid: database
+milestone: null
+pkg-type: issue
+status: closed
+subject: 'Finding: SPAMR: CppCheck not correcty configured'
+type: pkg
+updated: '2021-09-30T12:37:16.970Z'

@@ -1,0 +1,17 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+author:
+- Compagnin, Davide
+- Mezzetti, Enrico
+- Vardanega, Tullio
+booktitle: Proceedings of the 26th Euromicro Conference on Real-Time Systems (ECRTS
+  2014)
+copyrights:
+- Copyright (C) 2025 embedded brains GmbH & Co. KG
+enabled-by: true
+links: []
+reference-type: inproceedings
+title: 'Putting RUN into practice: implementation and evaluation'
+type: reference
+work-hash: null
+work-url: null
+year: '2014'

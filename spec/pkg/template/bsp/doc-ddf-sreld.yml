@@ -1,0 +1,42 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+attribute-actions:
+- action: extend
+  enabled-by: true
+  path: /links
+  value:
+  - citation-group-key: sreld
+    role: citation-group-member
+    uid: /pkg/component
+  - hash: null
+    name: component
+    role: input
+    uid: component
+  - hash: null
+    name: spec
+    role: input
+    uid: rtems-item-cache
+  - hash: null
+    name: package-changes
+    role: input
+    uid: ../../../package-changes
+  - hash: null
+    name: source
+    role: input
+    uid: ../../../source/doc-rtems-ddf-sreld
+  - name: build
+    role: output
+    uid: build-ddf-sreld
+  - hash: null
+    name: member
+    role: input-to
+    uid: ../../../deployment/archive
+copyrights:
+- Copyright (C) 2023 embedded brains GmbH & Co. KG
+enabled-by: true
+file: ${.:/component/workspace-directory}/${.:/component/rtems-docs-ecss-directory}/ddf/sreld/config.yml
+links:
+- role: add-package-template
+  uid: component
+pkg-type: template
+template-type: file-item
+type: pkg

@@ -1,0 +1,25 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2017, 2025 RTEMS Project and contributors
+created: '2017-04-07T15:17:30.000Z'
+enabled-by: true
+identifier: '2986'
+labels:
+- doc
+- gsoc::small
+- old-indefinite
+- priority::normal
+- project::small
+- qualification
+- resolution::fixed
+- tickettype::enhancement
+- version::5
+links:
+- role: issue-member
+  uid: database
+milestone: '5.1'
+pkg-type: issue
+status: closed
+subject: Convert Coding Style to Sphinx Document
+type: pkg
+updated: '2025-09-19T01:32:51.976Z'

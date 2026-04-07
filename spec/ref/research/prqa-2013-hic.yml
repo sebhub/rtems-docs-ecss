@@ -1,0 +1,13 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2025 embedded brains GmbH & Co. KG
+enabled-by: true
+links: []
+month: October
+organization: Programming Research Ltd
+reference-type: manual
+title: High Integrity C++ Coding Standard Version 4.0
+type: reference
+work-hash: null
+work-url: http://www.codingstandard.com/
+year: '2013'

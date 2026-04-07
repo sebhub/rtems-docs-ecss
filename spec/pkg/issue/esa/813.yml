@@ -1,0 +1,20 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2023, 2026 European Space Agency and contributors
+created: '2023-06-01T10:07:21.070Z'
+enabled-by: true
+identifier: '813'
+labels:
+- Minor/Low
+- RTEMS SMP Qualification Extension (GT17-625QQ)
+- RTEMS-SMP-ISVV
+- Req. Verif.
+links:
+- role: issue-member
+  uid: database
+milestone: QDPv7 - Software Requirements Review (SRR)
+pkg-type: issue
+status: opened
+subject: RTEMS-SMP-REQ-VER-009 - Too many dependent requirements
+type: pkg
+updated: '2026-03-31T05:17:23.805Z'

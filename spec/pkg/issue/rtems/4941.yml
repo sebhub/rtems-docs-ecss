@@ -1,0 +1,21 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2023, 2026 RTEMS Project and contributors
+created: '2023-08-10T09:59:51.000Z'
+enabled-by: true
+identifier: '4941'
+labels:
+- priority::normal
+- qualification
+- tickettype::defect
+- tool
+- version::6
+links:
+- role: issue-member
+  uid: database
+milestone: '6.1'
+pkg-type: issue
+status: closed
+subject: Test suite files produced by rtems-syms are not reproducible
+type: pkg
+updated: '2026-03-12T06:56:24.017Z'

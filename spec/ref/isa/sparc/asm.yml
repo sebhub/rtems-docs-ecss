@@ -1,0 +1,13 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+author: SPARC
+copyrights:
+- Copyright (C) 2025 embedded brains GmbH & Co. KG
+enabled-by: true
+links: []
+organization: Sun Microsystems, Inc.
+reference-type: manual
+title: SPARC Assembly Language Reference Manual
+type: reference
+work-hash: null
+work-url: https://docs.oracle.com/cd/E18752_01/pdf/816-1681.pdf
+year: '2002'

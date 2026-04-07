@@ -1,0 +1,27 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2020, 2026 embedded brains GmbH & Co. KG
+copyrights-by-license: {}
+destination-directory: ${.:/component/deployment-directory}/src/doc/rtems/ts/srs
+enabled-by: pkg.feature.qual
+file-mappings:
+- pattern: ^common/
+  replacement: ''
+- pattern: ^ts/srs/constraints.rst
+  replacement: include/constraints.rst
+- pattern: ^ts/srs/
+  replacement: source/
+links:
+- hash: null
+  name: component
+  role: input
+  uid: ../component
+patterns:
+- exclude: []
+  include:
+  - common/**/*
+  - ts/srs/*.rst
+pkg-type: workspace
+directory: ${.:/component/workspace-directory}/${.:/component/rtems-docs-ecss-directory}
+type: pkg
+workspace-type: directory

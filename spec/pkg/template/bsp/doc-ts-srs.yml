@@ -1,0 +1,58 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+attribute-actions:
+- action: extend
+  enabled-by: true
+  path: /links
+  value:
+  - citation-group-key: srs
+    role: citation-group-member
+    uid: /pkg/component
+  - hash: null
+    name: component
+    role: input
+    uid: component
+  - hash: null
+    name: spec
+    role: input
+    uid: rtems-item-cache
+  - hash: null
+    name: link-hub
+    role: input
+    uid: link-hub
+  - hash: null
+    name: test-aggregation
+    role: input
+    uid: aggregate-test-results
+  - hash: null
+    name: images
+    role: input
+    uid: perf-images
+  - hash: null
+    name: spec-compare-registry
+    role: input
+    uid: spec-compare-registry
+  - hash: null
+    name: source
+    role: input
+    uid: ../../../source/doc-rtems-ts-srs
+  - hash: null
+    name: tagfile
+    role: input
+    uid: doc-ddf-sdd-tagfile-early
+  - name: build
+    role: output
+    uid: build-ts-srs
+  - hash: null
+    name: member
+    role: input-to
+    uid: ../../../deployment/archive
+copyrights:
+- Copyright (C) 2023 embedded brains GmbH & Co. KG
+enabled-by: true
+file: ${.:/component/workspace-directory}/${.:/component/rtems-docs-ecss-directory}/ts/srs/config.yml
+links:
+- role: add-package-template
+  uid: component
+pkg-type: template
+template-type: file-item
+type: pkg

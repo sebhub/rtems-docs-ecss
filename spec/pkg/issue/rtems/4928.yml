@@ -1,0 +1,20 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2023, 2025 RTEMS Project and contributors
+created: '2023-07-19T20:41:50.000Z'
+enabled-by: true
+identifier: '4928'
+labels:
+- priority::normal
+- qualification
+- tickettype::defect
+- version::6
+links:
+- role: issue-member
+  uid: database
+milestone: '7.1'
+pkg-type: issue
+status: closed
+subject: Upgrade Version of Sphinx to 7
+type: pkg
+updated: '2025-09-20T00:25:54.890Z'

@@ -1,0 +1,19 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+author:
+- Havva Gülay Gürbüz
+- Bedir Tekinerdogan
+copyrights:
+- Copyright (C) 2025 embedded brains GmbH & Co. KG
+doi: 10.1007/s11219-017-9386-2
+enabled-by: true
+journal: Software Quality Journal
+links: []
+number: '4'
+pages: 1327--1372
+reference-type: article
+title: 'Model-based testing for software safety: a systematic mapping study'
+type: reference
+volume: '26'
+work-hash: null
+work-url: https://doi.org/10.1007/s11219-017-9386-2
+year: '2018'

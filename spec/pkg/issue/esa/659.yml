@@ -1,0 +1,17 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2021 European Space Agency and contributors
+created: '2021-01-29T15:24:12.712Z'
+enabled-by: true
+identifier: '659'
+labels:
+- RTEMS
+links:
+- role: issue-member
+  uid: database
+milestone: null
+pkg-type: issue
+status: closed
+subject: 'SVR: QDP SVR needs text and performance data on "budgets and margins computation"'
+type: pkg
+updated: '2021-10-21T15:25:51.107Z'

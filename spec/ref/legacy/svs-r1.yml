@@ -1,0 +1,13 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+author: embedded brains
+copyrights:
+- Copyright (C) 2025 embedded brains GmbH & Co. KG
+enabled-by: true
+links: []
+organization: embedded brains GmbH & Co. KG
+reference-type: manual
+title: RTEMS Software Validation Specification, Release 1
+type: reference
+work-hash: null
+work-url: null
+year: '2020'

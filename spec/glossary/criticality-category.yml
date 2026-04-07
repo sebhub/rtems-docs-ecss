@@ -1,0 +1,24 @@
+SPDX-License-Identifier: CC-BY-SA-4.0
+copyrights:
+- Copyright (C) 2024 embedded brains GmbH & Co. KG
+enabled-by: true
+glossary-type: term
+links:
+- role: glossary-member
+  uid: group
+term: criticality category
+text: |
+  The ${../glossary/ecss:/term} standard defines four software criticality
+  categories _A_ to _D_ in ${/ref/ecss/q-st-80c-r1:/cite} appendix
+  _D.1 Software criticality categories_. _A_ is the highest and _D_ the lowest
+  category. The higher the category the more efforts demands the
+  ${../glossary/ecss:/term} standard to ensure the software product behaves as
+  expected and specified.
+
+  The possible negative impacts of a software not functioning
+  correctly is assessed and based on the results a criticality category
+  is assigned. For example, a software potentially endangering human
+  life will be in the highest category _A_ and thus must undergo the
+  most rigorous tests, reviews and other procedures to meet
+  ${../glossary/ecss:/term} requirements.
+type: glossary

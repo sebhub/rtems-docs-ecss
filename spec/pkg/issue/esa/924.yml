@@ -1,0 +1,20 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2023 European Space Agency and contributors
+created: '2023-12-01T09:37:26.825Z'
+enabled-by: true
+identifier: '924'
+labels:
+- Major/High
+- RTEMS
+- RTEMS SMP Single-Core Activity
+- SPR
+links:
+- role: issue-member
+  uid: database
+milestone: null
+pkg-type: issue
+status: closed
+subject: Potential stack corruption in uniprocessor configurations during start multitasking
+type: pkg
+updated: '2023-12-01T09:40:33.932Z'

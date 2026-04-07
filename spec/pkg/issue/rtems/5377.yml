@@ -1,0 +1,17 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2025, 2026 RTEMS Project and contributors
+created: '2025-10-19T02:26:41.961Z'
+enabled-by: true
+identifier: '5377'
+labels:
+- qualification
+links:
+- role: issue-member
+  uid: database
+milestone: '7.1'
+pkg-type: issue
+status: closed
+subject: Multiple validation tests have -Wtype-limits warnings
+type: pkg
+updated: '2026-03-13T03:15:50.088Z'

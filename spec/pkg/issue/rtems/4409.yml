@@ -1,0 +1,21 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2021, 2025 RTEMS Project and contributors
+created: '2021-05-14T07:12:33.000Z'
+enabled-by: true
+identifier: '4409'
+labels:
+- priority::normal
+- qualification
+- resolution::fixed
+- tickettype::defect
+- version::5
+links:
+- role: issue-member
+  uid: database
+milestone: '5.1'
+pkg-type: issue
+status: closed
+subject: rtems_task_start() does not check that the entry point is not equal to NULL
+type: pkg
+updated: '2025-09-19T01:10:59.629Z'

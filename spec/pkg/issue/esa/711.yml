@@ -1,0 +1,20 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2021 European Space Agency and contributors
+created: '2021-06-16T10:17:55.782Z'
+enabled-by: true
+identifier: '711'
+labels:
+- Minor/Low
+- QR2
+- RID
+- RTEMS
+links:
+- role: issue-member
+  uid: database
+milestone: null
+pkg-type: issue
+status: closed
+subject: 'QR1-CJ-05: Open issues reported in SPAMR'
+type: pkg
+updated: '2021-12-02T15:40:35.356Z'

@@ -1,0 +1,22 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2020, 2024 RTEMS Project and contributors
+created: '2020-04-06T13:59:39.000Z'
+enabled-by: true
+identifier: '3937'
+labels:
+- priority::normal
+- qualification
+- resolution::fixed
+- tickettype::project
+- tool::gcc
+- version::6
+links:
+- role: issue-member
+  uid: database
+milestone: '6.1'
+pkg-type: issue
+status: closed
+subject: Move content of bsp_specs to GCC
+type: pkg
+updated: '2024-04-25T20:48:01.188Z'

@@ -1,0 +1,21 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2023, 2026 European Space Agency and contributors
+created: '2023-04-10T16:35:31.323Z'
+enabled-by: true
+identifier: '804'
+labels:
+- Done
+- Minor/Low
+- RTEMS SMP Qualification Extension (GT17-625QQ)
+- RTEMS-SMP-ISVV
+- Req. Verif.
+links:
+- role: issue-member
+  uid: database
+milestone: QDPv7 - Software Requirements Review (SRR)
+pkg-type: issue
+status: opened
+subject: RTEMS-SMP-REQ-VER-032 - Incorrect definition of inner elements of structs
+type: pkg
+updated: '2026-03-31T04:52:45.727Z'

@@ -1,0 +1,14 @@
+SPDX-License-Identifier: CC-BY-SA-4.0
+copyrights:
+- Copyright (C) 2024 embedded brains GmbH & Co. KG
+enabled-by: true
+glossary-type: term
+links:
+- role: glossary-member
+  uid: group
+term: CAN
+text: |
+  The Controller Area Network is a multi-master serial bus standard
+  to connect two or more so called Electronic Control Units (ECUs).
+  It is frequently used in vehicles.
+type: glossary

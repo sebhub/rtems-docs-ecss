@@ -1,0 +1,19 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2024, 2026 RTEMS Project and contributors
+created: '2024-08-07T21:57:13.967Z'
+enabled-by: true
+identifier: '5107'
+labels:
+- qualification
+- rtems::score
+- scan::coverity
+links:
+- role: issue-member
+  uid: database
+milestone: '6.2'
+pkg-type: issue
+status: closed
+subject: 'timespecaddto.c: Use of 32-bit time_t'
+type: pkg
+updated: '2026-03-13T01:16:29.189Z'

@@ -1,0 +1,19 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+author:
+- Gul Agha
+- Karl Palmskog
+copyrights:
+- Copyright (C) 2025 embedded brains GmbH & Co. KG
+doi: 10.1145/3158668
+enabled-by: true
+journal: ACM Trans. Model. Comput. Simul.
+links: []
+number: '1'
+pages: 6:1--6:39
+reference-type: article
+title: A Survey of Statistical Model Checking
+type: reference
+volume: '28'
+work-hash: null
+work-url: https://doi.org/10.1145/3158668
+year: '2018'

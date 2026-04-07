@@ -1,0 +1,19 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2021 European Space Agency and contributors
+created: '2021-01-28T01:30:07.937Z'
+enabled-by: true
+identifier: '652'
+labels:
+- Minor/Low
+- RID
+- RTEMS
+links:
+- role: issue-member
+  uid: database
+milestone: QR1
+pkg-type: issue
+status: closed
+subject: 'CDR-MV-07 : QDP RTEMS SRS and ICD reading guide'
+type: pkg
+updated: '2021-11-09T09:35:01.389Z'

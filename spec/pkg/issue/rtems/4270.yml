@@ -1,0 +1,21 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2021, 2024 RTEMS Project and contributors
+created: '2021-02-25T17:40:21.000Z'
+enabled-by: true
+identifier: '4270'
+labels:
+- priority::normal
+- qualification
+- resolution::fixed
+- rtems::score
+- tickettype::defect
+links:
+- role: issue-member
+  uid: database
+milestone: '6.1'
+pkg-type: issue
+status: closed
+subject: A failing task extension produces zombi objects and resource leaks
+type: pkg
+updated: '2024-04-25T20:48:38.319Z'

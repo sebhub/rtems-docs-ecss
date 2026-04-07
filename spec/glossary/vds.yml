@@ -1,0 +1,15 @@
+SPDX-License-Identifier: CC-BY-SA-4.0
+copyrights:
+- Copyright (C) 2024 embedded brains GmbH & Co. KG
+enabled-by: true
+glossary-type: term
+links:
+- role: glossary-member
+  uid: group
+term: VdS
+text: |
+  VdS Schadenverhütung GmbH is a German institute dedicated to safety
+  in companies (like fire, cyber crime, data protection, natural
+  disasters). It is 100% owned by the *Gesamtverbands der Deutschen
+  Versicherungswirtschaft (GDV)* (German Insurance Federation).
+type: glossary

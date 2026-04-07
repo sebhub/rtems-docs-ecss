@@ -1,0 +1,223 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2020, 2021 embedded brains GmbH & Co. KG
+- Copyright (C) 2021 EDISOFT
+copyrights-by-license: {}
+directory: ${.:/component/documentation-directory}/ts/srs
+directory-state-type: sphinx
+document-copyrights:
+- Copyright (C) 2021, 2026 embedded brains GmbH & Co. KG
+document-title: ${.:/component/document-package-title}\breakSoftware Requirement\breakSpecification\break[${.:/component/document-variant}]
+document-toctree-maxdepth: 4
+document-html-help-base-name: SRS
+document-html-footer: ${.:/component/document-html-footer}
+document-key: srs
+document-latex-footer-right: ${.:/component/document-latex-footer-right}
+document-latex-geometry: ${.:/component/document-latex-geometry}
+document-latex-header-left: ${.:/component/document-latex-header-left}
+document-latex-sphinxsetup: ${.:/component/document-latex-sphinxsetup}
+document-latex-theme: manual
+document-license: CC-BY-SA-4.0
+document-license-map:
+  CC-BY-SA-4.0 OR BSD-2-Clause: BSD-2-Clause
+  CC-BY-SA-4.0 OR MIT: MIT
+document-components:
+- action: copy-and-substitute
+  add-to-index: false
+  file:
+  - source/conf.py
+  - source/_templates/footer.html
+  - include/abbreviations.rst
+  - include/constraints.rst
+  - include/ref-docs.rst
+- action: copy-and-substitute
+  add-to-index: true
+  file:
+  - source/zero.rst
+  - source/introduction.rst
+  - source/appl-ref-docs.rst
+- action: add-to-index
+  add-to-index: true
+  file: source/glossary.rst
+- action: copy-and-substitute
+  add-to-index: true
+  file:
+  - source/overview.rst
+  - source/requirements.rst
+  - source/validation-requirements.rst
+  - source/traceability.rst
+  - source/logical-model.rst
+- action: copy
+  add-to-index: true
+  file: source/zreferences.rst
+- action: copy-and-substitute
+  add-to-index: false
+  file: source/index.rst
+- action: glossary
+  add-to-index: false
+  file: source/glossary.rst
+  glossary-groups:
+  - /glossary/group
+  - /req/glossary
+- action: copy-and-substitute
+  add-to-index: false
+  file: source/refs.bib
+document-releases:
+- date: '2021-10-01'
+  status: Replaced
+  changes: |
+    Release issued for the :term:`QR`/2.
+- date: '2021-12-10'
+  status: Replaced
+  changes: |
+    This is the final release issued for project *Qualification of RTEMS
+    Symmetric Multiprocessing (SMP)* ESA Contract No. 4000125572/18/NL/GLC/as.
+- date: '2022-04-11'
+  status: Replaced
+  changes: |
+    This is a warranty release issued for project *Qualification of RTEMS
+    Symmetric Multiprocessing (SMP)* ESA Contract No. 4000125572/18/NL/GLC/as.
+    The following changes were implemented:
+
+    * Move the listing of constraints in :ref:`Constraints` from a chapter into
+      a section of the :ref:`SoftwareOverview` chapter to be in line with
+      ECSS-E-ST-40C Annex D.
+
+    * Replace text of :ref:`Traceability`.
+
+    * Replace text of :ref:`LogicalModelDescription`.
+
+    * Add requirements.
+
+    * Add validation evidence.
+
+    * Add Frank Kühndel (embedded brains GmbH) as an author of the document.
+
+    * Add Sebastian Huber (embedded brains GmbH) as a verifier of the document.
+
+    * All CC-BY-SA-4.0 licensed contributions to this document are copyright
+      embedded brains GmbH.
+- date: '2023-06-20'
+  status: Replaced
+  changes: |
+    This is a release issued as a result of the ISVV activity.
+
+    The following ISVV findings and changes were implemented:
+
+    * RTEMS-SMP-REQ-VER-041 - Units for data representing a physical quantity.
+
+    * RTEMS-SMP-REQ-VER-010 - No requirements
+
+    * RTEMS-SMP-REQ-VER-022 - Performance limits
+
+    * Logos and layout were updated.
+- date: '2023-12-01'
+  status: Replaced
+  changes: |
+    Final release issued for project *RTEMS SMP SINGLE-CORE* with ESA Contract
+    No.  4000140680/23/NL/AS.  The following changes were implemented:
+
+    * The $${/glossary/global-construction:/term} was specified by
+      :ref:`spec:/score/thread/req/global-construction
+      <SpecScoreThreadReqGlobalConstruction>`.
+
+    * Requirements specific to the uniprocessor configuration were added.
+
+    * See *Annex C* of the SVR $${doc-djf-svr:/cite} for a detailed list of
+      specification changes.
+
+    * Logos were alphabetically sorted by company names.
+
+    The following table lists item changes with respect to package version 6:
+
+    $${.:/input/spec-compare-registry/spec-changes-by-scope:0:requirements:v6}
+- date: ${.:/component/document-date}
+  status: Approved
+  changes: |
+    This is the final release issued for project *RTEMS SMP Updates into the
+    Qualification DP* with ESA Contract No. 4000150715/25/NL/VR.
+    The following changes were implemented:
+
+    * The document was generated using the new
+      `specmake <https://pypi.org/project/specmake/>`__ tools.  This improved
+      the presentation quality in general.  The tools provide the following
+      traceability between items through links from one document to another and
+      vice versa.
+
+      .. figure:: ../images/traceability.pdf
+          :width: 300
+          :align: center
+          :alt: Traceability
+
+    * Chapter :ref:`ChapterZero` was added.
+
+    * The section :ref:`Constraints` was updated.
+
+    * Chapter :ref:`Requirements` was updated:
+
+      * The specification items are listed in lexicographical order.
+
+      * For each specification item, the following properties are listed if
+        applicable:
+
+         * Requirement text
+
+         * Rationale text
+
+         * Associated upper and lower level items
+
+         * Associated validation items with the validation status
+
+         * Associated software design
+
+         * Interface function
+
+         * Pre-conditions
+
+         * Trigger action
+
+         * Post-conditions
+
+         * Transition map
+
+         * Runtime performance limits
+
+         * Runtime performance measurements
+
+         * Constraint
+
+         * Associated items of a constraint
+
+         * Item changes across package versions
+
+    The following table lists item changes with respect to package version 6.2:
+
+    $${.:/input/spec-compare-registry/spec-changes-by-scope:0:requirements:v6.2}
+document-contributors:
+- action: Written by
+  contributors:
+  - first-name: Sebastian
+    last-name: Huber
+    organization: embedded brains GmbH & Co. KG
+  - first-name: Frank
+    last-name: Kühndel
+    organization: embedded brains GmbH & Co. KG
+- action: Verified by
+  contributors:
+  - first-name: Frank
+    last-name: Kühndel
+    organization: embedded brains GmbH & Co. KG
+- action: Approved by
+  contributors:
+  - first-name: Dr. Matthias
+    last-name: Göbel
+    organization: embedded brains GmbH & Co. KG
+document-type: ts-srs
+enabled-by: RTEMS_QUAL
+files: []
+hash: null
+links: []
+output-pdf: srs.pdf
+output-html: html
+pkg-type: directory-state
+type: pkg

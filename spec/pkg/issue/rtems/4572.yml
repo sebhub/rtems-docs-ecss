@@ -1,0 +1,21 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2021, 2024 RTEMS Project and contributors
+created: '2021-12-15T22:27:35.000Z'
+enabled-by: true
+identifier: '4572'
+labels:
+- priority::normal
+- qualification
+- resolution::fixed
+- tickettype::defect
+- version::6
+links:
+- role: issue-member
+  uid: database
+milestone: '6.1'
+pkg-type: issue
+status: closed
+subject: Improve Clarity for New Clock Manager Directives
+type: pkg
+updated: '2024-04-25T20:49:28.112Z'

@@ -1,0 +1,16 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2022, 2023 The GCC Bugzilla contributors
+created: '2022-10-13T13:21Z'
+enabled-by: true
+identifier: '107248'
+labels: []
+links:
+- role: issue-member
+  uid: database
+milestone: '10.5'
+pkg-type: issue
+status: closed
+subject: wrong scheduling of stack adjustment in leaf function at -O2
+type: pkg
+updated: '2023-01-03T08:58Z'

@@ -1,0 +1,16 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+author: Motorola
+copyrights:
+- Copyright (C) 2025 embedded brains GmbH & Co. KG
+enabled-by: true
+links: []
+month: January
+note: DRAFT 2.1
+organization: Motorola Inc., Microcomputer Division and Software Components Group,
+  Inc.
+reference-type: manual
+title: Real Time Executive Interface Definition
+type: reference
+work-hash: null
+work-url: https://ftp.rtems.org/pub/rtems/publications/RTEID-ORKID/RTEID-2.1/RTEID-2_1.pdf
+year: '1988'

@@ -1,0 +1,24 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+author:
+- Shuai Zhao
+- Wanli Chang
+- Ran Wei
+- Weichen Liu
+- Nan Guan
+- Alan Burns
+- Andy J. Wellings
+copyrights:
+- Copyright (C) 2025 embedded brains GmbH & Co. KG
+doi: 10.1109/TC.2020.3000051
+enabled-by: true
+journal: IEEE} Trans. Computers
+links: []
+number: '7'
+pages: 1006--1018
+reference-type: article
+title: Priority Assignment on Partitioned Multiprocessor Systems With Shared Resources
+type: reference
+volume: '70'
+work-hash: null
+work-url: https://doi.org/10.1109/TC.2020.3000051
+year: '2021'

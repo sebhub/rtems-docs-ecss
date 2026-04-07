@@ -1,0 +1,22 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2018, 2024 RTEMS Project and contributors
+created: '2018-08-08T07:10:12.000Z'
+enabled-by: true
+identifier: '3488'
+labels:
+- priority::normal
+- qualification
+- resolution::fixed
+- rtems::config
+- tickettype::task
+- version::5
+links:
+- role: issue-member
+  uid: database
+milestone: '5.1'
+pkg-type: issue
+status: closed
+subject: Remove CONFIGURE_HAS_OWN_MOUNT_TABLE
+type: pkg
+updated: '2024-04-25T20:46:27.433Z'

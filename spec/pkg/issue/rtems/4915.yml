@@ -1,0 +1,25 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2023, 2024 RTEMS Project and contributors
+created: '2023-06-07T10:27:01.000Z'
+enabled-by: true
+identifier: '4915'
+labels:
+- doc::sphinx
+- priority::high
+- priority::normal
+- qualification
+- resolution::fixed
+- resolution::wontfix
+- tickettype::defect
+- tool
+- version::6
+links:
+- role: issue-member
+  uid: database
+milestone: '6.1'
+pkg-type: issue
+status: closed
+subject: Building sphinx 7.0.1 fails
+type: pkg
+updated: '2024-04-25T20:50:46.164Z'

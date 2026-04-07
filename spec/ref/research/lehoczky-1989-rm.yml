@@ -1,0 +1,18 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+author:
+- Lehoczky, J.
+- Sha, L.
+- Ding, Y.
+booktitle: Real-Time Systems Symposium
+copyrights:
+- Copyright (C) 2025 embedded brains GmbH & Co. KG
+enabled-by: true
+links: []
+pages: 166-171
+reference-type: inproceedings
+title: 'The rate monotonic scheduling algorithm: exact characterization and average
+  case behavior'
+type: reference
+work-hash: null
+work-url: null
+year: '1989'

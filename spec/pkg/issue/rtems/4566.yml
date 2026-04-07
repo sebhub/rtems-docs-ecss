@@ -1,0 +1,23 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2021, 2024 RTEMS Project and contributors
+created: '2021-12-07T11:06:56.000Z'
+enabled-by: true
+identifier: '4566'
+labels:
+- priority::normal
+- qualification
+- resolution::fixed
+- rtems::score
+- smp
+- tickettype::defect
+- version::4.11
+links:
+- role: issue-member
+  uid: database
+milestone: '6.1'
+pkg-type: issue
+status: closed
+subject: Atomic store does not use the order parameter for C++
+type: pkg
+updated: '2024-04-25T20:49:26.278Z'

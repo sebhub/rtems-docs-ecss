@@ -1,0 +1,21 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+author:
+- Shuai Zhao
+- Jorge Garrido
+- Alan Burns
+- Andy J. Wellings
+booktitle: 23rd IEEE International Conference on Embedded and Real-Time Computing
+  Systems and Applications, RTCSA 2017, Hsinchu, Taiwan, August 16-18, 2017
+copyrights:
+- Copyright (C) 2025 embedded brains GmbH & Co. KG
+doi: 10.1109/RTCSA.2017.8046311
+enabled-by: true
+links: []
+pages: 1--10
+publisher: IEEE} Computer Society
+reference-type: inproceedings
+title: New schedulability analysis for MrsP
+type: reference
+work-hash: null
+work-url: https://doi.org/10.1109/RTCSA.2017.8046311
+year: '2017'

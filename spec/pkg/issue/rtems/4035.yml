@@ -1,0 +1,21 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2020, 2025 RTEMS Project and contributors
+created: '2020-07-31T10:17:10.000Z'
+enabled-by: true
+identifier: '4035'
+labels:
+- priority::normal
+- qualification
+- resolution::fixed
+- tickettype::enhancement
+- version::5
+links:
+- role: issue-member
+  uid: database
+milestone: '6.1'
+pkg-type: issue
+status: closed
+subject: Reserved identifier "time" re-used in rtems_clock_get_tod_timeval()
+type: pkg
+updated: '2025-09-19T01:06:50.803Z'

@@ -1,0 +1,21 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2020, 2024 RTEMS Project and contributors
+created: '2020-06-17T08:08:44.000Z'
+enabled-by: true
+identifier: '4007'
+labels:
+- priority::normal
+- qualification
+- resolution::fixed
+- tickettype::enhancement
+- version::6
+links:
+- role: issue-member
+  uid: database
+milestone: '6.1'
+pkg-type: issue
+status: closed
+subject: Add rtems_message_queue_construct()
+type: pkg
+updated: '2024-04-25T20:48:16.642Z'

@@ -1,0 +1,23 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2018, 2024 RTEMS Project and contributors
+created: '2018-12-13T14:55:49.000Z'
+enabled-by: true
+identifier: '3659'
+labels:
+- arch:sparc
+- priority::normal
+- qualification
+- resolution::fixed
+- tickettype::defect
+- version::5
+links:
+- role: issue-member
+  uid: database
+milestone: '6.1'
+pkg-type: issue
+status: closed
+subject: LEON3 kernel entry point is overwritten - secondary processors may enter
+  into spurious handler
+type: pkg
+updated: '2024-04-25T20:46:58.078Z'

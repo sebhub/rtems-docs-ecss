@@ -1,0 +1,21 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2026 RTEMS Project and contributors
+created: '2026-01-16T16:55:40.720Z'
+enabled-by: true
+identifier: '5425'
+labels:
+- api
+- project::task
+- qualification
+- rtems::config
+links:
+- role: issue-member
+  uid: database
+milestone: '8.1'
+pkg-type: issue
+status: closed
+subject: Remove configuration error when stack_checker_report is defined but the stack
+  checker is not enabled.
+type: pkg
+updated: '2026-03-13T03:18:17.850Z'

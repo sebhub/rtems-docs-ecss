@@ -1,0 +1,21 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+author:
+- Mark Batty
+- Alastair F. Donaldson
+- John Wickerson
+booktitle: Proceedings of the 43rd Annual ACM SIGPLAN-SIGACT Symposium on Principles
+  of Programming Languages, POPL 2016, St. Petersburg, FL, USA, January 20 - 22, 2016
+copyrights:
+- Copyright (C) 2025 embedded brains GmbH & Co. KG
+doi: 10.1145/2837614.2837637
+editor: Rastislav Bodík and Rupak Majumdar
+enabled-by: true
+links: []
+pages: 634--648
+publisher: ACM
+reference-type: inproceedings
+title: Overhauling SC atomics in C11 and OpenCL
+type: reference
+work-hash: null
+work-url: https://doi.org/10.1145/2837614.2837637
+year: '2016'

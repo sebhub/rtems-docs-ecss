@@ -1,0 +1,21 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2017, 2026 RTEMS Project and contributors
+created: '2017-06-21T17:54:07.000Z'
+enabled-by: true
+identifier: '3053'
+labels:
+- old-indefinite
+- priority::high
+- qualification
+- tickettype::enhancement
+- version::5
+links:
+- role: issue-member
+  uid: database
+milestone: '5.4'
+pkg-type: issue
+status: opened
+subject: Change RTEMS License to Two Paragraph BSD
+type: pkg
+updated: '2026-03-13T01:34:14.643Z'

@@ -1,0 +1,13 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+author: ISO
+copyrights:
+- Copyright (C) 2025 embedded brains GmbH & Co. KG
+enabled-by: true
+links: []
+organization: ISO
+reference-type: manual
+title: ISO/IEC 9899:201x, Programming languages - C
+type: reference
+work-hash: null
+work-url: http://www.open-std.org/jtc1/sc22/wg14/www/docs/n1548.pdf
+year: '2010'

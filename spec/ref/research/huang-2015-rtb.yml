@@ -1,0 +1,18 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+author:
+- Huang, Wen-Hung
+- Chen, Jian-Jia
+booktitle: ACM Proceedings of the 23rd International Conference on Real Time and Networks
+  Systems
+copyrights:
+- Copyright (C) 2025 embedded brains GmbH & Co. KG
+enabled-by: true
+links: []
+pages: 215-224
+reference-type: inproceedings
+title: Response Time Bounds for Sporadic Arbitrary-deadline Tasks Under Global Fixed-priority
+  Scheduling on Multiprocessors
+type: reference
+work-hash: null
+work-url: null
+year: '2015'

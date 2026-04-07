@@ -1,0 +1,20 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2025, 2026 European Space Agency and contributors
+created: '2025-04-16T13:17:19.914Z'
+enabled-by: true
+identifier: '929'
+labels:
+- Minor
+- RTEMS
+- RTEMS SMP Qualification Extension (GT17-625QQ)
+- SPR
+links:
+- role: issue-member
+  uid: database
+milestone: null
+pkg-type: issue
+status: opened
+subject: Significant Performance Degradation Due to QDP Library Modulo Operation Implementation
+type: pkg
+updated: '2026-03-15T23:45:22.770Z'

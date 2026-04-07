@@ -1,0 +1,19 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2023, 2026 European Space Agency and contributors
+created: '2023-07-24T15:01:26.451Z'
+enabled-by: true
+identifier: '915'
+labels:
+- Minor/Low
+- RTEMS-SMP-ISVV
+- SPR
+links:
+- role: issue-member
+  uid: database
+milestone: null
+pkg-type: issue
+status: closed
+subject: Incorrect indexing of Tables
+type: pkg
+updated: '2026-03-13T04:17:41.951Z'

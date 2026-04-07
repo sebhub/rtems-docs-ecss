@@ -1,0 +1,22 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2018, 2024 RTEMS Project and contributors
+created: '2018-11-07T12:47:08.000Z'
+enabled-by: true
+identifier: '3590'
+labels:
+- priority::normal
+- qualification
+- resolution::fixed
+- tickettype::task
+- version::5
+- version::6
+links:
+- role: issue-member
+  uid: database
+milestone: '6.1'
+pkg-type: issue
+status: closed
+subject: Remove deprecated rtems_context_fp
+type: pkg
+updated: '2024-04-25T20:46:38.663Z'

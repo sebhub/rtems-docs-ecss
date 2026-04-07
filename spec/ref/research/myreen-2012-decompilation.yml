@@ -1,0 +1,20 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+author:
+- Magnus O. Myreen
+- Michael J. C. Gordon
+- Konrad Slind
+booktitle: Formal Methods in Computer-Aided Design, FMCAD 2012, Cambridge, UK, October
+  22-25, 2012
+copyrights:
+- Copyright (C) 2025 embedded brains GmbH & Co. KG
+editor: Gianpiero Cabodi and Satnam Singh
+enabled-by: true
+links: []
+pages: 78--81
+publisher: IEEE
+reference-type: inproceedings
+title: Decompilation into logic - Improved
+type: reference
+work-hash: null
+work-url: null
+year: '2012'

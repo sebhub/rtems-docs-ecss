@@ -1,0 +1,15 @@
+SPDX-License-Identifier: CC-BY-SA-4.0
+copyrights:
+- Copyright (C) 2024 embedded brains GmbH & Co. KG
+enabled-by: true
+glossary-type: term
+links:
+- role: glossary-member
+  uid: group
+term: MISRA
+text: |
+  The Motor Industry Software Reliability Association creates
+  guidelines for software developed for electronic components in the
+  automotive sector. MISRA published guidelines for the C and C++
+  programming languages. The MISRA guideline documents are not free.
+type: glossary

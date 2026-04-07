@@ -1,0 +1,22 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2019, 2024 RTEMS Project and contributors
+created: '2019-12-11T08:03:54.000Z'
+enabled-by: true
+identifier: '3837'
+labels:
+- priority::normal
+- qualification
+- resolution::duplicate
+- rtems::config
+- tickettype::enhancement
+- version::5
+links:
+- role: issue-member
+  uid: database
+milestone: '5.1'
+pkg-type: issue
+status: closed
+subject: Rename CONFIGURE_LIBIO_MAXIMUM_FILE_DESCRIPTORS
+type: pkg
+updated: '2024-04-25T20:47:32.191Z'

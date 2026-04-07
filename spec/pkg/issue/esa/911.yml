@@ -1,0 +1,20 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2023, 2026 European Space Agency and contributors
+created: '2023-06-01T14:17:27.722Z'
+enabled-by: true
+identifier: '911'
+labels:
+- Code Verif.
+- Minor/Low
+- RTEMS SMP Qualification Extension (GT17-625QQ)
+- RTEMS-SMP-ISVV
+links:
+- role: issue-member
+  uid: database
+milestone: QDPv7 - Software Requirements Review (SRR)
+pkg-type: issue
+status: opened
+subject: RTEMS-SMP-CODE-VER-063 - Missing design details
+type: pkg
+updated: '2026-03-15T23:51:21.033Z'

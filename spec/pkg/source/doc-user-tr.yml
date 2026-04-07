@@ -1,0 +1,36 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2026 embedded brains GmbH & Co. KG
+copyrights-by-license: {}
+destination-directory: ${.:/component/deployment-directory}/src/doc/user/tr
+enabled-by: true
+file-mappings:
+- pattern: ^common/
+  replacement: ''
+- pattern: ^user/tr/
+  replacement: ''
+- pattern: ^djf/tr/
+  replacement: source/
+links:
+- hash: null
+  name: component
+  role: input
+  uid: ../component
+- hash: null
+  name: member
+  role: input-to
+  uid: ../deployment/archive
+patterns:
+- exclude: []
+  include:
+  - common/build/latex/blue-dots.pdf
+  - common/include/abbreviations.rst
+  - common/include/ref-docs.rst
+  - common/source/**/*
+  - djf/tr/*.rst
+  - user/tr/build/**/*
+pkg-type: workspace
+directory: ${.:/component/workspace-directory}/${.:/component/rtems-docs-ecss-directory}
+directory-state-load-before-use: true
+type: pkg
+workspace-type: directory

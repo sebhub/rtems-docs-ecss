@@ -1,0 +1,19 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2020, 2021 European Space Agency and contributors
+created: '2020-07-06T14:20:31.628Z'
+enabled-by: true
+identifier: '509'
+labels:
+- Minor/Low
+- RID
+- RTEMS
+links:
+- role: issue-member
+  uid: database
+milestone: QR2
+pkg-type: issue
+status: closed
+subject: DDR-CJ-16 Validation methods not understood
+type: pkg
+updated: '2021-11-29T08:06:34.717Z'

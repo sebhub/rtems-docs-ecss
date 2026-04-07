@@ -1,0 +1,14 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+author: Lehoczky, J. P.
+booktitle: 11th Real-Time Systems Symposium
+copyrights:
+- Copyright (C) 2025 embedded brains GmbH & Co. KG
+enabled-by: true
+links: []
+pages: 201-209
+reference-type: inproceedings
+title: Fixed priority scheduling of periodic task sets with arbitrary deadlines
+type: reference
+work-hash: null
+work-url: null
+year: '1990'

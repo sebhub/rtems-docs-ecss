@@ -1,0 +1,17 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2021 European Space Agency and contributors
+created: '2021-01-26T13:19:16.965Z'
+enabled-by: true
+identifier: '645'
+labels:
+- RTEMS
+links:
+- role: issue-member
+  uid: database
+milestone: null
+pkg-type: issue
+status: closed
+subject: 'Finding: SVR: SRS & ICD incomplete'
+type: pkg
+updated: '2021-11-26T17:00:25.355Z'

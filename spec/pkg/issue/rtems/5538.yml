@@ -1,0 +1,18 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2026 RTEMS Project and contributors
+created: '2026-03-31T02:14:09.228Z'
+enabled-by: true
+identifier: '5538'
+labels:
+- api
+- qualification
+links:
+- role: issue-member
+  uid: database
+milestone: '7.1'
+pkg-type: issue
+status: opened
+subject: Specify limits of CLOCK_MONOTONIC (uptime)
+type: pkg
+updated: '2026-04-01T03:03:59.952Z'

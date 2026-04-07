@@ -1,0 +1,22 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2021, 2024 RTEMS Project and contributors
+created: '2021-04-20T18:32:51.000Z'
+enabled-by: true
+identifier: '4389'
+labels:
+- library
+- priority::normal
+- qualification
+- resolution::fixed
+- tickettype::defect
+links:
+- role: issue-member
+  uid: database
+milestone: '6.1'
+pkg-type: issue
+status: closed
+subject: Undefined behaviour if the area size calculation in calloc() and rtems_calloc()
+  overflows
+type: pkg
+updated: '2024-04-25T20:48:50.337Z'

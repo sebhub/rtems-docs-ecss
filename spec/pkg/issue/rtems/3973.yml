@@ -1,0 +1,20 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2020, 2024 RTEMS Project and contributors
+created: '2020-05-05T12:58:51.000Z'
+enabled-by: true
+identifier: '3973'
+labels:
+- priority::normal
+- qualification
+- resolution::fixed
+- tickettype::enhancement
+links:
+- role: issue-member
+  uid: database
+milestone: '5.1'
+pkg-type: issue
+status: closed
+subject: Add rtems_get_copyright_notice() and deprecate _Copyright_Notice
+type: pkg
+updated: '2024-04-25T20:48:09.207Z'

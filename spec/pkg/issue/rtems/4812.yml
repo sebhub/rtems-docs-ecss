@@ -1,0 +1,21 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2023, 2025 RTEMS Project and contributors
+created: '2023-01-23T10:07:45.000Z'
+enabled-by: true
+identifier: '4812'
+labels:
+- priority::normal
+- project::task
+- qualification
+- tickettype::defect
+- version::6
+links:
+- role: issue-member
+  uid: database
+milestone: null
+pkg-type: issue
+status: opened
+subject: Discrepancy between Code and Comments
+type: pkg
+updated: '2025-12-10T18:00:51.676Z'

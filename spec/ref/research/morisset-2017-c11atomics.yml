@@ -1,0 +1,14 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+author: Robin Morisset
+copyrights:
+- Copyright (C) 2025 embedded brains GmbH & Co. KG
+enabled-by: true
+links: []
+reference-type: phdthesis
+school: PSL Research University, Paris, France
+title: Compiler optimisations and relaxed memory consistency models. (Optimisations
+  des compilateurs et modèles mémoire relâchés)
+type: reference
+work-hash: null
+work-url: https://tel.archives-ouvertes.fr/tel-01823521
+year: '2017'

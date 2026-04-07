@@ -1,0 +1,23 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+author:
+- Marta Z. Kwiatkowska
+- Gethin Norman
+- David Parker
+booktitle: Computer Performance Evaluation, Modelling Techniques and Tools 12th International
+  Conference, TOOLS 2002, London, UK, April 14-17, 2002, Proceedings
+copyrights:
+- Copyright (C) 2025 embedded brains GmbH & Co. KG
+doi: 10.1007/3-540-46029-2_13
+editor: Tony Field and Peter G. Harrison and Jeremy T. Bradley and Uli Harder
+enabled-by: true
+links: []
+pages: 200--204
+publisher: Springer
+reference-type: inproceedings
+series: Lecture Notes in Computer Science
+title: 'PRISM: Probabilistic Symbolic Model Checker'
+type: reference
+volume: '2324'
+work-hash: null
+work-url: https://doi.org/10.1007/3-540-46029-2_13
+year: '2002'

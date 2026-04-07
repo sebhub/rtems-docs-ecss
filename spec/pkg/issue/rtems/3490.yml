@@ -1,0 +1,23 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2018, 2024 RTEMS Project and contributors
+created: '2018-08-08T07:14:19.000Z'
+enabled-by: true
+identifier: '3490'
+labels:
+- priority::normal
+- qualification
+- resolution::fixed
+- rtems::config
+- tickettype::task
+- version::5
+- version::6
+links:
+- role: issue-member
+  uid: database
+milestone: '5.1'
+pkg-type: issue
+status: closed
+subject: Remove CONFIGURE_HAS_OWN_CONFIGURATION_TABLE
+type: pkg
+updated: '2024-04-25T20:46:28.309Z'

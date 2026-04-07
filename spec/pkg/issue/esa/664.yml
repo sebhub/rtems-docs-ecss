@@ -1,0 +1,17 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2021 European Space Agency and contributors
+created: '2021-02-17T15:32:14.522Z'
+enabled-by: true
+identifier: '664'
+labels:
+- RTEMS
+links:
+- role: issue-member
+  uid: database
+milestone: null
+pkg-type: issue
+status: closed
+subject: 'Finding: SVR: SDD: Function rtems_rate_monotonic_deadline() missing'
+type: pkg
+updated: '2021-11-19T18:36:09.745Z'

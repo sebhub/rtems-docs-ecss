@@ -1,0 +1,232 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2020, 2021 embedded brains GmbH & Co. KG
+- Copyright (C) 2021 EDISOFT
+copyrights-by-license: {}
+directory: ${.:/component/build-directory}
+directory-state-type: sphinx
+document-copyrights:
+- Copyright (C) 2020, 2026 embedded brains GmbH & Co. KG
+document-title: ${.:/component/document-package-title}\breakSoftware Configuration\breakFile\break[${.:/component/document-variant}]
+document-toctree-maxdepth: 4
+document-html-help-base-name: QDP SCF
+document-html-footer: ${.:/component/document-html-footer}
+document-key: scf
+document-latex-footer-right: ${.:/component/document-latex-footer-right}
+document-latex-geometry: ${.:/component/document-latex-geometry}
+document-latex-header-left: ${.:/component/document-latex-header-left}
+document-latex-sphinxsetup: ${.:/component/document-latex-sphinxsetup}
+document-latex-theme: manual
+document-license: CC-BY-SA-4.0
+document-license-map:
+  CC-BY-SA-4.0 OR BSD-2-Clause: BSD-2-Clause
+  CC-BY-SA-4.0 OR MIT: MIT
+document-releases:
+- date: '2021-03-12'
+  status: Replaced
+  changes: |
+    Release issued for the :term:`CDR`.
+- date: '2021-05-28'
+  status: Replaced
+  changes: |
+    Release issued for the :term:`QR`/1.
+- date: '2021-10-01'
+  status: Replaced
+  changes: |
+    Release issued for the :term:`QR`/2.
+- date: '2021-12-10'
+  status: Replaced
+  changes: |
+    This is the final release issued for project *Qualification of RTEMS
+    Symmetric Multiprocessing (SMP)* with ESA Contract No.
+    4000125572/18/NL/GLC/as.
+- date: '2022-05-18'
+  status: Replaced
+  changes: |
+    This is a warranty release issued for project *Qualification of RTEMS
+    Symmetric Multiprocessing (SMP)* with ESA Contract No.
+    4000125572/18/NL/GLC/as.  The following changes were implemented:
+
+    * In :ref:`ChangeList`, describe changes for package version 4.
+
+    * Add José Valdez (EDISOFT) as a writer of the document.
+- date: '2023-06-20'
+  status: Replaced
+  changes: |
+    This is a release issued as a result of the ISVV activity.
+
+    The following ISVV findings and changes were implemented:
+
+    * RTEMS-SMP-REQ-VER-041 - Units for data representing a physical quantity.
+
+    * Logos and layout were updated.
+
+    * Updated :ref:`ChangeList` and :ref:`Problems`.
+- date: '2023-12-01'
+  status: Replaced
+  changes: |
+    Final release issued for project *RTEMS SMP SINGLE-CORE* with ESA Contract
+    No.  4000140680/23/NL/AS.  The following changes were implemented:
+
+    * Section :ref:`ChangeList` was updated.
+
+    * Section :ref:`Problems` was updated.
+
+    ${.:/push-enabled-by:__RTEMS_ADA__}
+    * Section *Build an Ada Example Application* was added.
+    ${.:/pop-enabled-by}
+
+    * Section *Service Providers* was replaced by section :ref:`Service`.
+
+    * Section :ref:`ExternallyProvidedItems` was added.
+
+    ${.:/push-enabled-by:pkg.feature.edisoft-rtems}
+    * Section :ref:`PerformanceComparison` was added.
+    ${.:/pop-enabled-by}
+
+    * The presentation of the static memory benchmark results was clarified in
+      section :ref:`Membench`.
+
+    * Section :ref:`LicenseInfo` was added.
+
+    * Section :ref:`BSPOverview` was added.
+
+    * Logos were alphabetically sorted by company names.
+- date: ${.:/component/document-date}
+  status: Approved
+  changes: |
+    This is the final release issued for project *RTEMS SMP Updates into the
+    Qualification DP* with ESA Contract No. 4000150715/25/NL/VR.
+    The following changes were implemented:
+
+    * The document was generated using the new
+      `specmake <https://pypi.org/project/specmake/>`__ tools.  This improved
+      the presentation quality in general.  The tools provide the following
+      traceability between items through links from one document to another and
+      vice versa.
+
+      .. figure:: ../images/traceability.pdf
+          :width: 300
+          :align: center
+          :alt: Traceability
+
+    * Chapter :ref:`ChapterZero` was added.
+
+    * The wording changed throughout the document the use the more general term
+      *package* instead of ${/glossary/qdp:/term}.
+
+    * Section :ref:`ChangeList` was updated.
+
+    * Section :ref:`Problems` was updated.
+
+    * In section :ref:`ToolFlags`, the use of tool flags was clarified.
+
+    * In section :ref:`PrepareHostComputer`, the wording was updated to refer
+      to Ubuntu 24.04 TLS, information related to security scanners was
+      added, and hints for Windows users were added.
+
+    * In section :ref:`Examples`, a tracing example was added which illustrates
+      the use of event records.
+
+    * Section :ref:`TestReports` was added.
+
+    * Section :ref:`PackageV6Documents` was added.
+
+    * Section :ref:`Docker` was added.
+
+    * Section :ref:`UserTestReports` was added.
+
+    * Section :ref:`ISVVLicense` was added.
+
+    * Section :ref:`BuildDescription` was added.
+document-components:
+- action: copy-and-substitute
+  add-to-index: false
+  file:
+  - source/conf.py
+  - source/_templates/footer.html
+  - include/abbreviations.rst
+  - include/ref-docs.rst
+- action: copy-and-substitute
+  add-to-index: true
+  file:
+  - source/zero.rst
+  - source/introduction.rst
+  - source/appl-ref-docs.rst
+- action: add-to-index
+  add-to-index: true
+  file: source/glossary.rst
+- action: copy-and-substitute
+  add-to-index: true
+  file:
+  - source/overview.rst
+  - source/inventory-materials.rst
+  - source/baseline-docs.rst
+  - source/inventory-item.rst
+  - source/means-necessary.rst
+  - source/installation.rst
+  - source/change-list.rst
+  - source/auxiliary.rst
+  - source/problems.rst
+- action: copy
+  add-to-index: true
+  file: source/zreferences.rst
+- action: copy-and-substitute
+  add-to-index: false
+  file: source/index.rst
+- action: glossary
+  add-to-index: false
+  file: source/glossary.rst
+  glossary-groups:
+  - /glossary/group
+- action: copy-and-substitute
+  add-to-index: false
+  file: source/refs.bib
+document-contributors:
+- action: Written by
+  contributors:
+  - first-name: Sebastian
+    last-name: Huber
+    organization: embedded brains GmbH & Co. KG
+  - first-name: Rute
+    last-name: Mateus
+    organization: EDISOFT
+  - first-name: Sofia
+    last-name: Pacheco
+    organization: EDISOFT
+  - first-name: José
+    last-name: Valdez
+    organization: EDISOFT
+  - first-name: ISVV
+    last-name: Team
+    organization: Critical Software
+- action: Verified by
+  contributors:
+  - first-name: Frank
+    last-name: Kühndel
+    organization: embedded brains GmbH & Co. KG
+- action: Approved by
+  contributors:
+  - first-name: Dr. Matthias
+    last-name: Göbel
+    organization: embedded brains GmbH & Co. KG
+document-type: package-manual
+enabled-by: true
+files: []
+hash: null
+links:
+- hash: null
+  name: component
+  role: input
+  uid: ../component
+- hash: null
+  name: source
+  role: input
+  uid: ../source/doc-package-manual
+- name: build
+  role: output
+  uid: ../build/doc-package-manual
+output-html: null
+output-pdf: ${.:/component/package-directory:basename}-scf.pdf
+pkg-type: directory-state
+type: pkg

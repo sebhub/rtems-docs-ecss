@@ -1,0 +1,20 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2023, 2026 European Space Agency and contributors
+created: '2023-06-01T14:11:27.216Z'
+enabled-by: true
+identifier: '892'
+labels:
+- Code Verif.
+- Minor/Low
+- RTEMS SMP Qualification Extension (GT17-625QQ)
+- RTEMS-SMP-ISVV
+links:
+- role: issue-member
+  uid: database
+milestone: QDPv7 - Software Requirements Review (SRR)
+pkg-type: issue
+status: opened
+subject: RTEMS-SMP-CODE-VER-013 - Macro defined but magic number used instead
+type: pkg
+updated: '2026-03-16T09:46:09.343Z'

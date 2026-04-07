@@ -1,0 +1,19 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+author:
+- von der Brüggen, Georg
+- Chen, Kuan-Hsun
+- Huang, Wen-Hung
+- Chen, Jian-Jia
+booktitle: IEEE Real-Time Systems Symposium (RTSS)
+copyrights:
+- Copyright (C) 2025 embedded brains GmbH & Co. KG
+enabled-by: true
+links: []
+pages: 303-314
+reference-type: inproceedings
+title: Systems with Dynamic Real-Time Guarantees in Uncertain and Faulty Execution
+  Environments
+type: reference
+work-hash: null
+work-url: null
+year: '2016'

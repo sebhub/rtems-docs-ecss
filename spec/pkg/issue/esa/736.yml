@@ -1,0 +1,17 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2021 European Space Agency and contributors
+created: '2021-09-22T12:38:26.082Z'
+enabled-by: true
+identifier: '736'
+labels:
+- RTEMS
+links:
+- role: issue-member
+  uid: database
+milestone: null
+pkg-type: issue
+status: closed
+subject: 'Finding: SVR: FVR missing'
+type: pkg
+updated: '2021-10-29T19:16:10.001Z'
