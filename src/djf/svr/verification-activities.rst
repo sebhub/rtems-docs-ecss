@@ -1811,7 +1811,7 @@ mandated by clause 5.8.3.10 of |E40| ${/ref/ecss/q-st-40c-r1:/cite}:
      - ``doc/paf/spamr/spamr.pdf``
      -  Yes
    * - |QT109|
-     - ``doc/technical-notes/tn-qt.pdf``
+     - ``doc/technical-notes/QT-109.pdf``
      - Yes, as ``QT-109.pdf``
    * -  EDISOFT. Tools Identification
      - ``doc/technical-notes/tn-ti.pdf.pdf``
@@ -2018,7 +2018,7 @@ ${/ref/ecss/q-st-40c-r1:/cite}:
      - ``doc/paf/spamr/spamr.pdf``
      -  Yes
    * - |QT109|
-     - ``doc/technical-notes/tn-qt.pdf``
+     - ``doc/technical-notes/QT-109.pdf``
      - Yes, as ``QT-109.pdf``
    * - EDISOFT. Tools Identification
      - ``doc/technical-notes/tn-ti.pdf.pdf``
