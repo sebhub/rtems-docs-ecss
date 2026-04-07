@@ -2052,7 +2052,7 @@ Documents not listed in the :term:`QT-109` but present:
        ``rtems-6-sparc-gr740- uni-2.pdf``
      - At same place as the QDP
    * - |SP|
-     - ``doc/technical-notes/tn-sp/tn-space-profile.pdf``
+     - ``doc/technical-notes/tn-space-profile.pdf``
      - In the QDP
 
 Documents found elsewhere:

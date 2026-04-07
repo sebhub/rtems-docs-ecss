@@ -203,9 +203,7 @@ The package includes the following technical notes:
 
 * ${/ref/tn/rtems-space-profile-r6:/cite-long}
 
-  .. note::
-
-      This document is not included in the package.
+  * `<${/pkg/deployment/doc-tn-sp:/file:relpath %(.:/component/prefix-directory)}>`__
 
 .. _RTEMSDocs:
 
