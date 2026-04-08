@@ -1,0 +1,15 @@
+SPDX-License-Identifier: CC-BY-SA-4.0
+copyrights:
+- Copyright (C) 2024 embedded brains GmbH & Co. KG
+enabled-by: true
+glossary-type: term
+links:
+- role: glossary-member
+  uid: group
+term: UART
+text: |
+  This term is an acronym for Universal Asynchronous Receiver-Transmitter.  A
+  Universal Asynchronous Receiver-Transmitter is a peripheral device for
+  asynchronous serial communication (for example the hardware of a serial
+  port).
+type: glossary

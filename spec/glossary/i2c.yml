@@ -1,0 +1,14 @@
+SPDX-License-Identifier: CC-BY-SA-4.0
+copyrights:
+- Copyright (C) 2024 embedded brains GmbH & Co. KG
+enabled-by: true
+glossary-type: term
+links:
+- role: glossary-member
+  uid: group
+term: I2C
+text: |
+  This term is an acronym for Inter-Integrated Circuit.  The Inter-Integrated
+  Circuit is a serial bus to connect low speed devices to processors or
+  microcontrollers over a short distance.
+type: glossary

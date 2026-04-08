@@ -1,0 +1,14 @@
+SPDX-License-Identifier: CC-BY-SA-4.0
+copyrights:
+- Copyright (C) 2024 embedded brains GmbH & Co. KG
+enabled-by: true
+glossary-type: term
+links:
+- role: glossary-member
+  uid: group
+term: VdS
+text: |
+  This term is an abbreviation for VdS Schadenverhütung GmbH.  It is a German
+  institute dedicated to safety in companies (like fire, cyber crime, data
+  protection, natural disasters).
+type: glossary

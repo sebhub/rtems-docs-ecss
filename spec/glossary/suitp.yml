@@ -1,0 +1,12 @@
+SPDX-License-Identifier: CC-BY-SA-4.0
+copyrights:
+- Copyright (C) 2021 embedded brains GmbH & Co. KG
+enabled-by: true
+glossary-type: term
+links:
+- role: glossary-member
+  uid: group
+term: SUITP
+text: |
+  This term is an acronym for Software Unit and Integration Test Plan.
+type: glossary

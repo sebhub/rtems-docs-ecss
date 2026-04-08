@@ -1,0 +1,14 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2019 EDISOFT
+enabled-by: true
+glossary-type: term
+links:
+- role: glossary-member
+  uid: group
+term: inspection
+text: |
+  This verification method consists in examining the item against the
+  applicable documentation/source code to verify the compliance with
+  requirement(s)
+type: glossary

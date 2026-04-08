@@ -1,0 +1,16 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2023 embedded brains GmbH & Co. KG
+enabled-by: true
+glossary-type: term
+links:
+- role: glossary-member
+  uid: group
+term: PA
+text: |
+  This term is an acronym for Product Assurance.  _Product assurance_ is a
+  discipline devoted to the study, planning, and implementation of activities
+  intended to assure that the design, controls, methods, and techniques in a
+  project result in a satisfactory degree of quality in a product, see
+  ${/ref/ecss/s-st-00-01c:/cite}
+type: glossary
