@@ -1,0 +1,17 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+author:
+- Varghese, G.
+- Costello, A.
+copyrights:
+- Copyright (C) 2025 embedded brains GmbH & Co. KG
+enabled-by: true
+institution: Washington University in St. Louis
+links: []
+month: November
+note: WUCS-95-23
+reference-type: techreport
+title: Redesigning the BSD callout and timer facilities
+type: reference
+work-hash: null
+work-url: http://web.mit.edu/afs.new/sipb/user/daveg/ATHENA/Info/wucs-95-23.ps
+year: '1995'

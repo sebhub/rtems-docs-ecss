@@ -1,0 +1,21 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+author:
+- Brian Norris
+- Brian Demsky
+booktitle: Proceedings of the 2013 ACM SIGPLAN International Conference on Object
+  Oriented Programming Systems Languages & Applications, OOPSLA 2013, part of SPLASH
+  2013, Indianapolis, IN, USA, October 26-31, 2013
+copyrights:
+- Copyright (C) 2025 embedded brains GmbH & Co. KG
+doi: 10.1145/2509136.2509514
+editor: Antony L. Hosking and Patrick Th. Eugster and Cristina V. Lopes
+enabled-by: true
+links: []
+pages: 131--150
+publisher: ACM
+reference-type: inproceedings
+title: 'CDSchecker: checking concurrent data structures written with {C/C++} atomics'
+type: reference
+work-hash: null
+work-url: https://doi.org/10.1145/2509136.2509514
+year: '2013'

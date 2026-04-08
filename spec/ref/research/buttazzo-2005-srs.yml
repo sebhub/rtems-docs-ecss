@@ -1,0 +1,18 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+author:
+- Buttazzo, Giorgio
+- Lipari, Giuseppe
+- Abeni, Luca
+- Caccamo, Marco
+copyrights:
+- Copyright (C) 2025 embedded brains GmbH & Co. KG
+enabled-by: true
+links: []
+publisher: Plenum Publishing Co.
+reference-type: book
+title: 'Soft Real-Time Systems: Predictability vs. Efficiency (Series in Computer
+  Science)'
+type: reference
+work-hash: null
+work-url: null
+year: '2005'

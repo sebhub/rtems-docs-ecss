@@ -1,0 +1,13 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+author: Project Contract Author
+copyrights:
+- Copyright (C) 2026 embedded brains GmbH & Co. KG
+enabled-by: true
+links: []
+organization: Project Contract Organization
+reference-type: manual
+title: Project Contract Title
+type: reference
+work-hash: null
+work-url: null
+year: '9999'

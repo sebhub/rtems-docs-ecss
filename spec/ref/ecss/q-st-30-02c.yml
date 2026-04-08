@@ -1,0 +1,13 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+author: ECSS
+copyrights:
+- Copyright (C) 2025 embedded brains GmbH & Co. KG
+enabled-by: true
+links: []
+organization: European Cooperation for Space Standardization
+reference-type: manual
+title: ECSS-Q-ST-30-02C – Failure modes, effects (and criticality) analysis (FMEA/FMECA)
+type: reference
+work-hash: null
+work-url: https://ecss.nl/standard/ecss-q-st-30-02c-failure-modes-effects-and-criticality-analysis-fmeafmeca/
+year: '2009'

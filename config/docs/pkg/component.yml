@@ -1,0 +1,36 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+arch: arch
+build-directory: ${.:/deployment-directory}/build
+copyrights:
+- Copyright (C) 2026 embedded brains GmbH & Co. KG
+component-type: generic
+documentation-directory: ${.:/deployment-directory}/doc
+document-html-footer: |
+  HTML Footer
+document-latex-footer-right: |
+  LaTeX Footer Right
+document-latex-geometry: includeheadfoot, headheight=10mm, headsep=5mm, footskip=5mm
+document-latex-header-left: ''
+document-latex-sphinxsetup: hmargin={20mm, 20mm}, vmargin={10mm, 24mm}
+document-latex-style: project
+document-package-title: Package Title
+document-variant: ${.:/name}/${.:/package-version}
+deployment-directory: ${.:/package-directory}
+enabled-by: true
+enabled-set: []
+enabled-set-actions: []
+enabled-set-feedback-mapping: {}
+ident: Ident
+links:
+- role: use-package-component-template
+  uid: /pkg/template/project/component
+- role: glossary
+  uid: /glossary/group
+name: Name
+pkg-type: workspace
+package-directory: build
+prefix-directory: .
+rtems-docs-ecss-directory: src
+rtems-version: '6'
+type: pkg
+workspace-type: component

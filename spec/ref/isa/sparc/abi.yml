@@ -1,0 +1,14 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+author: SPARC
+copyrights:
+- Copyright (C) 2025 embedded brains GmbH & Co. KG
+edition: '3'
+enabled-by: true
+links: []
+organization: The Santa Cruz Operation, Inc. and AT&T
+reference-type: manual
+title: System V Application Binary Interface, SPARC Processor Supplement
+type: reference
+work-hash: null
+work-url: https://www.gaisler.com/doc/sparc-abi.pdf
+year: '1996'

@@ -1,0 +1,14 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+author: Eoin Lynch
+copyrights:
+- Copyright (C) 2025 embedded brains GmbH & Co. KG
+enabled-by: true
+links: []
+month: April
+reference-type: mastersthesis
+school: School of Engineering
+title: Using Promela/SPIN to do Test Generation for RTEMS-SMP
+type: reference
+work-hash: null
+work-url: null
+year: '2022'

@@ -1,0 +1,15 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+author: Halpern, Pablo
+copyrights:
+- Copyright (C) 2025 embedded brains GmbH & Co. KG
+enabled-by: true
+institution: Intel, Corp.
+links: []
+month: September
+note: N3409
+reference-type: techreport
+title: Strict Fork-Join Parallelism
+type: reference
+work-hash: null
+work-url: http://www.open-std.org/JTC1/SC22/WG21/docs/papers/2012/n3409.pdf
+year: '2012'

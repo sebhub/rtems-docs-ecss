@@ -1,0 +1,30 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+attribute-actions: []
+attributes:
+  content: |
+    $${.:/sections:1:example}
+  enabled-by: true
+  label: null
+  links:
+  - hash: null
+    name: component
+    role: input
+    uid: component
+  - hash: null
+    header: Component - $${.:/component/ident}
+    header-is-optional: true
+    name: document-section
+    role: input-to
+    section-key: example
+    uid: /pkg/deployment/doc-package-manual
+  pkg-type: sphinx-section
+  type: pkg
+copyrights:
+- Copyright (C) 2024 embedded brains GmbH & Co. KG
+enabled-by: true
+links:
+- role: add-package-template
+  uid: component
+pkg-type: template
+template-type: inline-item
+type: pkg

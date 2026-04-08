@@ -1,0 +1,15 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+author: Robinson, Arch
+copyrights:
+- Copyright (C) 2025 embedded brains GmbH & Co. KG
+enabled-by: true
+institution: Intel, Corp.
+links: []
+month: January
+note: N3872
+reference-type: techreport
+title: A Primer on Scheduling Fork-Join Parallelism with Work Stealing
+type: reference
+work-hash: null
+work-url: http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2014/n3872.pdf
+year: '2014'

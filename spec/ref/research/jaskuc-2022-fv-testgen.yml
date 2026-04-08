@@ -1,0 +1,14 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+author: Jerzy Jaśkuć
+copyrights:
+- Copyright (C) 2025 embedded brains GmbH & Co. KG
+enabled-by: true
+links: []
+month: April
+reference-type: mastersthesis
+school: School of Computer Science and Statistics
+title: SPIN/Promela-Based Test Generation Framework for RTEMS Barrier Manager
+type: reference
+work-hash: null
+work-url: null
+year: '2022'

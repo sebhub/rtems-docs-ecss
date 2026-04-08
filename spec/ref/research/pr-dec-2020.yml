@@ -1,0 +1,15 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+author: Nuno Ramos
+copyrights:
+- Copyright (C) 2025 embedded brains GmbH & Co. KG
+enabled-by: true
+links: []
+month: January
+note: Rev. 01; ESA Contract Number 4000125572/18/NL/GLC/as
+organization: EDISOFT
+reference-type: manual
+title: 'PROGRESS REPORT (DEC 2020): QUALIFICATION RTEMS SMP'
+type: reference
+work-hash: null
+work-url: null
+year: '2021'

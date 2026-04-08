@@ -1,0 +1,16 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+author:
+- Varghese, G.
+- Lauck, T.
+booktitle: Proceedings of the 11th ACM Symposium on Operating Systems Principles
+copyrights:
+- Copyright (C) 2025 embedded brains GmbH & Co. KG
+enabled-by: true
+links: []
+reference-type: inproceedings
+title: 'Hashed and Hierarchical Timing Wheels: Data Structures for the Efficient Implementation
+  of a Timer Facility'
+type: reference
+work-hash: null
+work-url: http://www.cs.columbia.edu/~nahum/w6998/papers/sosp87-timing-wheels.pdf
+year: '1987'

@@ -1,0 +1,18 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+author:
+- Catellani, Sebastiano
+- Bonato, Luca
+- Huber, Sebastian
+- Mezzetti, Enrico
+booktitle: Reliable Software Technologies - Ada-Europe 2015
+copyrights:
+- Copyright (C) 2025 embedded brains GmbH & Co. KG
+enabled-by: true
+links: []
+pages: 179-195
+reference-type: inproceedings
+title: Challenges in the Implementation of MrsP
+type: reference
+work-hash: null
+work-url: null
+year: '2015'

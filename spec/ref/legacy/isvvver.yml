@@ -1,0 +1,15 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+author:
+- Xavier Ferreira
+- others
+copyrights:
+- Copyright (C) 2025 embedded brains GmbH & Co. KG
+enabled-by: true
+links: []
+organization: Critical Software
+reference-type: manual
+title: RTEMS SMP Independent Verification Report
+type: reference
+work-hash: null
+work-url: ${.:/component/deployment-directory}/doc/isvv/iver/CSW-RTEMSISVV-2021-RPT-04960_7-rtems-smp-isvv-ive-report.pdf
+year: '2023'

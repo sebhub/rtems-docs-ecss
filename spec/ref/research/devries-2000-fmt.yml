@@ -1,0 +1,20 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+author:
+- de Vries, René G.
+- Tretmans, Jan
+copyrights:
+- Copyright (C) 2025 embedded brains GmbH & Co. KG
+doi: 10.1007/s100090050044
+enabled-by: true
+journal: International Journal on Software Tools for Technology Transfer
+links: []
+month: March
+number: '4'
+pages: 382--393
+reference-type: article
+title: On-the-fly conformance testing using SPIN
+type: reference
+volume: '2'
+work-hash: null
+work-url: https://doi.org/10.1007/s100090050044
+year: '2000'

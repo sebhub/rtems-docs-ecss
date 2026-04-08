@@ -1,0 +1,14 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+author: Andre Ribeiro; Rute Mateus
+copyrights:
+- Copyright (C) 2025 embedded brains GmbH & Co. KG
+enabled-by: true
+links: []
+month: June
+organization: EDISOFT
+reference-type: manual
+title: SPAP-002 Software Product Assurance Plan, Release 7
+type: reference
+work-hash: null
+work-url: ${.:/component/deployment-directory}/doc/paf/spap/SPAP-002.pdf
+year: '2021'

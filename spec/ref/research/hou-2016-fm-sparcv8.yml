@@ -1,0 +1,19 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+author:
+- Zhe Hou
+- David Sanán
+- Alwen Tiu
+- Yang Liu
+copyrights:
+- Copyright (C) 2025 embedded brains GmbH & Co. KG
+enabled-by: true
+journal: Archive of Formal Proofs
+links: []
+reference-type: article
+title: A formal model for the SPARCv8 ISA and a proof of non-interference for the
+  LEON3 processor
+type: reference
+volume: '2016'
+work-hash: null
+work-url: https://www.isa-afp.org/entries/SPARCv8.shtml
+year: '2016'

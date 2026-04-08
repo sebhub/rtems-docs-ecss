@@ -1,0 +1,17 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+author:
+- Blumofe, Robert D.
+- Leiserson, Charles E.
+copyrights:
+- Copyright (C) 2025 embedded brains GmbH & Co. KG
+enabled-by: true
+journal: Journal of the ACM
+links: []
+pages: 720-748
+reference-type: article
+title: Scheduling multithreaded computations by work stealing
+type: reference
+volume: '46'
+work-hash: null
+work-url: null
+year: '1999'

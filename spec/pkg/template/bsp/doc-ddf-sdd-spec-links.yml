@@ -1,0 +1,48 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+attribute-actions: []
+attributes:
+  copyrights-by-license: {}
+  directory: $${.:/component/documentation-directory}/ddf/sdd
+  directory-state-type: sdd-linker
+  enabled-by: RTEMS_QUAL
+  files:
+  - file: spec-links.h
+    hash: null
+  hash: null
+  links:
+  - hash: null
+    name: component
+    role: input
+    uid: component
+  - hash: null
+    name: link-hub
+    role: input
+    uid: link-hub
+  - exclude-patterns: []
+    hash: null
+    include-path: []
+    input:
+    - enabled-by: true
+      path:
+      - .
+    name: doxygen
+    role: input-to
+    strip-from-path:
+    - enabled-by: true
+      path: .
+    uid: doc-ddf-sdd-doxyfile
+  - hash: null
+    name: member
+    role: input-to
+    uid: /pkg/deployment/archive
+  pkg-type: directory-state
+  type: pkg
+copyrights:
+- Copyright (C) 2023 embedded brains GmbH & Co. KG
+enabled-by: true
+links:
+- role: add-package-template
+  uid: component
+pkg-type: template
+template-type: inline-item
+type: pkg
