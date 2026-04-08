@@ -1,0 +1,404 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2020, 2023 embedded brains GmbH & Co. KG
+- Copyright (C) 2021 EDISOFT
+copyrights-by-license: {}
+directory: ${.:/component/documentation-directory}/djf/svr
+directory-state-type: sphinx
+document-copyrights:
+- Copyright (C) 2021, 2026 embedded brains GmbH & Co. KG
+document-title: ${.:/component/document-package-title}\breakSoftware\breakVerification Report\break[${.:/component/document-variant}]
+document-toctree-maxdepth: 5
+document-html-help-base-name: SVR
+document-html-footer: ${.:/component/document-html-footer}
+document-key: svr
+document-latex-footer-right: ${.:/component/document-latex-footer-right}
+document-latex-geometry: ${.:/component/document-latex-geometry}
+document-latex-header-left: ${.:/component/document-latex-header-left}
+document-latex-sphinxsetup: ${.:/component/document-latex-sphinxsetup}
+document-latex-theme: manual
+document-license: CC-BY-SA-4.0
+document-license-map:
+  CC-BY-SA-4.0 OR BSD-2-Clause: BSD-2-Clause
+  CC-BY-SA-4.0 OR MIT: MIT
+document-releases:
+- date: '2021-02-25'
+  status: Replaced
+  changes: |
+    Release issued for the :term:`CDR`.
+- date: '2021-05-28'
+  status: Replaced
+  changes: |
+    Release issued for the :term:`QR`/1.  The following changes were
+    implemented:
+
+    * Update point 4 of section :ref:`SoftwareDetailedDesignVerification`
+
+    * Update point 4 of section :ref:`SoftwareCodeVerification`
+
+    * Update findings #660, #665, #670
+
+    * Close finding #668
+
+    * New finding #704
+
+    * Check findings #640, #645, #659, #662, #663, #664, #669, #671
+- date: '2021-10-01'
+  status: Replaced
+  changes: |
+    Release issued for the :term:`QR`/2.  The following changes were
+    implemented:
+
+    * Mark :ref:`VerificationSwDocs_CDR` as outdated in favour of
+      :ref:`VerificationSwDocs_AR`
+
+    * Update review in :ref:`Traceability`
+
+    * Update point 2
+      in :ref:`Verification of the Software
+      Architectural and Interface Design
+      <SoftwareArchitecturalVerificationPoint2>`
+      and :ref:`point 10 <DynamicFeatures>`
+
+    * Update point 1 in :ref:`SoftwareDetailedDesignVerification`
+
+    * Update point 10 in :ref:`Verification of the Software Architectural
+      and Interface Design <DynamicFeatures>`
+
+    * Update points 1, 5, 6, 7 in :ref:`Verification of Software Unit Testing
+      <VerificationofSoftwareUnitTesting>`
+
+    * Update point 1 in :ref:`SoftwareCodeVerification`
+
+    * Update findings #640, #645, #660, #662, #664, #665
+
+    * Close findings #663, #669, #670
+
+    * New findings #733, #736, #737
+
+    * Check findings #671, #704
+- date: '2021-10-29'
+  status: Replaced
+  changes: |
+    Release issued for the :term:`QR`/2 amendment.  The following changes were
+    implemented:
+
+    * Update document references in :ref:`ApplicableDocuments`
+
+    * Added a note in :ref:`Coverage`
+
+    * Update points 1 and 2 of :ref:`VerificationSwDocs_AR`
+
+    * Update points 1, 8, 9 and 10 of :ref:`SoftwareRequirementsVerification`
+
+    * Update points 1 and 4 of
+      :ref:`VerificationOfTheSoftwareArchitecturalAndInterfaceDesign`
+
+    * Update points 1 and 7 of
+      :ref:`SoftwareDetailedDesignVerification`
+
+    * Update point 5 of :ref:`SoftwareCodeVerification`
+
+    * Minor update in :ref:`Traceability`
+
+    * Add reference to budget calculation in
+      :ref:`TechnicalBudgetsAndMarginsComputation`
+
+    * Update findings #640, #645, #660, #662, #664, #704
+
+    * Close findings #659, #736, #737
+
+    * New findings #734, #770
+
+    * Check findings #671, #736
+- date: '2021-12-10'
+  status: Replaced
+  changes: |
+    This is the final release issued for project *Qualification of RTEMS
+    Symmetric Multiprocessing (SMP)* with ESA Contract No.
+    4000125572/18/NL/GLC/as.  The following changes were implemented:
+
+    * Update points 4 and 10 of :ref:`SoftwareRequirementsVerification`
+
+    * Update review of :ref:`Verification_of_software_validation`
+
+    * Update points 1 and 3 of :ref:`VerificationSwDocs_AR`
+
+    * Add waiver to :ref:`Verification of the Software Architectural and
+      Interface Design point 4 <IcdIncompleteFinding>`
+
+    * Add waiver to point 1 of :ref:`SoftwareDetailedDesignVerification`
+
+    * Add waiver to point 1 and 5 of :ref:`SoftwareCodeVerification`
+
+    * Update review of :ref:`Traceability`
+
+    * Update review of :ref:`SoftwareBudget`
+
+    * Close findings #645, #660, #662, #664, #665, #671, #704, #770, #733,
+      #734, #773, #776
+- date: '2022-04-14'
+  status: Replaced
+  changes: |
+    This is a warranty release issued for project *Qualification of RTEMS
+    Symmetric Multiprocessing (SMP)* with ESA Contract No.
+    4000125572/18/NL/GLC/as.  The following changes were implemented:
+
+    * Move test report chapters into new chapter :ref:`SoftwareTestReports`.
+
+    * Replace text of :ref:`Introduction`.
+
+    * Replace text of :ref:`NoRB`.
+
+    * Replace text of :ref:`SoftwareRequirementsToSystemRequirements`.
+
+    * Replace text of :ref:`RequirementsToSoftwareDesignComponents`.
+
+    * Replace text of :ref:`SoftwareDesignComponentsToRequirements`.
+
+    * In :ref:`SoftwareRequirementsVerification`, replace text referring to
+      standard clause, replace text of items 2, 3, and 4, add references to
+      item 10.
+
+    * Replace text of :ref:`HMIEvaluation`.
+
+    * In :ref:`VerificationOfTheSoftwareArchitecturalAndInterfaceDesign`,
+      replace text referring to standard clause, replace text of item 3.
+
+    * Replace text of :ref:`ArchitecturalDesignBehavioralModelChecking`.
+
+    * Replace text of :ref:`VerificationOfSoftwareDocumentationPDR`.
+
+    * Replace text of :ref:`OthersSpecificInspectionsAnalysesOrReviewOfDesignReportsPDR`.
+
+    * Replace text of :ref:`OthersSpecificVerificationRelatedToRAMSRequirementsPDR`.
+
+    * In :ref:`Traceability`, move review to
+      :ref:`VerificationOfTheSoftwareArchitecturalAndInterfaceDesign` item 3.
+
+    * Replace text of :ref:`SoftwareDetailedDesignToSoftwareArchitecturalDesign`.
+
+    * Replace text of :ref:`SoftwareDesignComponentsToSourceCode`.
+
+    * Replace text of :ref:`SourceCodeToSoftwareDesignComponents`.
+
+    * Replace text of :ref:`Software_unit_test`.
+
+    * In :ref:`SoftwareDetailedDesignVerification`, replace text referring to
+      standard clause, replace text of item 3.
+
+    * Replace text of :ref:`DesignModelChecking`.
+
+    * In :ref:`SoftwareCodeVerification`, replace text referring to
+      standard clause, replace text of items 3 and 9.
+
+    * Replace text of :ref:`StructuralCodeCoverageAchievementCDR`.
+
+    * Replace text of :ref:`DeactivatedCodeVerification`.
+
+    * Replace text of :ref:`ConfigurableCodeVerification`.
+
+    * In :ref:`VerificationofSoftwareUnitTesting`, replace first sentence,
+      replace text referring to standard clause, update citation in item 1,
+      replace text of item 2, add reference in item 5.
+
+    * In :ref:`VerificationOfSoftwareIntegration`, replace text referring to
+      standard clause, replace text of item 1.
+
+    * In :ref:`VerificationSwDocs_CDR`, replace text referring to
+      standard clause.
+
+    * Replace text of :ref:`OtherSpecificInspectionDesign_CDR`.
+
+    * Replace text of :ref:`OtherSpecificVerificationRAMS_CDR`.
+
+    * Replace text of :ref:`SoftwareAcceptanceTestingToRequirementBaseline`.
+
+    * Replace text of :ref:`Coverage`.
+
+    * Replace first sentence of :ref:`VerificationSwDocs_AR`.
+
+    * Replace text of :ref:`OtherSpecificVerificationRAMS_AR`.
+
+    * In :ref:`SoftwareValidationSpecificationsToTS`, replace first paragraph,
+      move traceability table from :ref:`Verification_of_software_validation`
+      to this section.
+
+    * Replace text of :ref:`SoftwareValidationSpecificationsToRB`.
+
+    * In :ref:`Verification_of_software_validation`, remove first paragraph,
+      move traceability table to :ref:`SoftwareValidationSpecificationsToTS`.
+
+    * Replace text of :ref:`VerificationOfSoftwareValidationRB`.
+
+    * Replace text of :ref:`VerificationOfSoftwareDocumentation`.
+
+    * Replace text of :ref:`Numerical_Analysis`.
+
+    * In :ref:`TechnicalBudgetsAndMarginsComputation`, replace *CPU
+      architecture* with *instruction set architecture* and remove references
+      to the RTEMS Test Framework.
+
+    * Replace text of :ref:`SoftwareBudget`.
+
+    * Remove Sofia Pacheco (EDISOFT) as a writer of the document.  All
+      substantial contributions under CC-BY-SA-4.0 license from this author
+      have been removed.
+
+    * Remove José Valdez (EDISOFT) as a writer of the document.  All
+      substantial contributions under CC-BY-SA-4.0 license from this author
+      have been removed.
+
+    * Add Sebastian Huber (embedded brains GmbH) as a writer of the document.
+
+    * Remove Sebastian Huber (embedded brains GmbH) as verifier of the document.
+
+    * Add Dr. Matthias Göbel (embedded brains GmbH) as verifier of the
+      document.
+
+    * All CC-BY-SA-4.0 licensed contributions to this document are copyright
+      embedded brains GmbH.
+- date: '2023-06-20'
+  status: Replaced
+  changes: |
+    This is a release issued as a result of the ISVV activity.
+
+    The following ISVV findings and changes were implemented:
+
+    * RTEMS-SMP-REQ-VER-041 - Units for data representing a physical quantity.
+
+    * Logos and layout were updated.
+- date: '2023-12-01'
+  status: Replaced
+  changes: |
+    Final release issued for project *RTEMS SMP SINGLE-CORE* with ESA Contract
+    No.  4000140680/23/NL/AS.  The following changes were implemented:
+
+    * The section :ref:`SoftwareValidationSpecificationsToTS` was modified to
+      clarify the requirement and interface validation rules.  The table in
+      this section was modified to show for each requirement or interface, the
+      validation status, the associated refinements or validations, and the
+      role of the refinement or validation.
+
+    * The :ref:`SoftwareBudget` was updated to list the static memory usage
+      benchmark results.
+
+    * The :ref:`SourceComparison` was added.
+
+    * The :ref:`SpecComparison` was added.
+
+    * The ``gcov`` information containing the code and branch coverage data is
+      transferred from the ${/glossary/target:/term} to the host computer using
+      new ${/glossary/gcc:/term} 13 features, see `Profiling and Test Coverage
+      in Freestanding Environments
+      <https://gcc.gnu.org/onlinedocs/gcc-13.2.0/gcc/Freestanding-Environments.html>`_.
+      The custom processing of ``gcov`` information was removed.
+
+    * For the code coverage reports, the results of the ``gcovr`` tool are used.
+
+    * Logos were alphabetically sorted by company names.
+- date: ${.:/component/document-date}
+  status: Approved
+  changes: |
+    This is the final release issued for project *RTEMS SMP Updates into the
+    Qualification DP* with ESA Contract No. 4000150715/25/NL/VR.
+    The following changes were implemented:
+
+    * The document was generated using the new
+      `specmake <https://pypi.org/project/specmake/>`__ tools.  This improved
+      the presentation quality in general.  The tools provide the following
+      traceability between items through links from one document to another and
+      vice versa.
+
+      .. figure:: ../images/traceability.pdf
+          :width: 300
+          :align: center
+          :alt: Traceability
+
+    * Chapter :ref:`ChapterZero` was added.
+
+    * The :ref:`SoftwareTestReports` was updated to refer to the
+      $${doc-djf-tr:/cite-long}.
+
+    * The :ref:`SourceComparison` was updated with a review of the source code
+      changes from package version 6 to 6.2.
+
+    * The :ref:`SpecComparison` was updated with a list of the specification
+      changes from package version 6 to 6.2.
+
+    * The :ref:`SourceComparisonV6` was added.  It provides a review of the
+      source code changes from package version 5 to 6.
+
+    * The :ref:`SpecComparisonV6` was added.  It provides a listing of the
+      specification changes from package version 5 to 6.
+document-components:
+- action: copy-and-substitute
+  add-to-index: false
+  file:
+  - source/conf.py
+  - source/_templates/footer.html
+  - include/abbreviations.rst
+  - include/ref-docs.rst
+- action: copy-and-substitute
+  add-to-index: true
+  file:
+  - source/zero.rst
+  - source/introduction.rst
+  - source/appl-ref-docs.rst
+- action: add-to-index
+  add-to-index: true
+  file: source/glossary.rst
+- action: copy-and-substitute
+  add-to-index: true
+  file:
+  - source/verification-activities.rst
+  - include/coverage-summary.rst
+  - source/margin.rst
+  - source/numerical.rst
+  - source/annex-a.rst
+  - source/annex-b.rst
+  - source/annex-c.rst
+  - source/annex-d.rst
+  - source/annex-e.rst
+- action: copy
+  add-to-index: true
+  file: source/zreferences.rst
+- action: copy-and-substitute
+  add-to-index: false
+  file: source/index.rst
+- action: glossary
+  add-to-index: false
+  file: source/glossary.rst
+  glossary-groups:
+  - /glossary/group
+- action: copy-and-substitute
+  add-to-index: false
+  file: source/refs.bib
+document-contributors:
+- action: Written by
+  contributors:
+  - first-name: Sebastian
+    last-name: Huber
+    organization: embedded brains GmbH & Co. KG
+  - first-name: Frank
+    last-name: Kühndel
+    organization: embedded brains GmbH & Co. KG
+- action: Verified by
+  contributors:
+  - first-name: Dr. Matthias
+    last-name: Göbel
+    organization: embedded brains GmbH & Co. KG
+- action: Approved by
+  contributors:
+  - first-name: Dr. Matthias
+    last-name: Göbel
+    organization: embedded brains GmbH & Co. KG
+document-type: djf-svr
+enabled-by: RTEMS_QUAL
+files: []
+hash: null
+links: []
+output-pdf: svr.pdf
+output-html: html
+pkg-type: directory-state
+type: pkg
