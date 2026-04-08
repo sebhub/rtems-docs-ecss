@@ -1,0 +1,19 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2024, 2025 RTEMS Project and contributors
+created: '2024-12-05T03:09:50.581Z'
+enabled-by: true
+identifier: '5171'
+labels:
+- backport
+- qualification
+- rtems::build
+links:
+- role: issue-member
+  uid: database
+milestone: '6.1'
+pkg-type: issue
+status: closed
+subject: Allow relocateable installations for legacy Makefile support
+type: pkg
+updated: '2025-02-11T05:38:23.618Z'

@@ -1,0 +1,20 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2021 European Space Agency and contributors
+created: '2021-01-27T23:25:48.240Z'
+enabled-by: true
+identifier: '648'
+labels:
+- Medium
+- QR2
+- RID
+- RTEMS
+links:
+- role: issue-member
+  uid: database
+milestone: QR2
+pkg-type: issue
+status: closed
+subject: 'CDR-MV-03 : unclear flow-down of RS-10'
+type: pkg
+updated: '2021-12-02T14:52:42.144Z'

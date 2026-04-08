@@ -1,0 +1,23 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2021, 2025 RTEMS Project and contributors
+created: '2021-10-27T07:40:13.000Z'
+enabled-by: true
+identifier: '4534'
+labels:
+- priority::normal
+- qualification
+- resolution::fixed
+- rtems::score
+- smp
+- tickettype::defect
+- version::5
+links:
+- role: issue-member
+  uid: database
+milestone: '5.1'
+pkg-type: issue
+status: closed
+subject: SMP EDF scheduler violates priority group ordering
+type: pkg
+updated: '2025-09-19T01:15:46.660Z'

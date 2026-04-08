@@ -1,0 +1,23 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2020, 2024 RTEMS Project and contributors
+created: '2020-08-21T06:47:02.000Z'
+enabled-by: true
+identifier: '4060'
+labels:
+- priority::normal
+- qualification
+- resolution::fixed
+- rtems::config
+- tickettype::defect
+- version::5
+links:
+- role: issue-member
+  uid: database
+milestone: '5.2'
+pkg-type: issue
+status: closed
+subject: The reworked <rtems/confdefs.h> has a cyclic dependency with RTEMS_MULTIPROCESSING
+  enabled
+type: pkg
+updated: '2024-04-25T20:48:18.601Z'

@@ -1,0 +1,22 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2023, 2026 European Space Agency and contributors
+created: '2023-04-10T16:21:13.750Z'
+enabled-by: true
+identifier: '803'
+labels:
+- Done
+- Minor/Low
+- RTEMS SMP Qualification Extension (GT17-625QQ)
+- RTEMS-SMP-ISVV
+- Req. Verif.
+- SPR
+links:
+- role: issue-member
+  uid: database
+milestone: QDPv7 - Software Requirements Review (SRR)
+pkg-type: issue
+status: opened
+subject: RTEMS-SMP-REQ-VER-004 - Incomplete Requirements
+type: pkg
+updated: '2026-03-31T04:49:08.098Z'

@@ -1,0 +1,21 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2018, 2024 RTEMS Project and contributors
+created: '2018-11-07T12:36:56.000Z'
+enabled-by: true
+identifier: '3584'
+labels:
+- priority::normal
+- qualification
+- resolution::fixed
+- tickettype::task
+- version::6
+links:
+- role: issue-member
+  uid: database
+milestone: '6.1'
+pkg-type: issue
+status: closed
+subject: Remove types which are only available if RTEMS_DEPRECATED_TYPES is defined
+type: pkg
+updated: '2024-04-25T20:46:36.067Z'

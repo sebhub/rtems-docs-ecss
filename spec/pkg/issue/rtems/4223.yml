@@ -1,0 +1,21 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2021, 2024 RTEMS Project and contributors
+created: '2021-01-25T05:43:09.000Z'
+enabled-by: true
+identifier: '4223'
+labels:
+- priority::normal
+- qualification
+- resolution::fixed
+- tickettype::defect
+- version::5
+links:
+- role: issue-member
+  uid: database
+milestone: '6.1'
+pkg-type: issue
+status: closed
+subject: Missing "extern" in RTEMS_LINKER_ROSET_ITEM_ORDERED_DECLARE()
+type: pkg
+updated: '2024-04-25T20:48:34.358Z'

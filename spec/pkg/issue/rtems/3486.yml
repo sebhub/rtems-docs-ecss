@@ -1,0 +1,21 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2018, 2024 RTEMS Project and contributors
+created: '2018-08-06T08:42:31.000Z'
+enabled-by: true
+identifier: '3486'
+labels:
+- priority::normal
+- qualification
+- resolution::fixed
+- tickettype::enhancement
+- version::5
+links:
+- role: issue-member
+  uid: database
+milestone: '5.1'
+pkg-type: issue
+status: closed
+subject: Use uintptr_t and size_t instead of uint32_t in rtems_partition_create()
+type: pkg
+updated: '2024-04-25T20:46:26.995Z'

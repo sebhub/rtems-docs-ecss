@@ -1,0 +1,22 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2021, 2024 RTEMS Project and contributors
+created: '2021-08-31T08:18:18.000Z'
+enabled-by: true
+identifier: '4509'
+labels:
+- priority::normal
+- qualification
+- resolution::fixed
+- rtems::score
+- tickettype::defect
+- version::4.11
+links:
+- role: issue-member
+  uid: database
+milestone: '6.1'
+pkg-type: issue
+status: closed
+subject: Message queue priority dicipline is broken in SMP configurations
+type: pkg
+updated: '2024-04-25T20:49:11.959Z'

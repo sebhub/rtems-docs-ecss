@@ -1,0 +1,21 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2018, 2024 RTEMS Project and contributors
+created: '2018-11-07T13:00:28.000Z'
+enabled-by: true
+identifier: '3595'
+labels:
+- priority::normal
+- qualification
+- resolution::fixed
+- tickettype::task
+- version::5
+links:
+- role: issue-member
+  uid: database
+milestone: '5.1'
+pkg-type: issue
+status: closed
+subject: Deprecate rtems_rate_monotonic_period_time_t
+type: pkg
+updated: '2024-04-25T20:46:40.856Z'

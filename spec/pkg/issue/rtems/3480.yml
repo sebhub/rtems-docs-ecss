@@ -1,0 +1,22 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2018, 2024 RTEMS Project and contributors
+created: '2018-07-30T05:55:31.000Z'
+enabled-by: true
+identifier: '3480'
+labels:
+- priority::normal
+- qualification
+- resolution::fixed
+- rtems::config
+- tickettype::defect
+- version::5
+links:
+- role: issue-member
+  uid: database
+milestone: '5.1'
+pkg-type: issue
+status: closed
+subject: CONFIGURE_MINIMUM_TASK_STACK_SIZE may affect CONFIGURE_INTERRUPT_STACK_SIZE
+type: pkg
+updated: '2024-04-25T20:46:26.096Z'

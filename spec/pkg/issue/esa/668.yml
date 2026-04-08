@@ -1,0 +1,17 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2021 European Space Agency and contributors
+created: '2021-02-25T08:59:02.381Z'
+enabled-by: true
+identifier: '668'
+labels:
+- RTEMS
+links:
+- role: issue-member
+  uid: database
+milestone: null
+pkg-type: issue
+status: closed
+subject: 'Finding: SVR: Verification test partition manager misses one error condition'
+type: pkg
+updated: '2021-05-28T12:47:05.044Z'

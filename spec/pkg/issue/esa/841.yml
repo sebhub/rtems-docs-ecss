@@ -1,0 +1,21 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2023, 2026 European Space Agency and contributors
+created: '2023-06-01T10:32:03.591Z'
+enabled-by: true
+identifier: '841'
+labels:
+- Design Verif.
+- Minor/Low
+- RTEMS SMP Qualification Extension (GT17-625QQ)
+- RTEMS-SMP-ISVV
+- SPR
+links:
+- role: issue-member
+  uid: database
+milestone: QDPv7 - Preliminary Design Review (PDR) / Test Readiness Review (TRR)
+pkg-type: issue
+status: opened
+subject: RTEMS-SMP-DESIGN-VER-004 - No SUM which follows ECSS clauses
+type: pkg
+updated: '2026-03-31T06:53:06.923Z'

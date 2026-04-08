@@ -1,0 +1,20 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2021, 2024 RTEMS Project and contributors
+created: '2021-02-15T06:46:56.000Z'
+enabled-by: true
+identifier: '4244'
+labels:
+- priority::normal
+- qualification
+- resolution::fixed
+- tickettype::defect
+links:
+- role: issue-member
+  uid: database
+milestone: '6.1'
+pkg-type: issue
+status: closed
+subject: Possible infinite recursion in Classic API Signal handling
+type: pkg
+updated: '2024-04-25T20:48:35.706Z'

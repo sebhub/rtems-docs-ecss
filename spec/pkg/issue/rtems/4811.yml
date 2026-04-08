@@ -1,0 +1,21 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2023, 2026 RTEMS Project and contributors
+created: '2023-01-23T10:04:41.000Z'
+enabled-by: true
+identifier: '4811'
+labels:
+- priority::normal
+- project::task
+- qualification
+- tickettype::defect
+- version::6
+links:
+- role: issue-member
+  uid: database
+milestone: null
+pkg-type: issue
+status: opened
+subject: Non-compliant Comments with Templates
+type: pkg
+updated: '2026-01-22T21:08:37.492Z'

@@ -1,0 +1,22 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2020, 2024 RTEMS Project and contributors
+created: '2020-12-02T09:16:21.000Z'
+enabled-by: true
+identifier: '4195'
+labels:
+- priority::normal
+- qualification
+- resolution::fixed
+- tickettype::enhancement
+- tool
+- version::6
+links:
+- role: issue-member
+  uid: database
+milestone: '6.1'
+pkg-type: issue
+status: closed
+subject: Add gr740 support available in SIS 2.25 to the RTEMS Tester
+type: pkg
+updated: '2024-04-25T20:48:30.537Z'

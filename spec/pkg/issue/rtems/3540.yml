@@ -1,0 +1,21 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2018, 2024 RTEMS Project and contributors
+created: '2018-10-05T16:32:08.000Z'
+enabled-by: true
+identifier: '3540'
+labels:
+- priority::normal
+- qualification
+- resolution::wontfix
+- tickettype::defect
+- version::5
+links:
+- role: issue-member
+  uid: database
+milestone: '5.2'
+pkg-type: issue
+status: closed
+subject: How To Use SPARC memscrub
+type: pkg
+updated: '2024-04-25T20:46:31.740Z'

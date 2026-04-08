@@ -1,0 +1,23 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2021, 2025 RTEMS Project and contributors
+created: '2021-10-20T05:37:11.000Z'
+enabled-by: true
+identifier: '4532'
+labels:
+- priority::normal
+- qualification
+- resolution::fixed
+- rtems::score
+- smp
+- tickettype::defect
+- version::5
+links:
+- role: issue-member
+  uid: database
+milestone: '5.1'
+pkg-type: issue
+status: closed
+subject: Priority inversion issues with MrsP locking protocol implementation
+type: pkg
+updated: '2025-09-19T01:11:03.525Z'

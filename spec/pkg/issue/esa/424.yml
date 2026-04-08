@@ -1,0 +1,19 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2019, 2021 European Space Agency and contributors
+created: '2019-12-02T16:51:08.981Z'
+enabled-by: true
+identifier: '424'
+labels:
+- MAI
+- RTEMS
+- To be closed in next meeting
+links:
+- role: issue-member
+  uid: database
+milestone: null
+pkg-type: issue
+status: closed
+subject: '67'
+type: pkg
+updated: '2021-09-17T13:43:44.478Z'

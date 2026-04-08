@@ -1,0 +1,20 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2021 European Space Agency and contributors
+created: '2021-01-28T02:59:42.618Z'
+enabled-by: true
+identifier: '656'
+labels:
+- Major/High
+- QR2
+- RID
+- RTEMS
+links:
+- role: issue-member
+  uid: database
+milestone: QR1
+pkg-type: issue
+status: closed
+subject: 'CDR-MV-11 : QDP toolchain SUM needs major improvement'
+type: pkg
+updated: '2021-12-02T14:50:58.774Z'

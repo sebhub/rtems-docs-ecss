@@ -1,0 +1,22 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2019, 2024 RTEMS Project and contributors
+created: '2019-12-16T07:51:32.000Z'
+enabled-by: true
+identifier: '3843'
+labels:
+- priority::normal
+- qualification
+- resolution::fixed
+- rtems::config
+- tickettype::enhancement
+- version::5
+links:
+- role: issue-member
+  uid: database
+milestone: '5.1'
+pkg-type: issue
+status: closed
+subject: Add CONFIGURE_DIRTY_MEMORY
+type: pkg
+updated: '2024-04-25T20:47:34.057Z'

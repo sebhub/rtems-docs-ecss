@@ -1,0 +1,19 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2024, 2026 RTEMS Project and contributors
+created: '2024-08-02T16:13:29.457Z'
+enabled-by: true
+identifier: '5084'
+labels:
+- qualification
+- rtems::score
+- scan::coverity
+links:
+- role: issue-member
+  uid: database
+milestone: '6.1'
+pkg-type: issue
+status: closed
+subject: 'objectinitializeinformation.c: Coverity spotted possible over indexing'
+type: pkg
+updated: '2026-03-13T01:11:25.623Z'

@@ -1,0 +1,22 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2023, 2024 RTEMS Project and contributors
+created: '2023-09-12T13:48:38.000Z'
+enabled-by: true
+identifier: '4953'
+labels:
+- priority::normal
+- qualification
+- resolution::fixed
+- rtems::score
+- tickettype::defect
+- version::6
+links:
+- role: issue-member
+  uid: database
+milestone: '6.1'
+pkg-type: issue
+status: closed
+subject: Use of symbol addresses for arbitrary values may not work for some code models
+type: pkg
+updated: '2024-04-25T20:50:54.507Z'

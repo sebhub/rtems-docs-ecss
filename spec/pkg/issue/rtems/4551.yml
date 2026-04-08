@@ -1,0 +1,23 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2021, 2025 RTEMS Project and contributors
+created: '2021-11-23T15:26:55.000Z'
+enabled-by: true
+identifier: '4551'
+labels:
+- arch:sparc
+- priority::normal
+- qualification
+- resolution::fixed
+- smp
+- tickettype::defect
+- version::5
+links:
+- role: issue-member
+  uid: database
+milestone: '5.1'
+pkg-type: issue
+status: closed
+subject: Workaround for GRLIB-TN-0011 required for sparc/leon3 BSPs in SMP configuration
+type: pkg
+updated: '2025-09-19T01:11:05.216Z'

@@ -1,0 +1,18 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2024, 2026 RTEMS Project and contributors
+created: '2024-11-06T14:15:46.479Z'
+enabled-by: true
+identifier: '5145'
+labels:
+- qualification
+- tool::gcc
+links:
+- role: issue-member
+  uid: database
+milestone: '7.1'
+pkg-type: issue
+status: closed
+subject: confdefs.h fails to compile when included in C++20 source
+type: pkg
+updated: '2026-03-13T01:13:12.551Z'

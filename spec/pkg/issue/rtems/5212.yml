@@ -1,0 +1,18 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2025, 2026 RTEMS Project and contributors
+created: '2025-02-11T22:24:18.786Z'
+enabled-by: true
+identifier: '5212'
+labels:
+- qualification
+- rtems::kernel
+links:
+- role: issue-member
+  uid: database
+milestone: '6.3'
+pkg-type: issue
+status: closed
+subject: machine/_timecounter.h is missing _Timecounter_Getboottime(_tvp)
+type: pkg
+updated: '2026-03-13T01:16:54.157Z'

@@ -1,0 +1,22 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2020, 2024 RTEMS Project and contributors
+created: '2020-05-11T05:50:27.000Z'
+enabled-by: true
+identifier: '3980'
+labels:
+- priority::normal
+- qualification
+- resolution::fixed
+- tickettype::enhancement
+- version::5
+- version::6
+links:
+- role: issue-member
+  uid: database
+milestone: '6.1'
+pkg-type: issue
+status: closed
+subject: Remove deprecated <rtems/system.h>
+type: pkg
+updated: '2024-04-25T20:48:10.487Z'

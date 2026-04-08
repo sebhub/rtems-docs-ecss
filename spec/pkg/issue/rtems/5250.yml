@@ -1,0 +1,18 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2025, 2026 RTEMS Project and contributors
+created: '2025-05-22T23:53:19.033Z'
+enabled-by: true
+identifier: '5250'
+labels:
+- arch:sparc
+- qualification
+links:
+- role: issue-member
+  uid: database
+milestone: '7.1'
+pkg-type: issue
+status: closed
+subject: spstdc17 SPARC warning for use of register keyword
+type: pkg
+updated: '2026-03-13T02:52:00.507Z'

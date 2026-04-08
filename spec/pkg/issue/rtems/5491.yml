@@ -1,0 +1,19 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2026 RTEMS Project and contributors
+created: '2026-02-12T21:42:28.887Z'
+enabled-by: true
+identifier: '5491'
+labels:
+- project::task
+- qualification
+- rtems::score
+links:
+- role: issue-member
+  uid: database
+milestone: '8.1'
+pkg-type: issue
+status: closed
+subject: previous is not always NULL for node set off chain
+type: pkg
+updated: '2026-03-13T03:19:51.979Z'

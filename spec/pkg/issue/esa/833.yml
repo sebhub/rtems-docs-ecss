@@ -1,0 +1,20 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2023, 2026 European Space Agency and contributors
+created: '2023-06-01T10:26:10.041Z'
+enabled-by: true
+identifier: '833'
+labels:
+- Minor/Low
+- RTEMS SMP Qualification Extension (GT17-625QQ)
+- RTEMS-SMP-ISVV
+- Req. Verif.
+links:
+- role: issue-member
+  uid: database
+milestone: QDPv7 - Preliminary Design Review (PDR) / Test Readiness Review (TRR)
+pkg-type: issue
+status: opened
+subject: RTEMS-SMP-REQ-VER-035 - ICD undefined acronyms
+type: pkg
+updated: '2026-03-31T04:39:08.024Z'

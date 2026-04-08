@@ -1,0 +1,20 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2022, 2026 RTEMS Project and contributors
+created: '2022-08-15T19:39:21.000Z'
+enabled-by: true
+identifier: '4702'
+labels:
+- priority::normal
+- qualification
+- tickettype::defect
+- version::6
+links:
+- role: issue-member
+  uid: database
+milestone: '6.1'
+pkg-type: issue
+status: closed
+subject: Fix warnings for indexing past array bounds (primarily validation tests)
+type: pkg
+updated: '2026-03-12T06:55:07.532Z'

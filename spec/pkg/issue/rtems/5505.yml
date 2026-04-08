@@ -1,0 +1,18 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2026 RTEMS Project and contributors
+created: '2026-03-02T02:05:20.073Z'
+enabled-by: true
+identifier: '5505'
+labels:
+- api
+- qualification
+links:
+- role: issue-member
+  uid: database
+milestone: '7.1'
+pkg-type: issue
+status: closed
+subject: C++20 deprecates some volatile operations
+type: pkg
+updated: '2026-03-13T03:20:12.700Z'

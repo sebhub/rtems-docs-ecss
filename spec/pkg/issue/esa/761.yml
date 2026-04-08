@@ -1,0 +1,20 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2021 European Space Agency and contributors
+created: '2021-10-13T16:33:13.285Z'
+enabled-by: true
+identifier: '761'
+labels:
+- Minor/Low
+- QR2
+- RID
+- RTEMS
+links:
+- role: issue-member
+  uid: database
+milestone: null
+pkg-type: issue
+status: closed
+subject: QR2-CJ-09 CppCheck error assessment
+type: pkg
+updated: '2021-10-25T15:11:38.370Z'

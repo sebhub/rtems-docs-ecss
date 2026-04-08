@@ -1,0 +1,18 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2024, 2026 RTEMS Project and contributors
+created: '2024-11-01T18:04:28.154Z'
+enabled-by: true
+identifier: '5143'
+labels:
+- api::classic
+- qualification
+links:
+- role: issue-member
+  uid: database
+milestone: '7.1'
+pkg-type: issue
+status: closed
+subject: 'rtems_clock_get_tod: Cannot obtain dates later than 2100'
+type: pkg
+updated: '2026-03-13T01:43:45.331Z'

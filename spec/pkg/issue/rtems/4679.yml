@@ -1,0 +1,22 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2022, 2024 RTEMS Project and contributors
+created: '2022-07-19T06:40:24.000Z'
+enabled-by: true
+identifier: '4679'
+labels:
+- priority::normal
+- qualification
+- resolution::fixed
+- rtems::score
+- tickettype::enhancement
+- version::6
+links:
+- role: issue-member
+  uid: database
+milestone: '6.1'
+pkg-type: issue
+status: closed
+subject: Use priority inheritance for thread join
+type: pkg
+updated: '2024-04-25T20:49:58.081Z'

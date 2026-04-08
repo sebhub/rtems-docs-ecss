@@ -1,0 +1,17 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2025 RTEMS Project and contributors
+created: '2025-10-09T15:09:14.140Z'
+enabled-by: true
+identifier: '5373'
+labels:
+- qualification
+links:
+- role: issue-member
+  uid: database
+milestone: '7.1'
+pkg-type: issue
+status: closed
+subject: undefined behavior in tc-task-restart.c
+type: pkg
+updated: '2025-10-09T16:03:36.092Z'

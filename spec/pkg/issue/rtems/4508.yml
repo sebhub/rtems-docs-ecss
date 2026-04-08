@@ -1,0 +1,21 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2021, 2024 RTEMS Project and contributors
+created: '2021-08-30T14:21:12.000Z'
+enabled-by: true
+identifier: '4508'
+labels:
+- priority::low
+- qualification
+- resolution::fixed
+- tickettype::defect
+- version::6
+links:
+- role: issue-member
+  uid: database
+milestone: '6.1'
+pkg-type: issue
+status: closed
+subject: 'rtems_message_queue_receive(): flush() does not release waiting tasks'
+type: pkg
+updated: '2024-04-25T20:49:11.413Z'

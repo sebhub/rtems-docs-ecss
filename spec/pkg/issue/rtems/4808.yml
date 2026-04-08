@@ -1,0 +1,20 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2023, 2025 RTEMS Project and contributors
+created: '2023-01-23T09:58:44.000Z'
+enabled-by: true
+identifier: '4808'
+labels:
+- priority::normal
+- qualification
+- tickettype::defect
+- version::6
+links:
+- role: issue-member
+  uid: database
+milestone: null
+pkg-type: issue
+status: opened
+subject: Incorrect Formatting of "if", "while", or "for" Statements
+type: pkg
+updated: '2025-10-10T15:45:08.945Z'

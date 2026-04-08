@@ -1,0 +1,18 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2025, 2026 RTEMS Project and contributors
+created: '2025-09-12T01:18:00.904Z'
+enabled-by: true
+identifier: '5337'
+labels:
+- qualification
+- rtems::testing
+links:
+- role: issue-member
+  uid: database
+milestone: '6.2'
+pkg-type: issue
+status: closed
+subject: Backport storage class qualifier rearrangements
+type: pkg
+updated: '2026-03-13T01:14:57.320Z'

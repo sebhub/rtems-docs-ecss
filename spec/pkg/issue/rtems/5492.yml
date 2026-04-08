@@ -1,0 +1,17 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2026 RTEMS Project and contributors
+created: '2026-02-13T00:29:46.981Z'
+enabled-by: true
+identifier: '5492'
+labels:
+- qualification
+links:
+- role: issue-member
+  uid: database
+milestone: null
+pkg-type: issue
+status: closed
+subject: 'Update to match changes from "tc-cpuuse.c: magic number cleanup" MR'
+type: pkg
+updated: '2026-02-13T00:30:14.077Z'

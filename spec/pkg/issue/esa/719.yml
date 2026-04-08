@@ -1,0 +1,20 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2021 European Space Agency and contributors
+created: '2021-06-17T06:04:27.897Z'
+enabled-by: true
+identifier: '719'
+labels:
+- Major/High
+- QR1
+- RID
+- RTEMS
+links:
+- role: issue-member
+  uid: database
+milestone: null
+pkg-type: issue
+status: closed
+subject: QR1-JF-02 The ICD, SRS and SDD should be trazable
+type: pkg
+updated: '2021-10-15T09:02:52.597Z'

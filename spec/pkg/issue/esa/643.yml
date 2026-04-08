@@ -1,0 +1,17 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2021 European Space Agency and contributors
+created: '2021-01-26T12:07:39.015Z'
+enabled-by: true
+identifier: '643'
+labels:
+- RTEMS
+links:
+- role: issue-member
+  uid: database
+milestone: null
+pkg-type: issue
+status: closed
+subject: 'Finding: SPAMR: Not 100% decision coverage; failed tests used'
+type: pkg
+updated: '2021-11-23T09:00:01.060Z'

@@ -1,0 +1,22 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2021, 2024 RTEMS Project and contributors
+created: '2021-10-05T14:16:32.000Z'
+enabled-by: true
+identifier: '4522'
+labels:
+- priority::normal
+- qualification
+- resolution::fixed
+- tickettype::enhancement
+- tool::newlib
+- version::6
+links:
+- role: issue-member
+  uid: database
+milestone: '6.1'
+pkg-type: issue
+status: closed
+subject: Optimize red-black tree insert/extract
+type: pkg
+updated: '2024-06-20T07:02:39.266Z'

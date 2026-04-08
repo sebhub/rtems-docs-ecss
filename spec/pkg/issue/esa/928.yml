@@ -1,0 +1,20 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2025, 2026 European Space Agency and contributors
+created: '2025-01-10T13:28:28.016Z'
+enabled-by: true
+identifier: '928'
+labels:
+- Major/High
+- RTEMS
+- RTEMS SMP Qualification Extension (GT17-625QQ)
+- SPR
+links:
+- role: issue-member
+  uid: database
+milestone: null
+pkg-type: issue
+status: closed
+subject: 'SMP: Fix race condition in thread priority changes'
+type: pkg
+updated: '2026-03-15T23:40:11.624Z'

@@ -1,0 +1,20 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2023, 2025 RTEMS Project and contributors
+created: '2023-01-23T11:37:56.000Z'
+enabled-by: true
+identifier: '4815'
+labels:
+- priority::normal
+- qualification
+- tickettype::defect
+- version::6
+links:
+- role: issue-member
+  uid: database
+milestone: null
+pkg-type: issue
+status: opened
+subject: Function defined in header file
+type: pkg
+updated: '2025-10-09T23:46:43.558Z'

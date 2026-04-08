@@ -1,0 +1,22 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2016, 2025 RTEMS Project and contributors
+created: '2016-01-25T08:22:07.000Z'
+enabled-by: true
+identifier: '2548'
+labels:
+- old-indefinite
+- priority::normal
+- qualification
+- resolution::fixed
+- tickettype::defect
+- version::4.11
+links:
+- role: issue-member
+  uid: database
+milestone: '4.11'
+pkg-type: issue
+status: closed
+subject: Problematic integer conversion in rtems_clock_get_tod()
+type: pkg
+updated: '2025-09-19T01:36:05.224Z'

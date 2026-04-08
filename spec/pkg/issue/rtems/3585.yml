@@ -1,0 +1,22 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2018, 2024 RTEMS Project and contributors
+created: '2018-11-07T12:38:13.000Z'
+enabled-by: true
+identifier: '3585'
+labels:
+- priority::normal
+- qualification
+- resolution::fixed
+- rtems::score
+- tickettype::task
+- version::5
+links:
+- role: issue-member
+  uid: database
+milestone: '5.1'
+pkg-type: issue
+status: closed
+subject: Deprecate proc_ptr
+type: pkg
+updated: '2024-04-25T20:46:36.512Z'

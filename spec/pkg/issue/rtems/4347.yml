@@ -1,0 +1,21 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2021, 2024 RTEMS Project and contributors
+created: '2021-03-16T13:27:05.000Z'
+enabled-by: true
+identifier: '4347'
+labels:
+- priority::normal
+- qualification
+- resolution::fixed
+- tickettype::enhancement
+- version::5
+links:
+- role: issue-member
+  uid: database
+milestone: '5.2'
+pkg-type: issue
+status: closed
+subject: Allow RTEMS_PRIORITY for MrsP semaphores
+type: pkg
+updated: '2024-04-25T20:48:44.584Z'

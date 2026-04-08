@@ -1,0 +1,19 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2021 European Space Agency and contributors
+created: '2021-06-16T10:27:34.638Z'
+enabled-by: true
+identifier: '714'
+labels:
+- Minor/Low
+- RID
+- RTEMS
+links:
+- role: issue-member
+  uid: database
+milestone: null
+pkg-type: issue
+status: closed
+subject: QR1-CJ-08 Progress report info outdated
+type: pkg
+updated: '2021-07-02T14:19:44.039Z'

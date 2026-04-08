@@ -1,0 +1,19 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2020, 2021 European Space Agency and contributors
+created: '2020-07-06T14:17:55.052Z'
+enabled-by: true
+identifier: '508'
+labels:
+- Minor/Low
+- RID
+- RTEMS
+links:
+- role: issue-member
+  uid: database
+milestone: QR1
+pkg-type: issue
+status: closed
+subject: DDR-CJ-15 Document not ready
+type: pkg
+updated: '2021-07-02T14:20:58.260Z'

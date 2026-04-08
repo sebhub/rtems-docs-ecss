@@ -1,0 +1,19 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2026 RTEMS Project and contributors
+created: '2026-04-01T01:37:11.855Z'
+enabled-by: true
+identifier: '5541'
+labels:
+- arch:sparc
+- qualification
+links:
+- role: issue-member
+  uid: database
+milestone: '7.1'
+pkg-type: issue
+status: closed
+subject: 'sparc/leon3: AMBA frequency initialization is not done if LEON3_GPTIMER_BASE
+  is defined'
+type: pkg
+updated: '2026-04-02T23:12:16.387Z'

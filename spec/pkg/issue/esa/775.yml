@@ -1,0 +1,17 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2021 European Space Agency and contributors
+created: '2021-11-19T13:02:52.835Z'
+enabled-by: true
+identifier: '775'
+labels:
+- RTEMS
+links:
+- role: issue-member
+  uid: database
+milestone: null
+pkg-type: issue
+status: closed
+subject: 'Finding: SPAMR: Verification tests fail on the hardware'
+type: pkg
+updated: '2021-11-23T20:00:06.143Z'

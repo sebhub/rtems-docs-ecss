@@ -1,0 +1,20 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2021, 2024 RTEMS Project and contributors
+created: '2021-02-02T14:35:42.000Z'
+enabled-by: true
+identifier: '4228'
+labels:
+- priority::normal
+- qualification
+- resolution::fixed
+- tickettype::defect
+links:
+- role: issue-member
+  uid: database
+milestone: '6.1'
+pkg-type: issue
+status: closed
+subject: rtems_build_name() depends on the signedness of char type
+type: pkg
+updated: '2024-04-25T20:48:34.833Z'

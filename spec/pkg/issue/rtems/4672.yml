@@ -1,0 +1,22 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2022, 2024 RTEMS Project and contributors
+created: '2022-06-29T09:13:44.000Z'
+enabled-by: true
+identifier: '4672'
+labels:
+- priority::normal
+- qualification
+- resolution::fixed
+- rtems::score
+- tickettype::defect
+- version::6
+links:
+- role: issue-member
+  uid: database
+milestone: '6.1'
+pkg-type: issue
+status: closed
+subject: Thread-local storage should be usable once an idle thread exists
+type: pkg
+updated: '2024-04-25T20:49:56.718Z'

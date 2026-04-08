@@ -1,0 +1,21 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2023, 2025 RTEMS Project and contributors
+created: '2023-01-23T08:52:17.000Z'
+enabled-by: true
+identifier: '4806'
+labels:
+- bsp
+- priority::normal
+- qualification
+- tickettype::defect
+- version::6
+links:
+- role: issue-member
+  uid: database
+milestone: null
+pkg-type: issue
+status: opened
+subject: Header Source files format "extern C" missing
+type: pkg
+updated: '2025-10-10T16:46:29.918Z'
