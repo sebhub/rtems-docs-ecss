@@ -1,0 +1,196 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2021 EDISOFT
+copyrights-by-license: {}
+directory: ${.:/component/documentation-directory}/djf/suitp
+directory-state-type: sphinx
+document-copyrights:
+- Copyright (C) 2021, 2026 embedded brains GmbH & Co. KG
+document-title: ${.:/component/document-package-title}\breakSoftware Unit\breakand Integration\breakTest Plan\break[${.:/component/document-variant}]
+document-toctree-maxdepth: 4
+document-html-help-base-name: SUITP
+document-html-footer: ${.:/component/document-html-footer}
+document-key: suitp
+document-latex-footer-right: ${.:/component/document-latex-footer-right}
+document-latex-geometry: ${.:/component/document-latex-geometry}
+document-latex-header-left: ${.:/component/document-latex-header-left}
+document-latex-sphinxsetup: ${.:/component/document-latex-sphinxsetup}
+document-latex-theme: manual
+document-license: CC-BY-SA-4.0
+document-license-map:
+  CC-BY-SA-4.0 OR BSD-2-Clause: BSD-2-Clause
+  CC-BY-SA-4.0 OR MIT: MIT
+document-releases:
+- date: '2021-10-01'
+  status: Replaced
+  changes: |
+    Release issued for the :term:`QR`/2.
+- date: '2021-12-10'
+  status: Replaced
+  changes: |
+    Final release issued for project *Qualification of RTEMS Symmetric
+    Multiprocessing (SMP)* ESA with Contract No. 4000125572/18/NL/GLC/as.
+- date: '2023-06-20'
+  status: Replaced
+  changes: |
+    This is a release issued as a result of the ISVV activity.
+
+    The following ISVV findings and changes were implemented:
+
+    * RTEMS-SMP-REQ-VER-041 - Units for data representing a physical quantity.
+
+    * Logos and layout were updated.
+- date: '2023-12-01'
+  status: Replaced
+  changes: |
+    Final release issued for project *RTEMS SMP SINGLE-CORE* with ESA Contract
+    No.  4000140680/23/NL/AS.  The following changes were implemented:
+
+    * Unit tests for compiler builtins were added.  See also section *Use of
+      Externally Provided Items* of the SCF $${/pkg/deployment/doc-package-manual:/cite}.
+
+    * Logos were alphabetically sorted by company names.
+- date: ${.:/component/document-date}
+  status: Approved
+  changes: |
+    This is the final release issued for project *RTEMS SMP Updates into the
+    Qualification DP* with ESA Contract No. 4000150715/25/NL/VR.
+    The following changes were implemented:
+
+    * The document was generated using the new
+      `specmake <https://pypi.org/project/specmake/>`__ tools.  This improved
+      the presentation quality in general.  The tools provide the following
+      traceability between items through links from one document to another and
+      vice versa.
+
+      .. figure:: ../images/traceability.pdf
+          :width: 300
+          :align: center
+          :alt: Traceability
+
+    * The document layout was adjusted to strictly follow *Annex K* of the
+      $${/ref/ecss/e-st-40c-r1:/cite-long}.
+
+    * Chapter :ref:`ChapterZero` was added.
+
+    * The section :ref:`Constraints` was updated.
+
+    * In section :ref:`CannotValidatedByTest`, all items which cannot be
+      validated by a test are listed.
+
+    * Chapter :ref:`TestDesign` was updated:
+
+      * The test suite items are listed in lexicographical order.
+
+      * For each test suite:
+
+         * The *General* section describes the test suite.  All test results
+           are listed with links to the $${doc-djf-tr:/cite-long}.  The test
+           suite item changes are listed.
+
+         * The *Features to be tested* section describes the features to be
+           tested.  All associated test cases are listed.
+
+         * The *Approach refinements* section describes the approach
+           refinements if applicable.  Links to the test implementation sources
+           are provided.
+
+    * Chapter :ref:`TestSpecification` was updated:
+
+      * The test case items are listed in lexicographical order.
+
+      * For each test case:
+
+         * The *General* section describes the test case actions.  All test
+           results are listed with links to the $${doc-djf-tr:/cite-long}.
+           Links to the interfaces and the validated items are provided.  Links
+           to the associated test suites are provided.  Links to the functions
+           implementing the test case and the related source files are
+           provided.  The test case item changes are listed.
+
+         * Test cases are identified by their specification item UID.
+
+         * The other sections required by *Annex K* of the
+           $${/ref/ecss/e-st-40c-r1:/cite-long} are provided.
+
+    * In chapter :ref:`TestProcedures`, all test procedures of the package
+      component are listed.  The listing is generated from the test runner
+      agents used by the package build process.
+
+    * In chapter :ref:`AdditionalInformation`, the traceability was clarified
+      and references to section :ref:`TestProcedures` were added.
+
+    The following table lists item changes with respect to package version 6.2:
+
+    $${.:/input/spec-compare-registry/spec-changes-by-scope:0:unit-and-integration-tests:v6.2}
+document-components:
+- action: copy-and-substitute
+  add-to-index: false
+  file:
+  - source/conf.py
+  - source/_templates/footer.html
+  - include/abbreviations.rst
+  - include/ref-docs.rst
+- action: copy-and-substitute
+  add-to-index: true
+  file:
+  - source/zero.rst
+  - source/introduction.rst
+  - source/appl-ref-docs.rst
+- action: add-to-index
+  add-to-index: true
+  file: source/glossary.rst
+- action: copy-and-substitute
+  add-to-index: true
+  file:
+  - source/overview.rst
+  - source/unit-integration-testing.rst
+  - source/control-procedures.rst
+  - source/testing-approach.rst
+  - source/test-design.rst
+  - source/test-case-specification.rst
+  - source/test-procedures.rst
+  - source/additional-information.rst
+- action: copy
+  add-to-index: true
+  file: source/zreferences.rst
+- action: copy-and-substitute
+  add-to-index: false
+  file: source/index.rst
+- action: glossary
+  add-to-index: false
+  file: source/glossary.rst
+  glossary-groups:
+  - /glossary/group
+  - /req/glossary
+- action: copy-and-substitute
+  add-to-index: false
+  file: source/refs.bib
+document-contributors:
+- action: Written by
+  contributors:
+  - first-name: Sebastian
+    last-name: Huber
+    organization: embedded brains GmbH & Co. KG
+  - first-name: ISVV
+    last-name: Team
+    organization: Critical Software
+- action: Verified by
+  contributors:
+  - first-name: Frank
+    last-name: Kühndel
+    organization: embedded brains GmbH & Co. KG
+- action: Approved by
+  contributors:
+  - first-name: Dr. Matthias
+    last-name: Göbel
+    organization: embedded brains GmbH & Co. KG
+document-type: test-plan
+enabled-by: RTEMS_QUAL
+files: []
+hash: null
+links: []
+output-pdf: suitp.pdf
+output-html: html
+pkg-type: directory-state
+type: pkg
