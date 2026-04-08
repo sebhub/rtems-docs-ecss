@@ -1,0 +1,162 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2020, 2023 embedded brains GmbH & Co. KG
+- Copyright (C) 2021 EDISOFT
+copyrights-by-license: {}
+directory: ${.:/component/documentation-directory}/ddf/sreld
+directory-state-type: sphinx
+document-copyrights:
+- Copyright (C) 2021, 2026 embedded brains GmbH & Co. KG
+document-title: ${.:/component/document-package-title}\breakSoftware\breakRelease Document\break[${.:/component/document-variant}]
+document-toctree-maxdepth: 4
+document-html-help-base-name: SRelD
+document-html-footer: ${.:/component/document-html-footer}
+document-key: sreld
+document-latex-footer-right: ${.:/component/document-latex-footer-right}
+document-latex-geometry: ${.:/component/document-latex-geometry}
+document-latex-header-left: ${.:/component/document-latex-header-left}
+document-latex-sphinxsetup: ${.:/component/document-latex-sphinxsetup}
+document-latex-theme: manual
+document-license: CC-BY-SA-4.0
+document-license-map:
+  CC-BY-SA-4.0 OR BSD-2-Clause: BSD-2-Clause
+  CC-BY-SA-4.0 OR MIT: MIT
+document-releases:
+- date: '2021-10-01'
+  status: Replaced
+  changes: |
+    Release issued for the :term:`QR`/2.
+- date: '2021-12-10'
+  status: Replaced
+  changes: |
+    This is the final release issued for project *Qualification of RTEMS
+    Symmetric Multiprocessing (SMP)* with ESA Contract No.
+    4000125572/18/NL/GLC/as.
+- date: '2022-04-11'
+  status: Replaced
+  changes: |
+    This is a warranty release issued for project *Qualification of RTEMS
+    Symmetric Multiprocessing (SMP)* with ESA Contract No.
+    4000125572/18/NL/GLC/as.  The following changes were implemented:
+
+    * Remove Frank Kühndel (embedded brains GmbH) as a writer of the document.
+
+    * Remove José Valdez (EDISOFT) as a writer of the document.  The document
+      contained no substantial contributions under CC-BY-SA-4.0 licence from
+      this author.
+
+    * Add Sebastian Huber (embedded brains GmbH) as a writer of the document.
+
+    * Remove Sebastian Huber (embedded brains GmbH) as verifier of the document.
+
+    * Add Frank Kühndel (embedded brains GmbH) as a verifier of the document.
+
+    * All CC-BY-SA-4.0 licenced contributions to this document are copyright
+      embedded brains GmbH.
+- date: '2023-06-20'
+  status: Replaced
+  changes: |
+    This is a release issued as a result of the ISVV activity.
+
+    The following ISVV findings and changes were implemented:
+
+    * RTEMS-SMP-REQ-VER-041 - Units for data representing a physical quantity.
+
+    * Added note in section 5.2 regarding ISVV Findings.
+
+    * Logos and layout were updated.
+- date: '2023-12-01'
+  status: Replaced
+  changes: |
+    Final release issued for project *RTEMS SMP SINGLE-CORE* with ESA Contract
+    No.  4000140680/23/NL/AS.  The following changes were implemented:
+
+    * Section :ref:`Changes` was updated.  Refer to the SCF for a list of
+      changes which includes all preceding versions.
+
+    * Section :ref:`Problems` was updated.  The new issues since the previous
+      package version, the open issues at the time of the package creation, and
+      the closed issues with respect to the previous package version are
+      listed.  The details from the open issues were removed.  Only the issues
+      those status changed with respect to the previous package version are
+      listed.
+
+    * Logos were alphabetically sorted by company names.
+- date: ${.:/component/document-date}
+  status: Approved
+  changes: |
+    This is the final release issued for project *RTEMS SMP Updates into the
+    Qualification DP* with ESA Contract No. 4000150715/25/NL/VR.
+    The following changes were implemented:
+
+    * The document was generated using the new
+      `specmake <https://pypi.org/project/specmake/>`__ tools.
+
+    * Chapter :ref:`ChapterZero` was added.
+
+    * Section :ref:`Changes` was updated.
+
+    * Section :ref:`Problems` was updated.
+document-components:
+- action: copy-and-substitute
+  add-to-index: false
+  file:
+  - source/conf.py
+  - source/_templates/footer.html
+  - include/abbreviations.rst
+  - include/ref-docs.rst
+- action: copy-and-substitute
+  add-to-index: true
+  file:
+  - source/zero.rst
+  - source/introduction.rst
+  - source/appl-ref-docs.rst
+- action: add-to-index
+  add-to-index: true
+  file: source/glossary.rst
+- action: copy-and-substitute
+  add-to-index: true
+  file:
+  - source/overview.rst
+  - source/status.rst
+  - source/advice.rst
+  - source/ongoing.rst
+- action: copy
+  add-to-index: true
+  file: source/zreferences.rst
+- action: copy-and-substitute
+  add-to-index: false
+  file: source/index.rst
+- action: glossary
+  add-to-index: false
+  file: source/glossary.rst
+  glossary-groups:
+  - /glossary/group
+- action: copy-and-substitute
+  add-to-index: false
+  file: source/refs.bib
+document-contributors:
+- action: Written by
+  contributors:
+  - first-name: Sebastian
+    last-name: Huber
+    organization: embedded brains GmbH & Co. KG
+- action: Verified by
+  contributors:
+  - first-name: Frank
+    last-name: Kühndel
+    organization: embedded brains GmbH & Co. KG
+- action: Approved by
+  contributors:
+  - first-name: Dr. Matthias
+    last-name: Göbel
+    organization: embedded brains GmbH & Co. KG
+document-type: ddf-sreld
+enabled-by: RTEMS_QUAL
+files: []
+hash: null
+links: []
+output-html: html
+output-pdf: sreld.pdf
+pkg-type: directory-state
+type: pkg
