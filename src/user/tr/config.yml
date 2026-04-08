@@ -1,0 +1,90 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2026 embedded brains GmbH & Co. KG
+copyrights-by-license: {}
+directory: ${.:/component/documentation-directory}/user/tr
+directory-state-type: sphinx
+document-copyrights:
+- Copyright (C) 9999 Some Company
+document-title: ${.:/component/document-package-title}\breakUser Test Report\break[${.:/component/document-variant}]
+document-toctree-maxdepth: 4
+document-html-help-base-name: TR
+document-html-footer: ${.:/component/document-html-footer}
+document-key: tr
+document-latex-footer-right: ${.:/component/document-latex-footer-right}
+document-latex-geometry: ${.:/component/document-latex-geometry}
+document-latex-header-left: |
+  \tiny
+  This document is provided by a ${.:/component/package-ident} package user.
+document-latex-sphinxsetup: ${.:/component/document-latex-sphinxsetup}
+document-latex-theme: manual
+document-license: CC-BY-SA-4.0
+document-license-map:
+  CC-BY-SA-4.0 OR BSD-2-Clause: BSD-2-Clause
+  CC-BY-SA-4.0 OR MIT: MIT
+document-releases:
+- date: '9999-12-31'
+  status: Release
+  changes: |
+    This is a release issued for some project.
+document-components:
+- action: copy-and-substitute
+  add-to-index: false
+  file:
+  - source/conf.py
+  - source/_templates/footer.html
+  - include/abbreviations.rst
+  - include/ref-docs.rst
+- action: copy-and-substitute
+  add-to-index: true
+  file:
+  - source/zero.rst
+  - source/introduction.rst
+  - source/appl-ref-docs.rst
+- action: add-to-index
+  add-to-index: true
+  file: source/glossary.rst
+- action: copy-and-substitute
+  add-to-index: true
+  file:
+  - source/reports.rst
+- action: copy
+  add-to-index: true
+  file: source/zreferences.rst
+- action: copy-and-substitute
+  add-to-index: false
+  file: source/index.rst
+- action: glossary
+  add-to-index: false
+  file: source/glossary.rst
+  glossary-groups:
+  - /glossary/group
+- action: copy-and-substitute
+  add-to-index: false
+  file: source/refs.bib
+document-contributors:
+- action: Written by
+  contributors:
+  - first-name: Erika
+    last-name: Mustermann
+    organization: Some Company
+- action: Verified by
+  contributors:
+  - first-name: John
+    last-name: Doe
+    organization: Some Company
+- action: Approved by
+  contributors:
+  - first-name: Jean
+    last-name: Dupont
+    organization: Some Company
+document-type: test-report
+enabled-by: true
+files: []
+hash: null
+links: []
+output-html: html
+output-pdf: tr.pdf
+pkg-type: directory-state
+type: pkg
+unexpected-test-failures: {}
