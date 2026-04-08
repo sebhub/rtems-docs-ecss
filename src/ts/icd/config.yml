@@ -1,0 +1,218 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2020, 2021 embedded brains GmbH & Co. KG
+- Copyright (C) 2021 EDISOFT
+copyrights-by-license: {}
+directory: ${.:/component/documentation-directory}/ts/icd
+directory-state-type: sphinx
+document-copyrights:
+- Copyright (C) 2021, 2026 embedded brains GmbH & Co. KG
+document-title: ${.:/component/document-package-title}\breakInterface\breakControl Document\break[${.:/component/document-variant}]
+document-toctree-maxdepth: 4
+document-html-help-base-name: ICD
+document-html-footer: ${.:/component/document-html-footer}
+document-key: icd
+document-latex-footer-right: ${.:/component/document-latex-footer-right}
+document-latex-geometry: ${.:/component/document-latex-geometry}
+document-latex-header-left: ${.:/component/document-latex-header-left}
+document-latex-sphinxsetup: ${.:/component/document-latex-sphinxsetup}
+document-latex-theme: manual
+document-license: CC-BY-SA-4.0
+document-license-map:
+  CC-BY-SA-4.0 OR BSD-2-Clause: BSD-2-Clause
+  CC-BY-SA-4.0 OR MIT: MIT
+document-components:
+- action: copy-and-substitute
+  add-to-index: false
+  file:
+  - source/conf.py
+  - source/_templates/footer.html
+  - include/abbreviations.rst
+  - include/constraints.rst
+  - include/ref-docs.rst
+- action: copy-and-substitute
+  add-to-index: true
+  file:
+  - source/zero.rst
+  - source/introduction.rst
+  - source/appl-ref-docs.rst
+- action: add-to-index
+  add-to-index: true
+  file: source/glossary.rst
+- action: copy-and-substitute
+  add-to-index: true
+  file:
+  - source/overview.rst
+  - source/requirements-and-design.rst
+  - source/validation-requirements.rst
+  - source/traceability.rst
+- action: copy
+  add-to-index: true
+  file: source/zreferences.rst
+- action: copy-and-substitute
+  add-to-index: false
+  file: source/index.rst
+- action: glossary
+  add-to-index: false
+  file: source/glossary.rst
+  glossary-groups:
+  - /glossary/group
+  - /req/glossary
+- action: copy-and-substitute
+  add-to-index: false
+  file: source/refs.bib
+document-releases:
+- date: '2021-10-01'
+  status: Replaced
+  changes: |
+    Release issued for the :term:`QR`/2.
+- date: '2021-12-10'
+  status: Replaced
+  changes: |
+    Final release issued for project *Qualification of RTEMS Symmetric
+    Multiprocessing (SMP)* with ESA Contract No. 4000125572/18/NL/GLC/as.
+- date: '2023-06-20'
+  status: Replaced
+  changes: |
+    This is a release issued as a result of the ISVV activity.
+
+    The following ISVV findings and changes were implemented:
+
+    * RTEMS-SMP-REQ-VER-041 - Units for data representing a physical quantity.
+
+    * Logos and layout were updated.
+- date: '2023-12-01'
+  status: Replaced
+  changes: |
+    Final release issued for project *RTEMS SMP SINGLE-CORE* with ESA Contract
+    No.  4000140680/23/NL/AS.  The following changes were implemented:
+
+    * Applications using only the pre-qualified feature set of RTEMS, should
+      configure the task storage area of $${/glossary/idletask:/plural} using
+      the new application configuration option
+      :ref:`spec:/acfg/if/idle-task-storage-size
+      <SpecAcfgIfIdleTaskStorageSize>`.
+
+    * The interface requirements associated with Classic API interfaces were
+      changed into functional requirements.
+
+    * External interfaces are now covered by the
+      :ref:`spec:/req/external-interface <SpecReqExternalInterface>` interface
+      requirement.
+
+    * The GRLIB interfaces in :ref:`Devices <SpecDevIfDomain>` were modified
+      to address review comments.
+
+    * See *Annex C* of the SVR $${doc-djf-svr:/cite} for a detailed list of
+      specification changes.
+
+    * Logos were alphabetically sorted by company names.
+
+    The following table lists item changes with respect to package version 6:
+
+    $${.:/input/spec-compare-registry/spec-changes-by-scope:0:interfaces:v6}
+- date: ${.:/component/document-date}
+  status: Approved
+  changes: |
+    This is the final release issued for project *RTEMS SMP Updates into the
+    Qualification DP* with ESA Contract No. 4000150715/25/NL/VR.
+    The following changes were implemented:
+
+    * The document was generated using the new
+      `specmake <https://pypi.org/project/specmake/>`__ tools.  This improved
+      the presentation quality in general.  The tools provide the following
+      traceability between items through links from one document to another and
+      vice versa.
+
+      .. figure:: ../images/traceability.pdf
+          :width: 300
+          :align: center
+          :alt: Traceability
+
+    * Chapter :ref:`ChapterZero` was added.
+
+    * The section :ref:`Constraints` was updated.
+
+    * Chapter :ref:`RequirementsAndDesign` was updated:
+
+      * The interface specification items are listed in lexicographical order.
+
+      * For each interface specification item, the following properties are
+        listed if applicable:
+
+         * Requirement text
+
+         * Rationale text
+
+         * Associated upper and lower level items
+
+         * Associated validation items with the validation status
+
+         * Associated software design
+
+         * Associated interface function
+
+         * Interface declaration
+
+         * Calling sequence
+
+         * Parameters
+
+         * Return values
+
+         * Members
+
+         * Enumerators
+
+         * Option type
+
+         * Default configuration
+
+         * Register block
+
+         * Registers
+
+         * Brief description
+
+         * Description
+
+         * Notes
+
+         * Constraints
+
+         * Group memberships
+
+         * Interface include
+
+         * Interface placement
+
+         * Item changes across package versions
+
+    The following table lists item changes with respect to package version 6.2:
+
+    $${.:/input/spec-compare-registry/spec-changes-by-scope:0:interfaces:v6.2}
+document-contributors:
+- action: Written by
+  contributors:
+  - first-name: Sebastian
+    last-name: Huber
+    organization: embedded brains GmbH & Co. KG
+- action: Verified by
+  contributors:
+  - first-name: Frank
+    last-name: Kühndel
+    organization: embedded brains GmbH & Co. KG
+- action: Approved by
+  contributors:
+  - first-name: Dr. Matthias
+    last-name: Göbel
+    organization: embedded brains GmbH & Co. KG
+document-type: ts-icd
+enabled-by: RTEMS_QUAL
+files: []
+hash: null
+links: []
+output-pdf: icd.pdf
+output-html: html
+pkg-type: directory-state
+type: pkg
