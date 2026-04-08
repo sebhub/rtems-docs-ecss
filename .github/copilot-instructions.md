@@ -27,10 +27,11 @@ Copyright (C) 2026 embedded brains GmbH & Co. KG
 
 - In `*.yml` files:
 
-  - Where the `glossary-type` key has the value `term`, check that text for
-    acronyms uses the phrase:
+  - Where the `glossary-type` key has the value `term` and the value of the
+    `term` key is an acronym (for example FB for "Foo Bar"), check that the
+    value of the `text` key uses the phrase pattern:
 
-    This term is an acronym for ACRONYM.
+    This term is an acronym for Foo Bar.
 
   - Where `text` keys are present, the value is in MyST Markdown format
 
