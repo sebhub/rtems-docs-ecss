@@ -1,0 +1,21 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+author:
+- Antonio Filieri
+- Carlo Ghezzi
+- Giordano Tamburrelli
+booktitle: Proceedings of the 33rd International Conference on Software Engineering,
+  ICSE 2011, Waikiki, Honolulu , HI, USA, May 21-28, 2011
+copyrights:
+- Copyright (C) 2025 embedded brains GmbH & Co. KG
+doi: 10.1145/1985793.1985840
+editor: Richard N. Taylor and Harald C. Gall and Nenad Medvidovic
+enabled-by: true
+links: []
+pages: 341--350
+publisher: ACM
+reference-type: inproceedings
+title: Run-time efficient probabilistic model checking
+type: reference
+work-hash: null
+work-url: https://doi.org/10.1145/1985793.1985840
+year: '2011'

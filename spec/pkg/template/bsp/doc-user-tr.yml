@@ -1,0 +1,67 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+attribute-actions:
+- action: extend
+  enabled-by: true
+  path: /links
+  value:
+  - hash: null
+    name: component
+    role: input
+    uid: component
+  - hash: null
+    name: test-aggregation
+    role: input
+    uid: aggregate-test-results-user
+  - hash: null
+    name: link-hub
+    role: input
+    uid: link-hub
+  - hash: null
+    name: images
+    role: input
+    uid: perf-images-user
+  - hash: null
+    name: images
+    role: input
+    uid: rtems-tests-images-user
+  - hash: null
+    name: source
+    role: input
+    uid: ../../../source/doc-user-tr
+  - hash: null
+    key: compiler-version
+    name: test-property
+    property-name: GCC Version
+    role: input
+    type: default
+    expected: $${../../component:/gcc-reported-version}
+    uid: ../../component
+  - hash: null
+    key: rtems-commit
+    name: test-property
+    property-name: RTEMS Git Commit
+    role: input
+    type: rtems-version
+    expected: $${../../../source/rtems:/commit}
+    uid: ../../../source/rtems
+  - name: build
+    role: output
+    uid: build-user-tr
+- action: set
+  enabled-by: true
+  path: /document-title
+  value: ${.:/component/document-package-title}\breakUser Test Report\break[${.:/component/document-variant}]
+- action: set
+  enabled-by: true
+  path: /directory
+  value: $${.:/component/documentation-directory}/user/tr
+copyrights:
+- Copyright (C) 2026 embedded brains GmbH & Co. KG
+enabled-by: true
+file: ${.:/component/workspace-directory}/${.:/component/rtems-docs-ecss-directory}/user/tr/config.yml
+links:
+- role: add-package-template
+  uid: component
+pkg-type: template
+template-type: file-item
+type: pkg

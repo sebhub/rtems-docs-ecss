@@ -1,0 +1,19 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+author:
+- Mavin, Alistair
+- Wilkinson, Philip
+- Gregory, Sarah
+- Uusitalo, Eero
+booktitle: 24th International Requirements Engineering Conference
+copyrights:
+- Copyright (C) 2025 embedded brains GmbH & Co. KG
+doi: 10.1109/RE.2016.38
+enabled-by: true
+links: []
+month: September
+reference-type: inproceedings
+title: Listens Learned (8 Lessons Learned Applying EARS)
+type: reference
+work-hash: null
+work-url: https://www.researchgate.net/profile/Alistair_Mavin/publication/308970788_Listens_Learned_8_Lessons_Learned_Applying_EARS/links/5ab0d42caca2721710fe5017/Listens-Learned-8-Lessons-Learned-Applying-EARS.pdf
+year: '2016'

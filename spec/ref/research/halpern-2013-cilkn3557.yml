@@ -1,0 +1,15 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+author: Halpern, Pablo
+copyrights:
+- Copyright (C) 2025 embedded brains GmbH & Co. KG
+enabled-by: true
+institution: Intel, Corp.
+links: []
+month: March
+note: N3557
+reference-type: techreport
+title: Considering a Fork-Join Parallelism Library
+type: reference
+work-hash: null
+work-url: http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2013/n3557.pdf
+year: '2013'

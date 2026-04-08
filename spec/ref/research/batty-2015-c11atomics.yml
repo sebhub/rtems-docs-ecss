@@ -1,0 +1,13 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+author: Mark John Batty
+copyrights:
+- Copyright (C) 2025 embedded brains GmbH & Co. KG
+enabled-by: true
+links: []
+reference-type: phdthesis
+school: University of Cambridge, UK
+title: The C11 and C++11 concurrency model
+type: reference
+work-hash: null
+work-url: http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.708458
+year: '2015'

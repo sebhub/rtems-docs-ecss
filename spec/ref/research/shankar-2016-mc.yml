@@ -1,0 +1,22 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+author:
+- Subash Shankar
+- Gilbert Pajela
+booktitle: Model Checking Software - 23rd International Symposium, SPIN 2016, Co-located
+  with ETAPS 2016, Eindhoven, The Netherlands, April 7-8, 2016, Proceedings
+copyrights:
+- Copyright (C) 2025 embedded brains GmbH & Co. KG
+doi: 10.1007/978-3-319-32582-8_15
+editor: Dragan Bosnacki and Anton Wijs
+enabled-by: true
+links: []
+pages: 214--224
+publisher: Springer
+reference-type: inproceedings
+series: Lecture Notes in Computer Science
+title: A Tool Integrating Model Checking into a C Verification Toolset
+type: reference
+volume: '9641'
+work-hash: null
+work-url: https://doi.org/10.1007/978-3-319-32582-8_15
+year: '2016'

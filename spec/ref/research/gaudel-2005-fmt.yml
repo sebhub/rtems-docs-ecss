@@ -1,0 +1,17 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+author: Gaudel, Marie-Claude
+booktitle: Proceedings of the 2005 International Conference on Formal Methods
+copyrights:
+- Copyright (C) 2025 embedded brains GmbH & Co. KG
+doi: 10.1007/11526841_2
+enabled-by: true
+links: []
+pages: 2--8
+publisher: Springer-Verlag
+reference-type: inproceedings
+series: FM'05
+title: 'Formal Methods and Testing: Hypotheses, and Correctness Approximations'
+type: reference
+work-hash: null
+work-url: http://dx.doi.org/10.1007/11526841_2
+year: '2005'

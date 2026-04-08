@@ -1,0 +1,18 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+author:
+- Sha, Lui
+- Rajkumar, Ragunathan
+- Lehoczky, John P.
+copyrights:
+- Copyright (C) 2025 embedded brains GmbH & Co. KG
+enabled-by: true
+journal: IEEE Transactions on Computers
+links: []
+pages: 1175-1185
+reference-type: article
+title: 'Priority Inheritance Protocols: An Approach to Real-Time Synchronization'
+type: reference
+volume: '39'
+work-hash: null
+work-url: null
+year: '1990'

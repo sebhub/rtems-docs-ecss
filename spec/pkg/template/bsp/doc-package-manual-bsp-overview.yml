@@ -1,0 +1,104 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+attribute-actions: []
+attributes:
+  content: |
+    $${.:/push-enabled-by:not: RTEMS_QUAL}
+
+    The package provides the
+    ``$${.:/component/arch}/$${.:/component/bsp}$${.:/component/config:dash}``
+    BSP installation.  This BSP installation contains the full RTEMS feature set
+    (except POSIX signals).
+
+    You can configure, build, and install the BSP through the following commands:
+
+    .. code-block:: none
+        :linenos:
+
+        $$$$ cd $${/pkg/source/rtems:/directory}
+        $$$$ rm -rf build
+        $$$$ ./waf configure --prefix=$${.:/component/deployment-directory} --rtems-config=$${config-extra:/file}
+        $$$$ ./waf build
+        $$$$ ./waf install
+
+    $${.:/pop-enabled-by}
+
+    $${.:/push-enabled-by:RTEMS_QUAL}
+
+    The package provides two BSP installation variants:
+
+    1. The
+       ``$${.:/component/arch}/$${.:/component/bsp}$${.:/component/config:dash}-qual-only``
+       variant contains only the pre-qualified RTEMS feature set.  This variant
+       shall be used by applications which are required to use the pre-qualified
+       RTEMS.
+
+    2. The
+       ``$${.:/component/arch}/$${.:/component/bsp}$${.:/component/config:dash}-extra``
+       variant contains the full RTEMS feature set (except POSIX signals).  This
+       variant may be used to support development, prototyping, and debugging
+       activities.
+
+    The build system and configuration maintainers of the application should take
+    care that the right BSP variant is selected for the application build.
+
+    You can configure, build, and install the BSP with the pre-qualified RTEMS
+    feature set through the following commands:
+
+    .. code-block:: none
+        :linenos:
+
+        $$$$ cd $${rtems-qual-only:/directory}
+        $$$$ rm -rf build
+        $$$$ ./waf configure --prefix=$${.:/component/deployment-directory} --rtems-config=$${config-qual-only:/file} --rtems-specs=$${/pkg/source/rtems:/directory}/spec/build
+        $$$$ ./waf build
+        $$$$ ./waf install
+
+    You can configure, build, and install the BSP with the full RTEMS feature set
+    (except POSIX signals) through the following commands:
+
+    .. code-block:: none
+        :linenos:
+
+        $$$$ cd $${/pkg/source/rtems:/directory}
+        $$$$ rm -rf build
+        $$$$ ./waf configure --prefix=$${.:/component/deployment-directory} --rtems-config=$${config-extra:/file}
+        $$$$ ./waf build
+        $$$$ ./waf install
+
+    $${.:/pop-enabled-by}
+
+    .. warning::
+
+        Please note that a reinstallation of a BSP overwrites the existing
+        installation provided by the package.  Already installed files are not
+        removed.  This may result in a mix of old and new files within the
+        installation directory.  You can install the BSP into a separate prefix
+        (``--prefix=/path/to/your/prefix``) using the tools provided by the
+        package through the
+        ``--rtems-tools=$${.:/component/deployment-directory}`` option passed to
+        ``./waf configure``.
+  enabled-by: true
+  label: null
+  links:
+  - hash: null
+    name: component
+    role: input
+    uid: component
+  - hash: null
+    header: Component - $${.:/component/ident}
+    header-is-optional: true
+    name: document-section
+    role: input-to
+    section-key: bsp-overview
+    uid: /pkg/deployment/doc-package-manual
+  pkg-type: sphinx-section
+  type: pkg
+copyrights:
+- Copyright (C) 2024 embedded brains GmbH & Co. KG
+enabled-by: true
+links:
+- role: add-package-template
+  uid: component
+pkg-type: template
+template-type: inline-item
+type: pkg

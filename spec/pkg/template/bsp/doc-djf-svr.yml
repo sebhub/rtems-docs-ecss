@@ -1,0 +1,59 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+attribute-actions:
+- action: extend
+  enabled-by: true
+  path: /links
+  value:
+  - citation-group-key: svr
+    role: citation-group-member
+    uid: /pkg/component
+  - hash: null
+    name: component
+    role: input
+    uid: component
+  - hash: null
+    name: test-aggregation
+    role: input
+    uid: aggregate-test-results
+  - hash: null
+    name: spec
+    role: input
+    uid: rtems-item-cache
+  - build-label: $${.:/component/ident}/qual-only
+    hash: null
+    name: membench-results
+    role: input
+    uid: membench
+  - hash: null
+    name: link-hub
+    role: input
+    uid: link-hub
+  - hash: null
+    name: source
+    role: input
+    uid: ../../../source/doc-rtems-djf-svr
+  - hash: null
+    name: tagfile
+    role: input
+    uid: doc-ddf-sdd-tagfile-early
+  - hash: null
+    name: spec-compare-registry
+    role: input
+    uid: spec-compare-registry
+  - name: build
+    role: output
+    uid: build-djf-svr
+  - hash: null
+    name: member
+    role: input-to
+    uid: ../../../deployment/archive
+copyrights:
+- Copyright (C) 2023 embedded brains GmbH & Co. KG
+enabled-by: true
+file: ${.:/component/workspace-directory}/${.:/component/rtems-docs-ecss-directory}/djf/svr/config.yml
+links:
+- role: add-package-template
+  uid: component
+pkg-type: template
+template-type: file-item
+type: pkg

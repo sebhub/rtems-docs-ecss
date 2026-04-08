@@ -1,0 +1,26 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+author:
+- Zhe Hou
+- David Sanán
+- Alwen Tiu
+- Yang Liu
+- Koh Chuen Hoa
+booktitle: 'FM 2016: Formal Methods - 21st International Symposium, Limassol, Cyprus,
+  November 9-11, 2016, Proceedings'
+copyrights:
+- Copyright (C) 2025 embedded brains GmbH & Co. KG
+doi: 10.1007/978-3-319-48989-6_24
+editor: John S. Fitzgerald and Constance L. Heitmeyer and Stefania Gnesi and Anna
+  Philippou
+enabled-by: true
+links: []
+pages: 388--405
+reference-type: inproceedings
+series: Lecture Notes in Computer Science
+title: 'An Executable Formalisation of the SPARCv8 Instruction Set Architecture: A
+  Case Study for the LEON3 Processor'
+type: reference
+volume: '9995'
+work-hash: null
+work-url: https://doi.org/10.1007/978-3-319-48989-6_24
+year: '2016'

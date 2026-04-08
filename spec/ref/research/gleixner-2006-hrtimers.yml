@@ -1,0 +1,16 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+author:
+- Gleixner, Thomas
+- Niehaus, Douglas
+booktitle: Proceedings of the Linux Symposium
+copyrights:
+- Copyright (C) 2025 embedded brains GmbH & Co. KG
+enabled-by: true
+links: []
+pages: 333-346
+reference-type: inproceedings
+title: 'Hrtimers and Beyond: Transforming the Linux Time Subsystems'
+type: reference
+work-hash: null
+work-url: https://www.kernel.org/doc/ols/2006/ols2006v1-pages-333-346.pdf
+year: '2006'

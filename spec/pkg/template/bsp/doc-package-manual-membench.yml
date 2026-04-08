@@ -1,0 +1,82 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+attribute-actions: []
+attributes:
+  content: |
+    The memory usage benchmarks help you to get a rough estimate of the static
+    memory usage of selected RTEMS features.  For each benchmark program, the
+    size in bytes of the following sections is listed:
+
+    .text
+        This section covers the benchmark program *code*.
+
+    .rodata
+        This section covers the *read-only data* of the benchmark program.
+
+    .data
+        This section covers the *initialized read-write data* of the benchmark
+        program.
+
+    .bss
+        This section covers the *zero-initialized read-write data* of the
+        benchmark program.
+
+    .noinit
+        This section covers the *not initialized read-write data* of the
+        benchmark program.  Similar to the ``.bss`` section, in the program
+        image this section as no content.  However, in contrast to the
+        zero-initialized ``.bss`` section, the content of ``.noinit`` section
+        is not initialized at all during system start.  Objects in this section
+        shall be fully initialized before they are used.  This section contains
+        statically allocated stacks.  For example, stacks for the system
+        initialization, idle threads, and interrupt processing.  It contains
+        also statically allocated system-provided objects and the associated
+        maintenance data structures, the so called RTEMS Workspace.
+
+    In the tables below, the first data row of the table refers to a memory
+    benchmark program which is used as a reference for the following memory
+    benchmark programs.  This gives you a hint how the statically allocated
+    memory usage changes if certain features are added on top of the reference
+    memory benchmark program.
+
+    For example, in
+    $${/pkg/deployment/doc-package-manual:/memory-benchmark-based-on-reference:/rtems/val/mem-basic}
+    the reference memory benchmark program is specified by
+    $${/pkg/deployment/doc-package-manual:/memory-benchmark-reference:/rtems/val/mem-basic}.
+    The ``.text`` section of this memory benchmark program has
+    $${/pkg/deployment/doc-package-manual:/memory-benchmark-section:/rtems/val/mem-basic:.text}
+    bytes.  In one of the following rows, the sections of the memory benchmark
+    program specified by
+    $${/pkg/deployment/doc-package-manual:/memory-benchmark-reference:/dev/clock/val/mem-clock}
+    are compared with the reference memory benchmark program.  The number
+    $${/pkg/deployment/doc-package-manual:/memory-benchmark-compare-section:/rtems/val/mem-basic:/dev/clock/val/mem-clock:.text}
+    in the ``.text`` section column indicates that the program code increased by
+    this amount of bytes with respect to the reference memory benchmark program
+    of the table.  In this case, this gives you an estimate how much code is
+    required for the $${/glossary/clock-driver:/term}.
+
+    $${/pkg/deployment/doc-package-manual:/memory-benchmarks}
+  enabled-by: true
+  label: null
+  links:
+  - hash: null
+    name: component
+    role: input
+    uid: component
+  - hash: null
+    header: Component - $${.:/component/ident}
+    header-is-optional: true
+    name: document-section
+    role: input-to
+    section-key: membench
+    uid: /pkg/deployment/doc-package-manual
+  pkg-type: sphinx-section
+  type: pkg
+copyrights:
+- Copyright (C) 2024 embedded brains GmbH & Co. KG
+enabled-by: true
+links:
+- role: add-package-template
+  uid: component
+pkg-type: template
+template-type: inline-item
+type: pkg

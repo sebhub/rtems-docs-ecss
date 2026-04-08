@@ -1,0 +1,17 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+author:
+- Browning, Jace
+- Adams, Robert
+copyrights:
+- Copyright (C) 2025 embedded brains GmbH & Co. KG
+enabled-by: true
+journal: Journal of Software Engineering and Applications
+links: []
+pages: 187-194
+reference-type: article
+title: 'Doorstop: Text-Based Requirements Management Using Version Control'
+type: reference
+volume: '7'
+work-hash: null
+work-url: http://www.scirp.org/pdf/JSEA_2014032713545074.pdf
+year: '2014'

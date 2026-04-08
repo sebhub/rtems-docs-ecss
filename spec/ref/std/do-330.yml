@@ -1,0 +1,13 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+author: SC-205
+copyrights:
+- Copyright (C) 2025 embedded brains GmbH & Co. KG
+enabled-by: true
+links: []
+organization: RTCA, Inc
+reference-type: manual
+title: Software Tool Qualification Considerations
+type: reference
+work-hash: null
+work-url: https://www.rtca.org
+year: '2011'

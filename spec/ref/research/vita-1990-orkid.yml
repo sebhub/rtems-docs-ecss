@@ -1,0 +1,15 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+author: VITA
+copyrights:
+- Copyright (C) 2025 embedded brains GmbH & Co. KG
+enabled-by: true
+links: []
+month: August
+note: Draft 2.1
+organization: VITA, the VMEbus International Trade Association
+reference-type: manual
+title: Open Real-Time Kernel Interface Definition
+type: reference
+work-hash: null
+work-url: https://ftp.rtems.org/pub/rtems/publications/RTEID-ORKID/ORKID-2.1/ORKID-2_1.pdf
+year: '1990'

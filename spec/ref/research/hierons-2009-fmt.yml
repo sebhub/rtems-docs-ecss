@@ -1,0 +1,32 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+author:
+- Robert M. Hierons
+- Kirill Bogdanov
+- Jonathan P. Bowen
+- Rance Cleaveland
+- John Derrick
+- Jeremy Dick
+- Marian Gheorghe
+- Mark Harman
+- Kalpesh Kapoor
+- Paul J. Krause
+- Gerald Lüttgen
+- Anthony J. H. Simons
+- Sergiy A. Vilkomir
+- Martin R. Woodward
+- Hussein Zedan
+copyrights:
+- Copyright (C) 2025 embedded brains GmbH & Co. KG
+doi: 10.1145/1459352.1459354
+enabled-by: true
+journal: ACM Comput. Surv.
+links: []
+number: '2'
+pages: 9:1--9:76
+reference-type: article
+title: Using formal specifications to support testing
+type: reference
+volume: '41'
+work-hash: null
+work-url: https://doi.org/10.1145/1459352.1459354
+year: '2009'

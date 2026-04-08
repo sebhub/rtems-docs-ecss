@@ -1,0 +1,14 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+author: Helder Silva
+copyrights:
+- Copyright (C) 2025 embedded brains GmbH & Co. KG
+enabled-by: true
+links: []
+month: January
+organization: EDISOFT
+reference-type: manual
+title: SDP-000 RTEMS Software Development Plan, Release 6
+type: reference
+work-hash: null
+work-url: null
+year: '2021'

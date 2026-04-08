@@ -1,0 +1,13 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+author: da Silva Carloto, Carlos José Abreu Dias
+copyrights:
+- Copyright (C) 2025 embedded brains GmbH & Co. KG
+enabled-by: true
+links: []
+reference-type: mastersthesis
+school: Computer Science Department, University of Beira Interior
+title: Towards a Formally Verified Microkernel using the Frama-C tools
+type: reference
+work-hash: null
+work-url: https://pdfs.semanticscholar.org/da53/874d44a72a80cb63f308af165b682a063f18.pdf
+year: '2010'

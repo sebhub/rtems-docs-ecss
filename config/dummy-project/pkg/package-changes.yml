@@ -1,0 +1,411 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+change-list:
+- description: |
+    The first version of the QDP contains a development snapshot which was
+    issued for the ${/glossary/cdr:/term}.
+  name: Package Version 1
+  package-status: package-status/no-issues
+- description: |
+    The second version of the QDP contains a development snapshot which was
+    issued for the ${/glossary/qr:/term}/2.
+  name: Package Version 2
+  package-status: package-status/esa-2
+- description: |
+    The third version of the QDP contains the final release issued for project
+    *Qualification of RTEMS Symmetric Multiprocessing (SMP)* ESA Contract No.
+    4000125572/18/NL/GLC/as.
+  name: Package Version 3
+  package-status: package-status/esa-3
+- description: |
+    The fourth version of the QDP contains a warranty release issued for
+    project *Qualification of RTEMS Symmetric Multiprocessing (SMP)* ESA
+    Contract No.  4000125572/18/NL/GLC/as.  There are the following changes
+    compared to package version 3:
+
+    * The RTEMS baseline changed.  In package version 3, we had about 120
+      QDP-specific patches on top of the RTEMS baseline.  Now, there are only
+      46 patches left.  These patches fall roughly into three categories
+
+      * BSP-specific changes,
+
+      * changes in the build system to support building the pre-qualified only
+        feature set,
+
+      * performance and formal methods tests.
+
+    * Most of the validation tests are now included in the RTEMS baseline.
+      Test runs on ARM and PowerPC platforms were performed showing good
+      results comparable to the current QDP platforms.
+
+    * The relicensing to BSD-2-Clause of the RTEMS sources by the RTEMS Project
+      progressed significantly compared to package version 3.
+
+    * The previous RTEMS baseline contained a bug which could result in a
+      non-monotonic ``CLOCK_MONOTONIC``.  This bug is fixed in this package
+      version.  See also RTEMS ticket `#4617
+      <https://devel.rtems.org/ticket/4617>`_.
+
+    * The specification and validation of some application configuration
+      options was improved.  Now only test cases and validations by inspections
+      are used as validation methods for application configuration options.
+      Entire test suites are no longer used as a validation evidence for a
+      particular requirement.
+
+    * Significant changes in the |SRS| :cite:`QDPSRS` and |SVR|
+      :cite:`QDP:SVR`, see the change log of the documents.
+  name: Package Version 4
+  package-status: package-status/esa-4
+- description: |
+    The fifth version of the |QDP| adds several corrections as a result of the
+    |ISVV| activities as in the table below:
+
+    .. tabularcolumns:: |>{\centering\arraybackslash}m{0.19\textwidth}
+                        |>{\centering\arraybackslash}m{0.28\textwidth}
+                        |m{0.45\textwidth}|
+
+    .. _addressed-findings-table:
+
+    .. table::  Findings already addressed
+      :class: longtable
+
+      +-----------------+-------------------------+-------------------------------------------------------------------------------+
+      |ISVV Finding [2]_|Finding Title            |Notes                                                                          |
+      +=================+=========================+===============================================================================+
+      |REQ-VER-008      |Undefined behaviour      |Following the independent validation, requirements                             |
+      |                 |                         |related with qualified items were updated as to                                |
+      |                 |                         |better describe behaviour upon invalid                                         |
+      |                 |                         |inputs/combinations.                                                           |
+      +-----------------+-------------------------+-------------------------------------------------------------------------------+
+      |REQ-VER-010      |No requirements          |Default text improved.                                                         |
+      +-----------------+-------------------------+-------------------------------------------------------------------------------+
+      |REQ-VER-022      |Performance limits       |Added units and filtered performance limits                                    |
+      |                 |                         |according to board.                                                            |
+      +-----------------+-------------------------+-------------------------------------------------------------------------------+
+      |REQ-VER-024      |References to incorrect  |Updated section 5 of the SRS.                                                  |
+      |                 |board                    |                                                                               |
+      +-----------------+-------------------------+-------------------------------------------------------------------------------+
+      |REQ-VER-041      |Units for data           |Added units for the values referring to size.                                  |
+      |                 |representing a physical  |                                                                               |
+      |                 |quantity                 |                                                                               |
+      +-----------------+-------------------------+-------------------------------------------------------------------------------+
+      |REQ-VER-043      |Indexed bookmarks        |Added indexed bookmarks to QDP documents.                                      |
+      +-----------------+-------------------------+-------------------------------------------------------------------------------+
+      |FM-001           |Invalid Thread wait flags|Corrected sources.                                                             |
+      |                 |used                     |                                                                               |
+      +-----------------+-------------------------+-------------------------------------------------------------------------------+
+      |FM-002           |Run function prototype   |Corrected sources.                                                             |
+      |                 |name not matching with   |                                                                               |
+      |                 |call                     |                                                                               |
+      +-----------------+-------------------------+-------------------------------------------------------------------------------+
+      |FM-003           |Unfinished work is       |Corrected sources.                                                             |
+      |                 |deployed and causing     |                                                                               |
+      |                 |compilation issues       |                                                                               |
+      +-----------------+-------------------------+-------------------------------------------------------------------------------+
+      |TS-VER-009       |Boundary tests for TS    |Updated sections 5.1 and 7.1 of the SUITP and                                  |
+      |                 |validation               |section 5.1 of the SVS as to clarify the approach.                             |
+      +-----------------+-------------------------+-------------------------------------------------------------------------------+
+      |TS-VER-010       |Validation Plan contains |Addressed as part of the IVA test campaign.                                    |
+      |                 |limited elaboration      |                                                                               |
+      +-----------------+-------------------------+-------------------------------------------------------------------------------+
+      |TS-VER-011       |Testing multiple task    |Addressed as part of the IVA test campaign.                                    |
+      |                 |interactions             |                                                                               |
+      +-----------------+-------------------------+-------------------------------------------------------------------------------+
+      |TS-VER-013       |Incomplete SUITP strategy|Updated sections 5.1 and 7.1 of the SUITP and                                  |
+      |                 |                         |section 5.1 of the SVS as to clarify the approach.                             |
+      +-----------------+-------------------------+-------------------------------------------------------------------------------+
+      |TS-VER-019       |Unit test objectives     |Updated sections 5.1 and 7.1 of the SUITP and                                  |
+      |                 |reached through TS tests |section 5.1 of the SVS as to clarify the approach.                             |
+      +-----------------+-------------------------+-------------------------------------------------------------------------------+
+      |DESIGN-VER-010   |No architectural design  |SDD now contains an Architectural Design section                               |
+      |                 |                         |rather than just the Detailed Design generated                                 |
+      |                 |                         |from Doxygen.                                                                  |
+      +-----------------+-------------------------+-------------------------------------------------------------------------------+
+      |**CODE-VER-014** |**Macros wrongly         |                                                                               |
+      |                 |defined**                |**Partially addressed**. *The generation (from RTEMS specifications) of        |
+      |                 |                         |ftmctrl-regs.h, grgpio-regs.h, spwpnp-regs.h, and spwrmap-regs.h is fixed.*    |
+      |                 |                         |Eventual issues in dsu4-regs.h and gr1553b-regs.h are, as of the time          |
+      |                 |                         |of writing, still under discussion/clarification -- please refer to            |
+      |                 |                         |`#4842 - Registers definitions wrongly defined when there are reserved bits`_. |
+      +-----------------+-------------------------+-------------------------------------------------------------------------------+
+      |**CODE-VER-032** |**Output value not       |**Partially addressed**. *For bsp_interrupt_\*                                 |
+      |                 |assigned**               |functions, it has been clarified that the presence                             |
+      |                 |                         |of error conditions is implementation-defined.*                                |
+      |                 |                         |Still to be addressed for                                                      |
+      |                 |                         |leon3_install_inter_processor_interrupt.                                       |
+      +-----------------+-------------------------+-------------------------------------------------------------------------------+
+      |CODE-VER-036     |Unchecked boundaries     |Added note within rtems_message_queue_send specification/ICD and added new     |
+      |                 |                         |_Assert() in the code.                                                         |
+      +-----------------+-------------------------+-------------------------------------------------------------------------------+
+      |CODE-VER-041     |Variable not initialized |Implemented the proposed correction.                                           |
+      |                 |in any file              |                                                                               |
+      +-----------------+-------------------------+-------------------------------------------------------------------------------+
+      |CODE-VER-043     |Global variable          |Moved the definition of this object to start.S and                             |
+      |                 |declared/defined in the  |used a local symbol .Lbootcpuindex for it.                                     |
+      |                 |wrong file               |Use a compare-and-swap instruction to assign the                               |
+      |                 |                         |boot CPU. This allows a concurrent initialization.                             |
+      +-----------------+-------------------------+-------------------------------------------------------------------------------+
+      |CODE-VER-057     |Function returning       |Removed unused return values from functions'                                   |
+      |                 |unchanged function input |signatures.                                                                    |
+      +-----------------+-------------------------+-------------------------------------------------------------------------------+
+      |CODE-VER-058     |Incomplete statement     |Not used a chained assignment for code clarity.                                |
+      +-----------------+-------------------------+-------------------------------------------------------------------------------+
+      |CODE-VER-074     |goto statements          |The goto label was directly after the loop, so it                              |
+      |                 |                         |has been replaced with a break.                                                |
+      +-----------------+-------------------------+-------------------------------------------------------------------------------+
+      |CODE-VER-076     |"!", "&&" or "\|\|"      |Simplified _Objects_Is_api_valid.                                              |
+      |                 |operand should have type |                                                                               |
+      |                 |"bool"                   |                                                                               |
+      +-----------------+-------------------------+-------------------------------------------------------------------------------+
+      |CODE-VER-079     |Hazardous cast           |Added TM27_USE_VECTOR_HANDLER to select the                                    |
+      |                 |                         |interrupt handler type used by the <tm27.h>                                    |
+      |                 |                         |implementation, avoiding function pointer casts.                               |
+      +-----------------+-------------------------+-------------------------------------------------------------------------------+
+      |CODE-VER-083     |Requirement not fully    |Condition excluding nested usage removed from                                  |
+      |                 |implemented              |requirement.                                                                   |
+      +-----------------+-------------------------+-------------------------------------------------------------------------------+
+      |VAL-002          |Use of macros not in the |Removed directive-not-pre-qualified from these                                 |
+      |                 |pre-qualified set        |interfaces/macros and improved requirements                                    |
+      |                 |                         |specifications of these clock manager directives.                              |
+      +-----------------+-------------------------+-------------------------------------------------------------------------------+
+      |VAL-004          |Documentation refers to  |Following the independent validation,                                          |
+      |                 |undefined behaviour on   |documentation has been updated as to                                           |
+      |                 |cases where an error is  |better describe behaviour upon invalid                                         |
+      |                 |to be expected           |inputs/combinations.                                                           |
+      +-----------------+-------------------------+-------------------------------------------------------------------------------+
+
+    .. [2] Consider these Findings' IDs preceded by "RTEMS-SMP-".
+
+    Moreover a new set of ISVV related documents were added, namely verification
+    and validation plans and reports and the overall list of ISVV findings.
+
+    In a nutshell, the previous |QDP| release 4 (which was already an outcome of
+    the RTEMS qualification efforts) has been used as the baseline for the
+    improvements identified during the ISVV activities. Although these QDPs have
+    been based on the RTEMS 6, other meanwhile changes (not related to ISVV
+    outcomes) on the RTMES public mainline have not been integrated into the QDP
+    not to compromise/jeopardise the QDP qualification that has been performed
+    using this baseline.
+
+    It must be noticed that not all of the identified and confirmed ISVV Findings
+    have been corrected. Please refer to :ref:`Problems` for the list of known
+    problems not addressed.
+
+    For further details one can also refer to the RTEMS SMP ISVV Verification
+    Report :cite:`ISVVVER` within the QDP.
+
+    .. _`#4842 - Registers definitions wrongly defined when there are reserved bits`: https://devel.rtems.org/ticket/4842
+  name: Package Version 5
+  package-status: package-status/esa-5
+- description: |
+    The sixth version of the QDP contains the final release issued for project
+    *RTEMS SMP SINGLE-CORE* with ESA Contract No.  4000140680/23/NL/AS.  The
+    following changes were implemented:
+
+    * The RTEMS baseline changed.  In package version 5, we had about 55
+      QDP-specific patches on top of the RTEMS baseline.  Now, there are only
+      24 patches left.  These patches fall into two categories
+
+      * static memory benchmarks and formal methods tests, and
+
+      * changes in the build system to support building the pre-qualified only
+        feature set.
+
+      In particular, all BSP-specific patches were reviewed by Frontgrade
+      Gaisler and integrated in the RTEMS baseline.  The current RTEMS baseline
+      is expected to be close to the RTEMS 6.1 release version.
+      See *Annex B* of the SVR for a comparison of the RTEMS sources of this
+      package version to the previous package version for the files
+      contributing to the pre-qualified feature set of RTEMS.
+
+    * Applications using only the pre-qualified feature set of RTEMS, should
+      configure the task storage area of ${/glossary/idletask:/plural} using
+      the new application configuration option
+      ``CONFIGURE_IDLE_TASK_STORAGE_SIZE``.
+
+    * For the ${/glossary/gr712rc:/term}, the clock driver and CPU counter
+      support use now the time tag register of the Debug Support Unit (DSU).
+      In general, using the DSU is not recommended for the clock driver and CPU
+      counter implementation.  However, for the GR712RC, the DSU cannot be
+      disabled and is always available in flight models.  The time tag register
+      is implemented in radiation hardened flip-flops.  The version 2.16 of the
+      `GR712RC User Manual <https://www.gaisler.com/doc/gr712rc-usermanual-2_16.pdf>`__
+      contains some updates with respect to the DSU usage.
+
+    * The specification was updated to fully cover the uniprocessor
+      configuration of RTEMS for the pre-qualified feature set.  With the new
+      validation tests, the 100% branch and code coverage goal is met also for
+      the uniprocessor configuration.
+
+    * QDPs for several other targets were built by embedded brains.  They are
+      available on request.  This work exposed some shortcomings in the
+      functional specification of RTEMS which were fixed for this package
+      version.  See *Annex C* of the SVR for a detailed list of specification
+      changes.
+
+    * In the SVR section *4.6.1.1 Software Validation Specifications to TS*,
+      the rules to determine if a requirement or interface is *validated* were
+      clarified.  The specification and the qualification toolchain was
+      restructured, to use this simple rule set.  The table in this section was
+      modified to show for each requirement or interface, the validation
+      status, the associated refinements or validations, and the role of the
+      refinement or validation.
+
+    * As a preparation to pre-qualify ${/glossary/posix:/term} interfaces,
+      Newlib was modified to use thread-local storage objects for its internal
+      data structures instead of one giant thread-specific object.
+
+    * GCC was updated to version 13.2.  This update includes a fix for the
+      critical bug `PR 107248
+      <https://gcc.gnu.org/bugzilla/show_bug.cgi?id=107248>`__ which is not
+      fixed in previous package versions.  This GCC release includes a
+      significantly improved support to get `profiling and test coverage in
+      freestanding environments
+      <https://gcc.gnu.org/onlinedocs/gcc/Freestanding-Environments.html>`__.
+      This new GCC feature was specifically added for this activity.  The
+      qualification toolchain was updated to use it.
+
+    * GCC was configured with Ada language support.
+
+    * Binutils was updated to version 2.41 as a maintenance activity.
+
+    * GDB was updated to version 13.2 as a maintenance activity.
+
+    * Doxgyen 1.9.7 was used to build the QDP.  To improve the traceability
+      between the specification and the software design several Doxygen
+      improvements were implemented:
+      `#9926 <https://github.com/doxygen/doxygen/pull/9926>`__,
+      `#9948 <https://github.com/doxygen/doxygen/pull/9948>`__,
+      `#9952 <https://github.com/doxygen/doxygen/pull/9952>`__, and
+      `#9965 <https://github.com/doxygen/doxygen/pull/9965>`__.
+      The improvements are included in this release.
+
+    * The QDP host environment changed from Debian to Ubuntu 22.04 LTS.
+
+    * The RTEMS Software Engineering manual contains now a *Formal
+      Verification* chapter :cite:`RTEMS:Engineering`.
+  name: Package Version 6
+  package-status: package-status/esa-6
+- description: |
+    This is a maintenance release issued for project *RTEMS SMP Updates into
+    the Qualification DP* with ESA Contract No. 4000150715/25/NL/VR.
+
+    The main goals of this maintenance release were
+
+    1. fixing important RTEMS bugs and shortcomings found since package release
+       6, and
+
+    2. improving the maintainability of the package, so that it is easier to
+       publish following maintenance releases.
+
+    Since upstream maintenance of GCC 13 will end in 2026, changes which make
+    it easier to upgrade to a newer GCC versions were identified and
+    integrated.  This was verified by compiling the RTEMS sources with GCC 16.
+    The update was done with these two requirements in mind
+
+    - The Application Programming Interface (${/glossary/api:/term}) shall
+      remain backward compatible.  Users of package version 6 shall not have to
+      change their existing source code due to an update to package version
+      6.2.
+
+    - The Application Binary Interface (${/glossary/abi:/term}) shall remain
+      backward compatible.  Users of package version 6 shall not have to
+      rebuild their software components to link executables using the RTEMS
+      deployments of package version 6.2.
+
+    The RTEMS source code changes from package version 6 to 6.2 with respect to
+    the pre-qualified feature set of RTEMS can be reviewed in *Annex B* of the
+    ${/glossary/svr:/plural} ${/pkg/component:/cite-group:svr}.
+
+    The RTEMS specification was updated to facilitate bug fixes, improvements,
+    and align with the RTEMS Project evolution.  The specification changes from
+    package version 6 to 6.2 can be reviewed in *Annex C* of the SVRs.  To
+    improve the maintainability, the specification items of RTEMS moved from a
+    separate repository to the RTEMS sources in
+    ${/pkg/source/rtems:/directory}.  This is used to generate change logs for
+    the specification modifications from one package version to another for the
+    ${/glossary/icd:/plural} ${/pkg/component:/cite-group:icd},
+    ${/glossary/srs:/plural} ${/pkg/component:/cite-group:srs}, and
+    ${/glossary/svs:/plural} ${/pkg/component:/cite-group:svs}.  There are a
+    lot of changes between package version 5 and 6, since the specification
+    tree verification and presentation was significantly improved by the
+    corresponding ESA project.
+
+    With respect to the generated documents, the update is more progressive.
+    The tools to build the package were completely replaced.  The tools are
+    provided by the `specware <https://pypi.org/project/specware/>`__ and
+    `specmake <https://pypi.org/project/specmake/>`__ Python package.  A copy
+    of the tools is included in the package and can be used to create a User
+    Test Report.  The new tools can build RTEMS for multiple targets and
+    configurations.  This package includes the uniprocessor and the SMP
+    configuration of the ${/glossary/bsp:/term}.  In package version 6 and
+    earlier, these were two separate packages.
+
+    .. raw:: latex
+
+        \begin{scriptsize}
+
+    .. table::
+        :class: longtable
+        :widths: 20 40 40
+
+        ====================== ======================================== =======================================================================================
+        Component              QDPv6 Version                            Update Approach
+        ====================== ======================================== =======================================================================================
+        Package version        6                                        6.2
+        Linux distribution     Debian 10 (EOL 2024-06-30)               Ubuntu 24.04 LTS (EOL 2029-05-31)
+        rtems baseline         9dae9f5fe858dbd556ebd2f529035f8c63824dca keep as is with changes cherry picked from the RTEMS 6 release branch
+        rtems-docs baseline    89f9764047b1729ef235cb9a5cea7d7753a8a54e 0bc67a1155e63f6f6253275ac2b587ab5f4099c8
+        rtems-tools            bd2d3d5523ea203f9e0122a1def61cd2d35d74ab 4e6e2007e8d5d73c4371b81cc7b29dcd1905aee9
+        Binutils               2.41                                     2.45.1
+        Newlib                 fbc5496e40eeb6d0d2ae2a3bf90182e2a9cd74f0 keep as is
+        GCC                    13.2.0                                   13.4.0
+        GDB                    13.2                                     17.1
+        expat                  2.5.0                                    2.7.3
+        gmp                    6.3.0                                    6.3.0 with patches for GCC 15 host compiler
+        isl                    0.26                                     keep as is
+        mpc                    1.3.1                                    keep as is
+        mpfr                   4.2.0                                    4.2.2
+        Doxygen                1.9.7                                    1.15.0 with patches
+        Test reports           SVR - Annex A                            move to test report document
+        Source review v5..v6   SVR - Annex B                            move to SVR - Annex D
+        Spec review v5..v6     SVR - Annex C                            move to SVR - Annex E
+        Source review v6..v6.2 N/A                                      SVR - Annex B
+        Spec review v6..v6.2   N/A                                      SVR - Annex C
+        ECSS tailoring         E40C / Q80C R1                           E40C R1 / Q80C R2 (synchronized with GT1-625QQ activity)
+        SCMP                   EDISOFT                                  new based on GT17-625QQ activity template
+        SDP                    EDISOFT                                  new based on GT17-625QQ activity template
+        SPAP                   EDISOFT                                  new based on GT17-625QQ activity template
+        ====================== ======================================== =======================================================================================
+
+    .. raw:: latex
+
+        \end{scriptsize}
+
+    The `specmake <https://pypi.org/project/specmake/>`__ tools provide the
+    following traceability between items through links from one document to
+    another and vice versa.
+
+    .. figure:: ../images/traceability.pdf
+        :width: 300
+        :align: center
+        :alt: Traceability
+  name: Package Version 6.2
+  package-status: package-status/esa-6.2
+- description: |
+    This is a draft release.
+  name: Package Version 7.0
+  package-status: package-status/esa-7.1
+copyrights:
+- Copyright (C) 2020, 2026 embedded brains GmbH & Co. KG
+enabled-by: true
+links:
+- hash: null
+  name: component
+  role: input
+  uid: component
+- hash: null
+  name: package-changes
+  role: input-to
+  uid: deployment/doc-package-manual
+pkg-type: package-changes
+type: pkg

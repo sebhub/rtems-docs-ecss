@@ -1,0 +1,14 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2025 embedded brains GmbH & Co. KG
+enabled-by: true
+links: []
+month: December
+organization: Lockheed Martin Corporation
+reference-type: manual
+title: Joint Strike Fighter Air Vehicle C++ Coding Standards for the System Development
+  and Demonstration Program
+type: reference
+work-hash: null
+work-url: http://www.stroustrup.com/JSF-AV-rules.pdf
+year: '2005'

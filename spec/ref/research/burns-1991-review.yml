@@ -1,0 +1,15 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+author: Burns, A.
+copyrights:
+- Copyright (C) 2025 embedded brains GmbH & Co. KG
+enabled-by: true
+journal: Software Engineering Journal
+links: []
+pages: 116-128
+reference-type: article
+title: 'Scheduling hard real-time systems: a review'
+type: reference
+volume: '6'
+work-hash: null
+work-url: null
+year: '1991'

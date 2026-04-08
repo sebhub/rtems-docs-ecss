@@ -1,0 +1,19 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+author:
+- Leijen, Daan
+- Schulte, Wolfram
+- Burckhardt, Sebastian
+booktitle: Proceedings of the 24th ACM SIGPLAN conference on Object oriented programming
+  systems languages and applications (OOPSLA'09)
+copyrights:
+- Copyright (C) 2025 embedded brains GmbH & Co. KG
+enabled-by: true
+links: []
+month: September
+publisher: ACM SIGPLAN
+reference-type: inproceedings
+title: The Design of a Task Parallel Library
+type: reference
+work-hash: null
+work-url: https://www.microsoft.com/en-us/research/wp-content/uploads/2009/09/TheDesignOfATaskParallelLibraryoopsla2009.pdf
+year: '2009'

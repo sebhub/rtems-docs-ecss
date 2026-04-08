@@ -1,0 +1,17 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+author:
+- Sha, Lui
+- Goodenough, J. B.
+copyrights:
+- Copyright (C) 2025 embedded brains GmbH & Co. KG
+enabled-by: true
+journal: Computer
+links: []
+pages: 53-62
+reference-type: article
+title: Real-time scheduling theory and Ada
+type: reference
+volume: '23'
+work-hash: null
+work-url: null
+year: '1990'

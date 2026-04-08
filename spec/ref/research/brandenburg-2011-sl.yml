@@ -1,0 +1,13 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+author: Brandenburg, Björn B.
+copyrights:
+- Copyright (C) 2025 embedded brains GmbH & Co. KG
+enabled-by: true
+links: []
+reference-type: phdthesis
+school: The University of North Carolina at Chapel Hill
+title: Scheduling and Locking in Multiprocessor Real-Time Operating Systems
+type: reference
+work-hash: null
+work-url: http://www.cs.unc.edu/~bbb/diss/brandenburg-diss.pdf
+year: '2011'
