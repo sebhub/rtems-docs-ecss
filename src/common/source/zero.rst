@@ -4,13 +4,13 @@
 
 .. _ChapterZero:
 
-Document copyrights, licence, and changes
+Document copyrights, license, and changes
 =========================================
 
-Copyrights and licence
+Copyrights and license
 ----------------------
 
-.. topic:: Copyrights and Licence
+.. topic:: Copyrights and License
 
 ${.:/document-copyrights:    }
 
