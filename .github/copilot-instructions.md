@@ -35,6 +35,18 @@ Copyright (C) 2026 embedded brains GmbH & Co. KG
 
   - Where `text` keys are present, the value is in MyST Markdown format
 
+- In `*.md`, `*.rst`, and `*.yml` files, except
+  `.github/copilot-instructions.md`, check that the following terms are not
+  used:
+
+  - and/or
+
+  - e.g.
+
+  - etc.
+
+  - i.e.
+
 ## File and Directory Naming Conventions
 
 - Check that file and directory names use lower case characters
