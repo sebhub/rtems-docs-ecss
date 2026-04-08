@@ -1,0 +1,15 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2019 EDISOFT
+enabled-by: true
+glossary-type: term
+links:
+- role: glossary-member
+  uid: group
+term: dead code
+text: |
+  This term is defined by
+  [Wikipedia_deadcode](https://en.wikipedia.org/wiki/Dead_code)
+  as "a section in the source code of a program which is executed but
+  whose result is never used in any other computation".
+type: glossary

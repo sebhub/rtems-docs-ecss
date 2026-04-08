@@ -1,0 +1,30 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2019 embedded brains GmbH & Co. KG
+enabled-by: true
+glossary-type: term
+links:
+- role: glossary-member
+  uid: group
+term: configurable code
+text: |
+  This term is defined by the ${ecss:/term} standard ECSS-E-ST-40C in clause
+  3.2.5 as "code (source code or executable code) that can be tailored by
+  setting values of parameters".  The same section contains also a note which
+  lists some examples for configurable code:
+
+      This definition covers in particular classes of configurable code
+      obtained by the following configuration means:
+
+      * configuration based on the use of a compilation directive;
+
+      * configuration based on the use of a link directive;
+
+      * configuration performed through a parameter defined in a
+        configuration file;
+
+      * configuration performed through data defined in a database with
+        impact on the actually executable parts of the software (e.g.
+        parameters defining branch structures that result in the
+        non-execution of existing parts of the code).
+type: glossary

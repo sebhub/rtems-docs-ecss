@@ -1,0 +1,14 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2019 embedded brains GmbH & Co. KG
+enabled-by: true
+glossary-type: term
+links:
+- role: glossary-member
+  uid: group
+term: property annotation
+text: |
+  A formal annotation in C code defining a logical property required
+  of that code. It can be part of a functional specification or
+  requirement.
+type: glossary

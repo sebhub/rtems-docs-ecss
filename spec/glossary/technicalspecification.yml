@@ -1,0 +1,17 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2019 embedded brains GmbH & Co. KG
+enabled-by: true
+glossary-type: term
+links:
+- role: glossary-member
+  uid: group
+term: technical specification
+text: |
+  The technical specification contains a set of technical requirements.
+  According to the ${ecss:/term} standard ECSS-E-ST-40C it consists of the
+  Software Requirements Specification (SRS) defined by Annex D and the
+  Interface Control Document (ICD) defined by Annex F.  General requirements
+  for technical requirements specifications are defined by the standard
+  ECSS-E-ST-10-06C.
+type: glossary

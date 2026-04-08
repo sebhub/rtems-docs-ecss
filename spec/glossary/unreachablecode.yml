@@ -1,0 +1,13 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2023 embedded brains GmbH & Co. KG
+enabled-by: true
+glossary-type: term
+links:
+- role: glossary-member
+  uid: group
+term: unreachable code
+text: |
+  This term is defined by the ${ecss:/term} standard ECSS-E-ST-40C in clause
+  3.2.42 as "code that cannot be executed due to design or coding error".
+type: glossary

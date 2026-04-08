@@ -1,0 +1,14 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2019 embedded brains GmbH & Co. KG
+enabled-by: true
+glossary-type: term
+links:
+- role: glossary-member
+  uid: group
+term: UID
+text: |
+  This term is an acronym for Unique Identifier.  In contrast to an
+  ${uuid:/term}, a UID may be only unique within a certain scope, for example
+  a project.
+type: glossary
