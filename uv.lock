@@ -1142,8 +1142,11 @@ dependencies = [
     { name = "metrixpp" },
     { name = "pykwalify" },
     { name = "specmake" },
+    { name = "sphinx-better-subsection" },
     { name = "sphinx-book-theme" },
     { name = "sphinx-copybutton" },
+    { name = "sphinx-rtd-theme" },
+    { name = "sphinxcontrib-bibtex" },
 ]
 
 [package.metadata]
@@ -1153,8 +1156,11 @@ requires-dist = [
     { name = "metrixpp", specifier = ">=1.8.1" },
     { name = "pykwalify", specifier = ">=1.8.0" },
     { name = "specmake", specifier = ">=1.1.19" },
+    { name = "sphinx-better-subsection", specifier = ">=0.2" },
     { name = "sphinx-book-theme", specifier = ">=1.1.4" },
     { name = "sphinx-copybutton", specifier = ">=0.5.2" },
+    { name = "sphinx-rtd-theme", specifier = ">=3.1.0" },
+    { name = "sphinxcontrib-bibtex", specifier = ">=2.6.5" },
 ]
 
 [[package]]
