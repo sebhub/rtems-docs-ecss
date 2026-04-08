@@ -69,11 +69,14 @@ For this test report, the following verification checks were performed:
 
   * The reported RTEMS_DEBUG build configuration option has the expected value.
 
-  * The reported RTEMS_MULTIPROCESSING build configuration option has the expected value.
+  * The reported RTEMS_MULTIPROCESSING build configuration option has the
+    expected value.
 
-  * The reported RTEMS_POSIX_API build configuration option has the expected value.
+  * The reported RTEMS_POSIX_API build configuration option has the expected
+    value.
 
-  * The reported RTEMS_PROFILING build configuration option has the expected value.
+  * The reported RTEMS_PROFILING build configuration option has the expected
+    value.
 
   * The reported RTEMS_SMP build configuration option has the expected value.
 
@@ -88,7 +91,8 @@ For this test report, the following verification checks were performed:
 * For each output of a test suite executable run with runtime performance
   measurements:
 
-  * All reported maximum runtime values are less than or equal to the expected limit.
+  * All reported maximum runtime values are less than or equal to the expected
+    limit.
 
   * All reported median runtime values are in the expected interval.
 
