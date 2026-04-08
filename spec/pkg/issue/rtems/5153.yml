@@ -1,0 +1,18 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2024, 2026 RTEMS Project and contributors
+created: '2024-11-16T20:21:07.308Z'
+enabled-by: true
+identifier: '5153'
+labels:
+- qualification
+- tool::waf
+links:
+- role: issue-member
+  uid: database
+milestone: '7.1'
+pkg-type: issue
+status: closed
+subject: Update waf to 2.1.4
+type: pkg
+updated: '2026-03-13T01:45:15.734Z'

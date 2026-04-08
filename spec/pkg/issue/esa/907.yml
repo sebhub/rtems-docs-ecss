@@ -1,0 +1,20 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2023 European Space Agency and contributors
+created: '2023-06-01T14:16:05.193Z'
+enabled-by: true
+identifier: '907'
+labels:
+- Code Verif.
+- Major/High
+- RTEMS-SMP-ISVV
+- SPR
+links:
+- role: issue-member
+  uid: database
+milestone: null
+pkg-type: issue
+status: closed
+subject: RTEMS-SMP-CODE-VER-041 - Variable not initialized in any file
+type: pkg
+updated: '2023-07-21T15:33:25.538Z'

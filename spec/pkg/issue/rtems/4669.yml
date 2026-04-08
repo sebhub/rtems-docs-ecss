@@ -1,0 +1,22 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2022, 2025 RTEMS Project and contributors
+created: '2022-06-22T08:51:14.000Z'
+enabled-by: true
+identifier: '4669'
+labels:
+- priority::normal
+- qualification
+- resolution::fixed
+- rtems::score
+- tickettype::defect
+- version::5
+links:
+- role: issue-member
+  uid: database
+milestone: '5.1'
+pkg-type: issue
+status: closed
+subject: clock_nanosleep() uses the wrong clock to determine the start time point
+type: pkg
+updated: '2025-09-19T01:11:10.927Z'

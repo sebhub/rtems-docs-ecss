@@ -1,0 +1,17 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2025, 2026 RTEMS Project and contributors
+created: '2025-10-31T19:06:28.182Z'
+enabled-by: true
+identifier: '5385'
+labels:
+- qualification
+links:
+- role: issue-member
+  uid: database
+milestone: '7.1'
+pkg-type: issue
+status: closed
+subject: 'tc-timecounter-install.c:356:37: warning: left shift of negative value'
+type: pkg
+updated: '2026-03-13T03:16:34.071Z'

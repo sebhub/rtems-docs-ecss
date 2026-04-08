@@ -1,0 +1,22 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2021, 2025 RTEMS Project and contributors
+created: '2021-05-18T11:09:45.000Z'
+enabled-by: true
+identifier: '4426'
+labels:
+- api::posix
+- priority::normal
+- qualification
+- resolution::fixed
+- tickettype::defect
+- version::6
+links:
+- role: issue-member
+  uid: database
+milestone: '6.1'
+pkg-type: issue
+status: closed
+subject: clock_nanosleep() may use wrong clock for relative times
+type: pkg
+updated: '2025-09-19T01:11:00.456Z'

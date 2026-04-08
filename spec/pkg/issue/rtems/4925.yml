@@ -1,0 +1,21 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2023, 2024 RTEMS Project and contributors
+created: '2023-07-12T04:21:04.000Z'
+enabled-by: true
+identifier: '4925'
+labels:
+- arch:sparc
+- priority::normal
+- qualification
+- tickettype::enhancement
+- version::6
+links:
+- role: issue-member
+  uid: database
+milestone: '6.1'
+pkg-type: issue
+status: closed
+subject: 'Deal with GR740 errata: Level-2 Cache Issues H1 2023 (GRLIB-TN-0021)'
+type: pkg
+updated: '2024-11-20T15:12:14.560Z'

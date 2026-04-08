@@ -1,0 +1,22 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2024, 2026 RTEMS Project and contributors
+created: '2024-01-31T07:13:03.000Z'
+enabled-by: true
+identifier: '4986'
+labels:
+- priority::normal
+- qualification
+- resolution::fixed
+- rtems::config
+- tickettype::enhancement
+- version::6
+links:
+- role: issue-member
+  uid: database
+milestone: '6.1'
+pkg-type: issue
+status: closed
+subject: Improve CONFIGURE_TICKS_PER_TIMESLICE configuration and documentation
+type: pkg
+updated: '2026-03-12T06:57:07.805Z'

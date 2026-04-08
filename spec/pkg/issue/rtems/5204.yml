@@ -1,0 +1,18 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2025, 2026 RTEMS Project and contributors
+created: '2025-02-06T15:14:59.017Z'
+enabled-by: true
+identifier: '5204'
+labels:
+- qualification
+- scan::coverity
+links:
+- role: issue-member
+  uid: database
+milestone: '7.1'
+pkg-type: issue
+status: opened
+subject: 'kern_tc.c: Uses int32_t not time_t (time overflow)'
+type: pkg
+updated: '2026-03-13T02:03:28.363Z'

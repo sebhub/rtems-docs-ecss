@@ -1,0 +1,17 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2021 European Space Agency and contributors
+created: '2021-01-26T10:04:51.678Z'
+enabled-by: true
+identifier: '635'
+labels:
+- RTEMS
+links:
+- role: issue-member
+  uid: database
+milestone: null
+pkg-type: issue
+status: closed
+subject: 'Finding: SPAMR: Fix relevant Coverity issues'
+type: pkg
+updated: '2021-11-22T19:23:22.520Z'

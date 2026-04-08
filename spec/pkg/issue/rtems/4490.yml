@@ -1,0 +1,22 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2021, 2025 RTEMS Project and contributors
+created: '2021-08-10T10:41:25.000Z'
+enabled-by: true
+identifier: '4490'
+labels:
+- priority::normal
+- qualification
+- resolution::fixed
+- tickettype::defect
+- version::5
+links:
+- role: issue-member
+  uid: database
+milestone: '5.1'
+pkg-type: issue
+status: closed
+subject: rtems_partition_return_buffer() wrongly accepts buffers which are exactly
+  at the buffer area end
+type: pkg
+updated: '2025-09-19T01:11:01.606Z'

@@ -1,0 +1,17 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2024, 2026 RTEMS Project and contributors
+created: '2024-12-05T03:02:18.518Z'
+enabled-by: true
+identifier: '5169'
+labels:
+- qualification
+links:
+- role: issue-member
+  uid: database
+milestone: '7.1'
+pkg-type: issue
+status: opened
+subject: Use of pkg-config --libs is unreliable
+type: pkg
+updated: '2026-03-18T01:56:23.564Z'

@@ -1,0 +1,18 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2025, 2026 RTEMS Project and contributors
+created: '2025-07-12T18:14:52.000Z'
+enabled-by: true
+identifier: '5298'
+labels:
+- qualification
+links:
+- role: issue-member
+  uid: database
+milestone: '7.1'
+pkg-type: issue
+status: closed
+subject: 'irq-record.c and irq-generic.c: Indexing past end of array warning on multiple
+  BSPs'
+type: pkg
+updated: '2026-03-13T03:00:56.288Z'

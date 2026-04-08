@@ -1,0 +1,22 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2020, 2024 RTEMS Project and contributors
+created: '2020-08-17T10:27:55.000Z'
+enabled-by: true
+identifier: '4054'
+labels:
+- priority::normal
+- qualification
+- resolution::fixed
+- tickettype::enhancement
+- version::6
+links:
+- role: issue-member
+  uid: database
+milestone: '6.1'
+pkg-type: issue
+status: closed
+subject: RTEMS_BARRIER_AUTOMATIC_RELEASE and RTEMS_BINARY_SEMAPHORE options have the
+  same value
+type: pkg
+updated: '2024-04-25T20:48:18.162Z'

@@ -1,0 +1,22 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2023, 2024 RTEMS Project and contributors
+created: '2023-02-13T12:59:06.000Z'
+enabled-by: true
+identifier: '4850'
+labels:
+- arch:sparc
+- priority::normal
+- qualification
+- resolution::fixed
+- tickettype::defect
+- version::6
+links:
+- role: issue-member
+  uid: database
+milestone: '6.1'
+pkg-type: issue
+status: closed
+subject: 'LEON3 - Variable not initialized in any file / missing #ifdefs'
+type: pkg
+updated: '2024-04-25T20:50:34.989Z'

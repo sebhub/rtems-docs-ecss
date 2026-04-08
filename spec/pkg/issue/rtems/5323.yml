@@ -1,0 +1,18 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2025, 2026 RTEMS Project and contributors
+created: '2025-08-22T16:44:27.244Z'
+enabled-by: true
+identifier: '5323'
+labels:
+- bsp
+- qualification
+links:
+- role: issue-member
+  uid: database
+milestone: '8.1'
+pkg-type: issue
+status: opened
+subject: Fix files referencing paths with libbsp/ which no longer exists
+type: pkg
+updated: '2026-03-13T03:06:42.641Z'

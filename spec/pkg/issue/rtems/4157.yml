@@ -1,0 +1,23 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2020, 2024 RTEMS Project and contributors
+created: '2020-10-19T15:33:11.000Z'
+enabled-by: true
+identifier: '4157'
+labels:
+- api::posix
+- priority::normal
+- qualification
+- resolution::fixed
+- tickettype::defect
+- version::4.11
+links:
+- role: issue-member
+  uid: database
+milestone: '6.1'
+pkg-type: issue
+status: closed
+subject: pthread_spin_unlock() may corrupt the thread stack if RTEMS_PROFILING and
+  RTEMS_SMP is enabled
+type: pkg
+updated: '2024-04-25T20:48:24.106Z'

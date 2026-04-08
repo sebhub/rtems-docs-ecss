@@ -1,0 +1,19 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2026 RTEMS Project and contributors
+created: '2026-02-02T21:28:47.557Z'
+enabled-by: true
+identifier: '5454'
+labels:
+- format::oar
+- lang::c
+- qualification
+links:
+- role: issue-member
+  uid: database
+milestone: '7.1'
+pkg-type: issue
+status: closed
+subject: cpukit/libtest Formatting
+type: pkg
+updated: '2026-03-13T03:19:03.152Z'

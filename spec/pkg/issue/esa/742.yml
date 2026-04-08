@@ -1,0 +1,20 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2021, 2023 European Space Agency and contributors
+created: '2021-09-30T15:21:33.940Z'
+enabled-by: true
+identifier: '742'
+labels:
+- Info
+- On hold
+- RTEMS
+- SPR
+links:
+- role: issue-member
+  uid: database
+milestone: null
+pkg-type: issue
+status: opened
+subject: QDP and Coverity Results contain personal information
+type: pkg
+updated: '2023-07-06T14:20:13.088Z'

@@ -1,0 +1,23 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2023, 2025 RTEMS Project and contributors
+created: '2023-02-09T14:54:34.000Z'
+enabled-by: true
+identifier: '4846'
+labels:
+- arch:sparc
+- old-indefinite
+- priority::normal
+- qualification
+- resolution::wontfix
+- tickettype::defect
+- version::6
+links:
+- role: issue-member
+  uid: database
+milestone: '6.3'
+pkg-type: issue
+status: opened
+subject: Code for test software
+type: pkg
+updated: '2025-09-19T01:42:03.023Z'

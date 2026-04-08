@@ -1,0 +1,20 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2019, 2025 RTEMS Project and contributors
+created: '2019-02-26T10:19:31.000Z'
+enabled-by: true
+identifier: '3701'
+labels:
+- priority::normal
+- qualification
+- tickettype::project
+- version::6
+links:
+- role: issue-member
+  uid: database
+milestone: '6.3'
+pkg-type: issue
+status: opened
+subject: RTEMS Pre-Qualification (ECSS) for SMP
+type: pkg
+updated: '2025-09-19T01:41:56.210Z'

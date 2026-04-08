@@ -1,0 +1,22 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2015, 2024 RTEMS Project and contributors
+created: '2015-06-11T13:18:57.000Z'
+enabled-by: true
+identifier: '2365'
+labels:
+- priority::lowest
+- qualification
+- resolution::fixed
+- rtems::score
+- tickettype::defect
+- version::4.10
+links:
+- role: issue-member
+  uid: database
+milestone: '6.1'
+pkg-type: issue
+status: closed
+subject: Task pre-emption disable is broken due to pseudo ISR tasks
+type: pkg
+updated: '2024-04-25T20:44:48.010Z'

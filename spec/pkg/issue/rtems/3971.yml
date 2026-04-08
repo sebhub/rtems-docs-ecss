@@ -1,0 +1,21 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2020, 2024 RTEMS Project and contributors
+created: '2020-05-05T12:46:30.000Z'
+enabled-by: true
+identifier: '3971'
+labels:
+- priority::normal
+- qualification
+- resolution::fixed
+- tickettype::enhancement
+- version::5
+links:
+- role: issue-member
+  uid: database
+milestone: '5.1'
+pkg-type: issue
+status: closed
+subject: Deprecate use of RTEMS_MAXIMUM_NAME_LENGTH
+type: pkg
+updated: '2024-04-25T20:48:08.353Z'

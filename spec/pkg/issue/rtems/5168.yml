@@ -1,0 +1,19 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2024, 2026 RTEMS Project and contributors
+created: '2024-12-05T02:24:31.874Z'
+enabled-by: true
+identifier: '5168'
+labels:
+- api::posix
+- qualification
+links:
+- role: issue-member
+  uid: database
+milestone: '7.1'
+pkg-type: issue
+status: closed
+subject: While at low sporadic server priority, changing the real priority leads to
+  unpredictable system behaviour
+type: pkg
+updated: '2026-03-13T01:48:53.708Z'

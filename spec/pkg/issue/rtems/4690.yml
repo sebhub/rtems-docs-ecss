@@ -1,0 +1,22 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2022, 2024 RTEMS Project and contributors
+created: '2022-08-01T04:22:51.000Z'
+enabled-by: true
+identifier: '4690'
+labels:
+- priority::normal
+- qualification
+- resolution::fixed
+- rtems::score
+- tickettype::defect
+- version::6
+links:
+- role: issue-member
+  uid: database
+milestone: '6.1'
+pkg-type: issue
+status: closed
+subject: CLOCK_REALTIME thread queue not updated as part of clock_settime call
+type: pkg
+updated: '2024-04-25T20:49:58.975Z'

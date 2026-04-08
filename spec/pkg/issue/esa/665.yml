@@ -1,0 +1,17 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2021 European Space Agency and contributors
+created: '2021-02-17T16:40:35.650Z'
+enabled-by: true
+identifier: '665'
+labels:
+- RTEMS
+links:
+- role: issue-member
+  uid: database
+milestone: null
+pkg-type: issue
+status: closed
+subject: 'Finding: SVR: Binary library content does not match Space Profile'
+type: pkg
+updated: '2021-11-19T18:28:22.645Z'

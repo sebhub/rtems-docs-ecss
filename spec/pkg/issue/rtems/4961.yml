@@ -1,0 +1,21 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2023, 2024 RTEMS Project and contributors
+created: '2023-10-11T05:18:58.000Z'
+enabled-by: true
+identifier: '4961'
+labels:
+- filesystem::jffs2
+- priority::normal
+- qualification
+- tickettype::defect
+- version::6
+links:
+- role: issue-member
+  uid: database
+milestone: '6.1'
+pkg-type: issue
+status: closed
+subject: Document and test CONFIGURE_JFFS2_DELAYED_WRITE_TASK_PRIORITY
+type: pkg
+updated: '2024-05-02T23:16:27.052Z'

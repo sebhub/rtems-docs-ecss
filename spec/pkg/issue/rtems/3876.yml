@@ -1,0 +1,22 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2020, 2024 RTEMS Project and contributors
+created: '2020-02-15T10:20:54.000Z'
+enabled-by: true
+identifier: '3876'
+labels:
+- priority::normal
+- qualification
+- resolution::fixed
+- rtems::config
+- tickettype::task
+- version::5
+links:
+- role: issue-member
+  uid: database
+milestone: '5.1'
+pkg-type: issue
+status: closed
+subject: Remove CONFIGURE_DISABLE_SMP_CONFIGURATION
+type: pkg
+updated: '2024-04-25T20:47:47.312Z'

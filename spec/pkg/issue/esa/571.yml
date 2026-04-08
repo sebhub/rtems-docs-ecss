@@ -1,0 +1,20 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2020, 2021 European Space Agency and contributors
+created: '2020-10-16T02:02:41.978Z'
+enabled-by: true
+identifier: '571'
+labels:
+- DDR#2
+- QR1
+- RID
+- RTEMS
+links:
+- role: issue-member
+  uid: database
+milestone: QR1
+pkg-type: issue
+status: closed
+subject: 'DDR2-JFS-01 : static analysis of RTEMS space subset source code'
+type: pkg
+updated: '2021-12-02T15:39:23.464Z'

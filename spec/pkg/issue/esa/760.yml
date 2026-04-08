@@ -1,0 +1,20 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2021 European Space Agency and contributors
+created: '2021-10-13T16:31:05.868Z'
+enabled-by: true
+identifier: '760'
+labels:
+- Major/High
+- QR2
+- RID
+- RTEMS
+links:
+- role: issue-member
+  uid: database
+milestone: null
+pkg-type: issue
+status: closed
+subject: QR2-CJ-08 planning open points
+type: pkg
+updated: '2021-10-19T09:45:03.970Z'

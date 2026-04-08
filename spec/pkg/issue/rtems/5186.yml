@@ -1,0 +1,18 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2025, 2026 RTEMS Project and contributors
+created: '2025-01-22T02:46:52.825Z'
+enabled-by: true
+identifier: '5186'
+labels:
+- qualification
+- rtems::build
+links:
+- role: issue-member
+  uid: database
+milestone: '7.1'
+pkg-type: issue
+status: closed
+subject: Waf varsion support breaks if the version has no version label
+type: pkg
+updated: '2026-03-13T01:49:52.675Z'

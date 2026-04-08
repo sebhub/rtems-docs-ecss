@@ -1,0 +1,19 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2026 RTEMS Project and contributors
+created: '2026-02-04T19:00:21.597Z'
+enabled-by: true
+identifier: '5462'
+labels:
+- format::oar
+- lang::c
+- qualification
+links:
+- role: issue-member
+  uid: database
+milestone: '7.1'
+pkg-type: issue
+status: closed
+subject: cpukit/libmisc/cpuuse Formatting
+type: pkg
+updated: '2026-03-13T03:19:34.861Z'

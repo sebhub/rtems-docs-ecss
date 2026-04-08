@@ -1,0 +1,22 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2023, 2025 RTEMS Project and contributors
+created: '2023-02-10T12:57:39.000Z'
+enabled-by: true
+identifier: '4849'
+labels:
+- old-indefinite
+- priority::normal
+- qualification
+- tickettype::defect
+- tickettype::enhancement
+- version::6
+links:
+- role: issue-member
+  uid: database
+milestone: '6.3'
+pkg-type: issue
+status: opened
+subject: '"Timer Server" Cannot be Used in Systems with Static Memory Allocation'
+type: pkg
+updated: '2025-09-19T01:42:03.111Z'

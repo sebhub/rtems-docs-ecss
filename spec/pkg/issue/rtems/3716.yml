@@ -1,0 +1,20 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2019, 2025 RTEMS Project and contributors
+created: '2019-03-04T12:21:03.000Z'
+enabled-by: true
+identifier: '3716'
+labels:
+- priority::normal
+- qualification
+- tickettype::task
+- version::6
+links:
+- role: issue-member
+  uid: database
+milestone: '6.3'
+pkg-type: issue
+status: opened
+subject: Unit, integration and validation tests for space profile
+type: pkg
+updated: '2025-09-19T01:41:56.604Z'

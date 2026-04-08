@@ -1,0 +1,19 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2025, 2026 RTEMS Project and contributors
+created: '2025-09-25T03:01:25.721Z'
+enabled-by: true
+identifier: '5356'
+labels:
+- format::oar
+- lang::c
+- qualification
+links:
+- role: issue-member
+  uid: database
+milestone: '7.1'
+pkg-type: issue
+status: closed
+subject: cpukit/posix Formatting
+type: pkg
+updated: '2026-03-13T03:08:24.005Z'

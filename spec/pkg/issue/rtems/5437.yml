@@ -1,0 +1,17 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2026 RTEMS Project and contributors
+created: '2026-01-30T17:19:18.902Z'
+enabled-by: true
+identifier: '5437'
+labels:
+- qualification
+links:
+- role: issue-member
+  uid: database
+milestone: '7.1'
+pkg-type: issue
+status: closed
+subject: Consolidate cpukit third-party sources
+type: pkg
+updated: '2026-03-13T03:14:11.716Z'

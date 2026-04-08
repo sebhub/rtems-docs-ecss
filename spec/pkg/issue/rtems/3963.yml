@@ -1,0 +1,21 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2020, 2025 RTEMS Project and contributors
+created: '2020-04-22T05:12:17.000Z'
+enabled-by: true
+identifier: '3963'
+labels:
+- priority::normal
+- qualification
+- rtems::build
+- tickettype::enhancement
+- version::6
+links:
+- role: issue-member
+  uid: database
+milestone: '6.3'
+pkg-type: issue
+status: opened
+subject: Add build specification item verification
+type: pkg
+updated: '2025-09-19T01:41:57.338Z'

@@ -1,0 +1,23 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2017, 2024 RTEMS Project and contributors
+created: '2017-04-07T15:11:16.000Z'
+enabled-by: true
+identifier: '2985'
+labels:
+- doc
+- priority::normal
+- qualification
+- resolution::fixed
+- tickettype::defect
+- tickettype::enhancement
+- version::5
+links:
+- role: issue-member
+  uid: database
+milestone: '6.1'
+pkg-type: issue
+status: closed
+subject: Add documentation for printk()
+type: pkg
+updated: '2024-04-25T20:45:40.287Z'

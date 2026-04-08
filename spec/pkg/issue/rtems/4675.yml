@@ -1,0 +1,21 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2022, 2026 RTEMS Project and contributors
+created: '2022-07-07T10:17:28.000Z'
+enabled-by: true
+identifier: '4675'
+labels:
+- api::posix
+- priority::normal
+- qualification
+- tickettype::defect
+- version::6
+links:
+- role: issue-member
+  uid: database
+milestone: '6.2'
+pkg-type: issue
+status: closed
+subject: sleep should be a thread cancellation point
+type: pkg
+updated: '2026-03-13T01:42:42.539Z'

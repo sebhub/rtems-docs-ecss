@@ -1,0 +1,21 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2022, 2024 RTEMS Project and contributors
+created: '2022-10-14T13:04:19.000Z'
+enabled-by: true
+identifier: '4741'
+labels:
+- arch:sparc
+- priority::normal
+- qualification
+- resolution::fixed
+- tickettype::defect
+links:
+- role: issue-member
+  uid: database
+milestone: '6.1'
+pkg-type: issue
+status: closed
+subject: Fix GCC PR 107248
+type: pkg
+updated: '2024-04-25T20:50:01.964Z'

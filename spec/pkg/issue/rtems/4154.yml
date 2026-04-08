@@ -1,0 +1,22 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2020, 2024 RTEMS Project and contributors
+created: '2020-10-16T05:45:40.000Z'
+enabled-by: true
+identifier: '4154'
+labels:
+- arch:sparc
+- priority::normal
+- qualification
+- resolution::fixed
+- tickettype::defect
+- version::5
+links:
+- role: issue-member
+  uid: database
+milestone: '5.2'
+pkg-type: issue
+status: closed
+subject: 'Improve the workaround for the LEON3FT store-store errata: TN-0009'
+type: pkg
+updated: '2024-04-25T20:48:23.148Z'

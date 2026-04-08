@@ -1,0 +1,10 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2023, 2024 embedded brains GmbH & Co. KG
+enabled-by: true
+format-identifier: '#${.:/identifier}'
+links: []
+name: RTEMS Issue
+pkg-type: issue-database
+type: pkg
+url: https://gitlab.rtems.org/rtems/rtos/rtems/-/issues/${.:/identifier}

@@ -1,0 +1,18 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2020, 2021 European Space Agency and contributors
+created: '2020-03-19T16:52:13.433Z'
+enabled-by: true
+identifier: '468'
+labels:
+- MAI
+- RTEMS
+links:
+- role: issue-member
+  uid: database
+milestone: MS2/DDR
+pkg-type: issue
+status: closed
+subject: '73'
+type: pkg
+updated: '2021-09-17T13:41:38.910Z'

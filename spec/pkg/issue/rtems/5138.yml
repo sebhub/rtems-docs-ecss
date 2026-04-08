@@ -1,0 +1,18 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2024, 2026 RTEMS Project and contributors
+created: '2024-10-27T21:10:25.697Z'
+enabled-by: true
+identifier: '5138'
+labels:
+- os::windows
+- qualification
+links:
+- role: issue-member
+  uid: database
+milestone: '7.1'
+pkg-type: issue
+status: closed
+subject: Check to see if long_gcc.py is still needed.
+type: pkg
+updated: '2026-03-12T06:57:53.228Z'

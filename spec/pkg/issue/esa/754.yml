@@ -1,0 +1,20 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+copyrights:
+- Copyright (C) 2021 European Space Agency and contributors
+created: '2021-10-12T20:21:11.570Z'
+enabled-by: true
+identifier: '754'
+labels:
+- Major/High
+- QR2
+- RID
+- RTEMS
+links:
+- role: issue-member
+  uid: database
+milestone: null
+pkg-type: issue
+status: closed
+subject: QR2-CJ-04 QDP document versioning strategy
+type: pkg
+updated: '2021-11-12T15:52:28.941Z'
