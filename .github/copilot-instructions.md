@@ -15,9 +15,22 @@ Copyright (C) 2026 embedded brains GmbH & Co. KG
 
 ## Content Guidelines
 
-- Check that text is written in British English with the following exceptions:
+- Check that text is written in British English with the following exceptions
+  (and similar):
+
+  - authorization
+
+  - customization
+
+  - finalization
+
+  - initialization
 
   - license
+
+  - organization
+
+  - synchronization
 
 - In `*.md` files, check that text is in MyST Markdown format
 
