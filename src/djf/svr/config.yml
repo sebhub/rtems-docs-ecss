@@ -315,6 +315,14 @@ document-releases:
           :align: center
           :alt: Traceability
 
+    * The document sources were published to the
+      `embedded-brains/rtems-docs-ecss <https://github.com/embedded-brains/rtems-docs-ecss>`__
+      GitHub repository through
+      `pull request #15 <https://github.com/embedded-brains/rtems-docs-ecss/pull/15>`__
+      with GitHub Copilot review.  As
+      a result, several typos and grammatical mistakes were fixed throughout
+      the document.
+
     * Chapter :ref:`ChapterZero` was added.
 
     * The :ref:`SoftwareTestReports` was updated to refer to the
