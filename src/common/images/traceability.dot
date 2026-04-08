@@ -1,0 +1,25 @@
+// SPDX-License-Identifier: BSD-2-Clause
+
+// Copyright (C) 2026 embedded brains GmbH & Co. KG
+
+digraph {
+  icd [label="ICD"];
+  sdd [label="SDD"];
+  srs [label="SRS"];
+  suitp [label="SUITP"];
+  svs [label="SVS"];
+  tr [label="Test\nReport"];
+  icd -> sdd [label="Software\nDesign"];
+  icd -> srs [label="Functional\nSpecification"];
+  sdd -> icd [label="Source Code\nTraceability"];
+  sdd -> suitp [label="Source Code\nTraceability"];
+  sdd -> svs [label="Source Code\nTraceability"];
+  srs -> icd [label="Interface\nSpecification"];
+  srs -> svs [label="Validation"];
+  suitp -> sdd [label="Software\nDesign"];
+  suitp -> tr [label="Test\nResults"];
+  svs -> tr [label="Test\nResults"];
+  svs -> srs [label="Specification"];
+  tr -> suitp [label="Specification"];
+  tr -> svs [label="Specification"];
+}
