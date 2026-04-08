@@ -26,6 +26,12 @@ document-releases:
   changes: |
     This is the final release issued for project *RTEMS SMP Updates into the
     Qualification DP* with ESA Contract No. 4000150715/25/NL/VR.
+
+    The document sources were published on the
+    `embedded-brains/rtems-docs-ecss <https://github.com/embedded-brains/rtems-docs-ecss>`__
+    GitHub repository through
+    `pull request #19 <https://github.com/embedded-brains/rtems-docs-ecss/pull/19>`__
+    with GitHub Copilot review.
 document-components:
 - action: copy-and-substitute
   add-to-index: false

@@ -92,6 +92,14 @@ document-releases:
     * The document was generated using the new
       `specmake <https://pypi.org/project/specmake/>`__ tools.
 
+    * The document sources were published to the
+      `embedded-brains/rtems-docs-ecss <https://github.com/embedded-brains/rtems-docs-ecss>`__
+      GitHub repository through
+      `pull request #12 <https://github.com/embedded-brains/rtems-docs-ecss/pull/12>`__
+      with GitHub Copilot review.  As
+      a result, several typos and grammatical mistakes were fixed throughout
+      the document.
+
     * Chapter :ref:`ChapterZero` was added.
 
     * Section :ref:`Changes` was updated.

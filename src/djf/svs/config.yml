@@ -115,6 +115,14 @@ document-releases:
           :align: center
           :alt: Traceability
 
+    * The document sources were published to the
+      `embedded-brains/rtems-docs-ecss <https://github.com/embedded-brains/rtems-docs-ecss>`__
+      GitHub repository through
+      `pull request #13 <https://github.com/embedded-brains/rtems-docs-ecss/pull/13>`__
+      with GitHub Copilot review.  As
+      a result, several typos and grammatical mistakes were fixed throughout
+      the document.
+
     * The document layout was adjusted to strictly follow *Annex L* of the
       $${/ref/ecss/e-st-40c-r1:/cite-long}.
 
