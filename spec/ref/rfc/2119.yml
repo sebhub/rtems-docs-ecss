@@ -1,0 +1,15 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+author: Scott Bradner
+copyrights:
+- Copyright (C) 2025 embedded brains GmbH & Co. KG
+enabled-by: true
+institution: Internet Engineering Task Force (IETF)
+links: []
+month: March
+number: '14'
+reference-type: techreport
+title: Key words for use in RFCs to Indicate Requirement Levels
+type: reference
+work-hash: null
+work-url: http://www.rfc-editor.org/rfc/rfc2119.txt
+year: '1997'

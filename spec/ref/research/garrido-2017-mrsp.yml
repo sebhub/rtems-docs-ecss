@@ -1,0 +1,25 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+author:
+- Jorge Garrido
+- Shuai Zhao
+- Alan Burns
+- Andy J. Wellings
+booktitle: Reliable Software Technologies - Ada-Europe 2017 - 22nd Ada-Europe International
+  Conference on Reliable Software Technologies, Vienna, Austria, June 12-16, 2017,
+  Proceedings
+copyrights:
+- Copyright (C) 2025 embedded brains GmbH & Co. KG
+doi: 10.1007/978-3-319-60588-3_5
+editor: Johann Blieberger and Markus Bader
+enabled-by: true
+links: []
+pages: 73--86
+publisher: Springer
+reference-type: inproceedings
+series: Lecture Notes in Computer Science
+title: Supporting Nested Resources in MrsP
+type: reference
+volume: '10300'
+work-hash: null
+work-url: https://doi.org/10.1007/978-3-319-60588-3_5
+year: '2017'

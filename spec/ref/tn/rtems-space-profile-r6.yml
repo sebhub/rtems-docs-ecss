@@ -1,0 +1,16 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+author:
+- Sebastian Huber
+- José Valdez
+copyrights:
+- Copyright (C) 2025 embedded brains GmbH & Co. KG
+enabled-by: true
+links: []
+month: June
+organization: embedded brains GmbH & Co. KG
+reference-type: manual
+title: 'Technical Note: Space Profile, Release 6'
+type: reference
+work-hash: null
+work-url: ${.:/component/deployment-directory}/doc/technical-notes/tn-sp/tn-space-profile.pdf
+year: '2021'

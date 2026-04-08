@@ -1,0 +1,22 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+archive-file: rtems-${.:/component/name}-${.:/component/package-version}.tar.xz
+archive-strip-prefix: ${.:/component/prefix-directory}/
+copyrights:
+- Copyright (C) 2020, 2025 embedded brains GmbH & Co. KG
+copyrights-by-license: {}
+directory: ${.:/component/build-directory}
+directory-state-type: archive
+enabled-by: false
+files: []
+hash: null
+links:
+- hash: null
+  name: component
+  role: input
+  uid: ../component
+- name: verify-package
+  role: output
+  uid: verify-package
+pkg-type: directory-state
+type: pkg
+verification-script: verify_package.py

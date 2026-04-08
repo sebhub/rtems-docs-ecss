@@ -1,0 +1,15 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+author: Boehm, Hans-J.
+copyrights:
+- Copyright (C) 2025 embedded brains GmbH & Co. KG
+enabled-by: true
+institution: HP Laboratories
+links: []
+month: June
+note: HPL-2012-68
+reference-type: techreport
+title: Can Seqlocks Get Along With Programming Language Memory Models?
+type: reference
+work-hash: null
+work-url: http://www.hpl.hp.com/techreports/2012/HPL-2012-68.pdf
+year: '2012'

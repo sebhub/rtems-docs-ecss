@@ -1,0 +1,14 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+author: IEC
+copyrights:
+- Copyright (C) 2025 embedded brains GmbH & Co. KG
+enabled-by: true
+links: []
+organization: INTERNATIONAL ELECTROTECHNICAL COMMISSION
+reference-type: manual
+title: 'Functional safety of electric/electronic/programmable electronic safety-related
+  systems - Part 3: Software requirements'
+type: reference
+work-hash: null
+work-url: www.iec.ch
+year: '2010'

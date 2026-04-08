@@ -1,0 +1,22 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+author:
+- Brahmi, Abderrahmane
+- Delmas, David
+- Essoussi, Mohamed Habib
+- Randimbivololona, Famantanantsoa
+- Atki, Abdellatif
+- Marie, Thomas
+booktitle: 9th European Congress on Embedded Real Time Software and Systems (ERTS
+  2018)
+copyrights:
+- Copyright (C) 2025 embedded brains GmbH & Co. KG
+enabled-by: true
+links: []
+month: January
+reference-type: inproceedings
+title: 'Formalise to automate: deployment of a safe and cost-efficient process for
+  avionics software'
+type: reference
+work-hash: null
+work-url: https://hal.archives-ouvertes.fr/hal-01708332
+year: '2018'

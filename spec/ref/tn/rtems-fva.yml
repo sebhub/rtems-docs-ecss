@@ -1,0 +1,15 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+author:
+- Andrew Butterfield
+- Frédéric Tuong
+copyrights:
+- Copyright (C) 2025 embedded brains GmbH & Co. KG
+enabled-by: true
+links: []
+organization: Lero, the Irish Software Research Centre, at Trinity College Dublin
+reference-type: manual
+title: Formal Verification Artefacts
+type: reference
+work-hash: null
+work-url: ${.:/component/deployment-directory}/doc/fm/fva/FV2-201.pdf
+year: '2023'

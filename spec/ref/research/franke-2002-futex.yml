@@ -1,0 +1,17 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+author:
+- Franke, Hubertus
+- Russel, Rusty
+- Kirkwood, Matthew
+booktitle: Proceedings of the Ottawa Linux Symposium 2002
+copyrights:
+- Copyright (C) 2025 embedded brains GmbH & Co. KG
+enabled-by: true
+links: []
+pages: 479-495
+reference-type: inproceedings
+title: 'Fuss, Futexes and Furwocks: Fast Userlevel Locking in Linux'
+type: reference
+work-hash: null
+work-url: https://www.kernel.org/doc/ols/2002/ols2002-pages-479-495.pdf
+year: '2002'

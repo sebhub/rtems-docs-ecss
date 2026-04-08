@@ -1,0 +1,13 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+author: Gaisler
+copyrights:
+- Copyright (C) 2025 embedded brains GmbH & Co. KG
+enabled-by: true
+links: []
+organization: Cobham plc
+reference-type: manual
+title: GR712RC, User's Manual, Version 2.12
+type: reference
+work-hash: null
+work-url: https://www.gaisler.com/doc/gr712rc-usermanual.pdf
+year: '2018'

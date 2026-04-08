@@ -1,0 +1,24 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+author:
+- Banham, Dave
+- Banks, Andrew
+- Bradbury, Mark
+- Burden, Paul
+- Dawson-Butterworth, Mark
+- Hennell, Mike
+- Hills, Chris
+- Montgomery, Steve
+- Tapp, Chris
+- Whiting, Liz
+copyrights:
+- Copyright (C) 2025 embedded brains GmbH & Co. KG
+enabled-by: true
+links: []
+month: March
+publisher: MISRA Limited
+reference-type: book
+title: MISRA C:2012 Guidelines for the Use of the C Language in Critical Systems
+type: reference
+work-hash: null
+work-url: null
+year: '2013'

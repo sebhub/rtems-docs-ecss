@@ -1,0 +1,42 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+attribute-actions:
+- action: set
+  enabled-by: true
+  path: /name
+  value: dummy
+- action: set-default
+  enabled-by: true
+  path: /package-version
+  value: '7.0'
+- action: set-default
+  enabled-by: true
+  path: /document-date
+  value: '9999-12-31'
+- action: set-default
+  enabled-by: true
+  path: /ident
+  value: Ident
+- action: set-default
+  enabled-by: true
+  path: /package-long
+  value: Package Long
+- action: set-default
+  enabled-by: true
+  path: /package-short
+  value: Package Short
+- action: set-default
+  enabled-by: true
+  path: /project-name
+  value: Package Name
+copyrights:
+- Copyright (C) 2026 embedded brains GmbH & Co. KG
+enabled-by: true
+enabled-set-actions:
+- action: add
+  enabled-by: true
+  value: pkg.feature.qual
+enabled-set-feedback-mapping: {}
+links: []
+pkg-type: template
+template-type: component
+type: pkg

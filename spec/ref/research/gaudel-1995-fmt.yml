@@ -1,0 +1,20 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+author: Marie-Claude Gaudel
+booktitle: 'TAPSOFT''95: Theory and Practice of Software Development, 6th International
+  Joint Conference CAAP/FASE, Aarhus, Denmark, May 22-26, 1995, Proceedings'
+copyrights:
+- Copyright (C) 2025 embedded brains GmbH & Co. KG
+doi: 10.1007/3-540-59293-8_188
+editor: Peter D. Mosses and Mogens Nielsen and Michael I. Schwartzbach
+enabled-by: true
+links: []
+pages: 82--96
+publisher: Springer
+reference-type: inproceedings
+series: Lecture Notes in Computer Science
+title: Testing Can Be Formal, Too
+type: reference
+volume: '915'
+work-hash: null
+work-url: https://doi.org/10.1007/3-540-59293-8_188
+year: '1995'

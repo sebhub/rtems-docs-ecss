@@ -1,0 +1,20 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+author: Anthony C. J. Fox
+booktitle: Interactive Theorem Proving - 6th International Conference, ITP 2015, Nanjing,
+  China, August 24-27, 2015, Proceedings
+copyrights:
+- Copyright (C) 2025 embedded brains GmbH & Co. KG
+doi: 10.1007/978-3-319-22102-1_12
+editor: Christian Urban and Xingyuan Zhang
+enabled-by: true
+links: []
+pages: 187--202
+publisher: Springer
+reference-type: inproceedings
+series: Lecture Notes in Computer Science
+title: Improved Tool Support for Machine-Code Decompilation in HOL4
+type: reference
+volume: '9236'
+work-hash: null
+work-url: https://doi.org/10.1007/978-3-319-22102-1_12
+year: '2015'
