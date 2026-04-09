@@ -51,8 +51,8 @@ change-list:
       Entire test suites are no longer used as a validation evidence for a
       particular requirement.
 
-    * Significant changes in the |SRS| :cite:`QDPSRS` and |SVR|
-      :cite:`QDP:SVR`, see the change log of the documents.
+    * Significant changes in the |SRS| and |SVR|, see the change log of the
+      documents.
   name: Package Version 4
   package-status: package-status/esa-4
 - description: |
@@ -191,7 +191,7 @@ change-list:
     problems not addressed.
 
     For further details one can also refer to the RTEMS SMP ISVV Verification
-    Report :cite:`ISVVVER` within the QDP.
+    Report within the QDP.
 
     .. _`#4842 - Registers definitions wrongly defined when there are reserved bits`: https://devel.rtems.org/ticket/4842
   name: Package Version 5
@@ -282,7 +282,7 @@ change-list:
     * The QDP host environment changed from Debian to Ubuntu 22.04 LTS.
 
     * The RTEMS Software Engineering manual contains now a *Formal
-      Verification* chapter :cite:`RTEMS:Engineering`.
+      Verification* chapter.
   name: Package Version 6
   package-status: package-status/esa-6
 - description: |
