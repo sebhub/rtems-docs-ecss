@@ -114,7 +114,7 @@ Software Requirements Verification
 The verification activities related to the ${/glossary/ts:/term} are mandated
 by clause 5.8.3.2 of |E40| ${/ref/ecss/q-st-40c-r1:/cite}:
 
-* **Reviewer:** Frank Kühndel (:term:`EB`)
+* **Reviewer:** Frank Kühndel (embedded brains)
 * **Review Date:** 2021-11-26, 2021-11-10,
   previous reviews 2021-01-12/13, 2021-10-28 opened `Issue #645`_.
 * **Input Items:**
@@ -249,7 +249,7 @@ Verification of the Software Architectural and Interface Design
 The verification activities related to the software architectural design are
 mandated by clause 5.8.3.3.a of |E40| ${/ref/ecss/q-st-40c-r1:/cite}:
 
-**Reviewer:** Frank Kühndel (:term:`EB`)
+**Reviewer:** Frank Kühndel (embedded brains)
 
 **Review Date:** 2021-10-29; a previous review 2021-02-02/05 opened
 `Issue #640`_ and `Issue #645`_.
@@ -332,7 +332,7 @@ mandated by clause 5.8.3.3.a of |E40| ${/ref/ecss/q-st-40c-r1:/cite}:
     from design components to requirements.  The completeness was verified by
     review:
 
-    * **Reviewer:** Frank Kühndel (:term:`EB`)
+    * **Reviewer:** Frank Kühndel (embedded brains)
     * **Review Date:** 2021-01-19 (Opened `Issue #660`_), 2021-05-27 (Update),
       2021-09-22 (Update), 2021-10-29 (Update), 2021-11-26 (Update),
       2021-12-08 (Update)
@@ -509,7 +509,7 @@ mandated by clause 5.8.3.3.a of |E40| ${/ref/ecss/q-st-40c-r1:/cite}:
 10. "Dynamic features" are provided and real‐time choices
     are justified.
 
-**Reviewer:** Frank Kühndel (:term:`EB`)
+**Reviewer:** Frank Kühndel (embedded brains)
 
 **Review Date:** 2021-09-22 (a preceding review 2021-02-02/05 let to findings
 in `Issue #663`_)
@@ -627,7 +627,7 @@ Software Detailed Design Verification
 The verification activities related to the software detailed design are
 mandated by clause 5.8.3.4.a of |E40| ${/ref/ecss/q-st-40c-r1:/cite}:
 
-**Reviewer:** Frank Kühndel (:term:`EB`)
+**Reviewer:** Frank Kühndel (embedded brains)
 
 **Review Date:** 2021-02-04/05,
 2021-09-22/29 (Update; one finding was resolved because
@@ -810,7 +810,7 @@ Software Code Verification
 The verification activities related to the software code are mandated by clause
 5.8.3.5.a of |E40| ${/ref/ecss/q-st-40c-r1:/cite}:
 
-**Reviewer:** Frank Kühndel (:term:`EB`)
+**Reviewer:** Frank Kühndel (embedded brains)
 
 **Review Date:** 2020-12-12 -- 2020-12-22,
 2021-05-27 (Update of the tables below),
@@ -1187,7 +1187,7 @@ linker will even link such code.
    The verification tests check all error conditions so that the error
    handling is completely covered.
 
-   **Reviewer:** Frank Kühndel (:term:`EB`)
+   **Reviewer:** Frank Kühndel (embedded brains)
 
    **Review Date:** 2021-11-24 (update), 2021-10-29 (update)
 
@@ -1540,7 +1540,7 @@ by clause 5.8.3.6 of |E40| ${/ref/ecss/q-st-40c-r1:/cite}:
 
 5. Have all activities defined in clause 5.5.3 been performed?
 
-   **Reviewer:** Frank Kühndel (:term:`EB`)
+   **Reviewer:** Frank Kühndel (embedded brains)
 
    **Review Date:** 2021-09-29 (a preceding review 2021-02-24 opened
    `Issue #669`_)
@@ -1733,7 +1733,7 @@ ${/glossary/qr:/term}/1.  This section is outdated and superseded by
 The verification activities related to the software architectural design are
 mandated by clause 5.8.3.10 of |E40| ${/ref/ecss/q-st-40c-r1:/cite}:
 
-* **Reviewer:** Frank Kühndel (:term:`EB`)
+* **Reviewer:** Frank Kühndel (embedded brains)
 * **Review Date:** 2021-02-23/24, updated 2021-05-28
 * **Input Item:**
 
@@ -1744,7 +1744,7 @@ mandated by clause 5.8.3.10 of |E40| ${/ref/ecss/q-st-40c-r1:/cite}:
 
 1. Is the documentation is adequate, complete, and consistent?
 
-.. list-table:: Documentation in the :term:`QDP` according to :term:`QT-109` -- part 1.
+.. list-table:: Documentation in the :term:`QDP` according to QT-109 -- part 1.
    :widths: 15 10 5
    :header-rows: 1
 
@@ -1773,7 +1773,7 @@ mandated by clause 5.8.3.10 of |E40| ${/ref/ecss/q-st-40c-r1:/cite}:
      - ``doc/djf/suitp/suitp.pdf``
      - *No*
 
-.. list-table:: Documentation in the :term:`QDP` according to :term:`QT-109` -- part 2.
+.. list-table:: Documentation in the :term:`QDP` according to QT-109 -- part 2.
    :widths: 15 10 5
    :header-rows: 1
 
@@ -1856,7 +1856,7 @@ mandated by clause 5.8.3.10 of |E40| ${/ref/ecss/q-st-40c-r1:/cite}:
        section *6.1 Information identification*?
 
      * Is document identification and configuration management
-       consistent between :term:`SCMP` and :term:`QT-109`
+       consistent between :term:`SCMP` and QT-109
        chapter *5 Qualification Data Package*?
 
      * Are documents build, available in formats, contain the information and
@@ -1927,7 +1927,7 @@ ${/glossary/ar:/term}.  The verification activities related to the software
 architectural design are mandated by clause 5.8.3.10 of |E40|
 ${/ref/ecss/q-st-40c-r1:/cite}:
 
-* **Reviewer:** Frank Kühndel (:term:`EB`)
+* **Reviewer:** Frank Kühndel (embedded brains)
 * **Review Date:** 2021-11-26, 2021-11-18, 2021-10-29
 
   Earlier reviews 2021-09-21/22 and 2021-10-21 opened findings
@@ -1954,7 +1954,7 @@ ${/ref/ecss/q-st-40c-r1:/cite}:
 
 1. Is the documentation adequate, complete, and consistent?
 
-.. list-table:: Documentation in the :term:`QDP` according to :term:`QT-109` -- part 1.
+.. list-table:: Documentation in the :term:`QDP` according to QT-109 -- part 1.
    :widths: 15 10 5
    :header-rows: 1
 
@@ -1977,7 +1977,7 @@ ${/ref/ecss/q-st-40c-r1:/cite}:
      - ``doc/djf/suitp/suitp.pdf``
      - Yes
 
-.. list-table:: Documentation in the :term:`QDP` according to :term:`QT-109` -- part 2.
+.. list-table:: Documentation in the :term:`QDP` according to QT-109 -- part 2.
    :widths: 15 10 5
    :header-rows: 1
 
@@ -2036,9 +2036,9 @@ ${/ref/ecss/q-st-40c-r1:/cite}:
      - ``doc/rtems/cpu-supplement/cpu-supplement.pdf``
      - Yes
 
-Documents not listed in the :term:`QT-109` but present:
+Documents not listed in the QT-109 but present:
 
-.. list-table:: Documents not listed in the :term:`QT-109` but present
+.. list-table:: Documents not listed in the QT-109 but present
    :widths: 15 10 5
    :header-rows: 1
 
@@ -2103,7 +2103,7 @@ Documents found elsewhere:
        section *6.1 Information identification*?
 
      * Is document identification and configuration management
-       consistent between :term:`SCMP` and :term:`QT-109`
+       consistent between :term:`SCMP` and QT-109
        chapter *5 Qualification Data Package*?
 
      * Are documents build, available in formats, contain the information and
@@ -2167,7 +2167,7 @@ The specifications of these tests can be found in the *Promela* models
 in sub-folder ``doc/djf/svr/formal/``. They consist of Promela model
 (``*.pml``) and refinement files (``*-rfn.yml``).
 
-**Reviewer:** Frank Kühndel (:term:`EB`)
+**Reviewer:** Frank Kühndel (embedded brains)
 
 **Review Date:** 2021-11-24/26, review 2021-11-19 opened `Issue #776`_,
 2021-11-10, review 2021-09-29 opened `Issue #733`_ (closed in favor
@@ -2238,7 +2238,7 @@ Measures to handle automatically generated code
       * Generated code undergoes the same static analyzing and metering as
         the manual generated code
 
-**Reviewer:** Frank Kühndel (:term:`EB`)
+**Reviewer:** Frank Kühndel (embedded brains)
 
 **Review Date:** 2021-02-24
 
