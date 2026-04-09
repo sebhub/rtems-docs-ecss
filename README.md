@@ -73,5 +73,7 @@ Please refer to our
 ## Origin
 
 Content from the
-[ESA Gitlab rtems-smp-qualification-qual repository](https://gitlab.esa.int/gitrepos/external/rtems-smp-qualification-qual)
-was used to populate this repository.
+[ESA GitLab rtems-smp-qualification](https://gitlab.esa.int/gitrepos/external/rtems-smp-qualification)
+and
+[ESA GitLab rtems-smp-qualification-qual](https://gitlab.esa.int/gitrepos/external/rtems-smp-qualification-qual)
+repositories was used to populate this repository.
