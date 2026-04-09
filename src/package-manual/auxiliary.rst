@@ -370,7 +370,7 @@ To get the UIDs of available user test reports, see step 5.  Remove the
 path.
 
 Step 10: Review the user test report
------------------------------------
+------------------------------------
 
 Review the generated test report located at
 ``doc/$${arch-component}/$${bsp-component}/user/tr/tr.pdf``.  Start with the
@@ -1082,7 +1082,7 @@ products and product lines from
 * SAM S MCUs
 
 NanoXplore
----------
+----------
 
 On request, QDPs can be made available by embedded brains for the following
 products and product lines from
