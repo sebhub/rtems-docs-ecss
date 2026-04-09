@@ -15,7 +15,7 @@ document-latex-sphinxsetup: hmargin={20mm, 20mm}, vmargin={10mm, 24mm}
 document-latex-style: project
 document-package-title: Package Title
 document-variant: ${.:/name}/${.:/package-version}
-deployment-directory: ${.:/package-directory}
+deployment-directory: ${.:/prefix-directory}/${.:/package-directory}
 enabled-by: true
 enabled-set: []
 enabled-set-actions: []
