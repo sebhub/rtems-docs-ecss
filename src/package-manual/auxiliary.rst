@@ -1151,27 +1151,27 @@ ISVV documents copyrights and license
 The copyright holders listed above grant that the
 ${/glossary/isvv:/term} documents
 
-* `CSW-RTEMSISVV-2021-GLS-04956_4-rtems-smp-isvv-glossary-and-acronyms.pdf>`_
+* :file:`CSW-RTEMSISVV-2021-GLS-04956_4-rtems-smp-isvv-glossary-and-acronyms.pdf`
 
-* `CSW-RTEMSISVV-2023-PLN-01130_2-rtems-smp-isvv-ive-plan.pdf>`_
+* :file:`CSW-RTEMSISVV-2023-PLN-01130_2-rtems-smp-isvv-ive-plan.pdf`
 
-* `CSW-RTEMSISVV-2021-RPT-04960_7-rtems-smp-isvv-ive-report.pdf>`_
+* :file:`CSW-RTEMSISVV-2021-RPT-04960_7-rtems-smp-isvv-ive-report.pdf`
 
-* `CSW-RTEMSISVV-2021-RPT-04960_7-rtems-smp-isvv-ive-report-code-annex.pdf>`_
+* :file:`CSW-RTEMSISVV-2021-RPT-04960_7-rtems-smp-isvv-ive-report-code-annex.pdf`
 
-* `CSW-RTEMSISVV-2021-RPT-04960_7-rtems-smp-isvv-ive-report-code-annex.xlsx>`_
+* :file:`CSW-RTEMSISVV-2021-RPT-04960_7-rtems-smp-isvv-ive-report-code-annex.xlsx`
 
-* `CSW-RTEMSISVV-2021-SVP-04961_6-rtems-smp-isvv-iva-plan.pdf>`_
+* :file:`CSW-RTEMSISVV-2021-SVP-04961_6-rtems-smp-isvv-iva-plan.pdf`
 
-* `CSW-RTEMSISVV-2021-RPT-04962_4-rtems-smp-isvv-iva-report.pdf>`_
+* :file:`CSW-RTEMSISVV-2021-RPT-04962_4-rtems-smp-isvv-iva-report.pdf`
 
-* `CSW-RTEMSISVV-2022-TCS-02711_9-rtems-smp-isvv-iva-test-specification-worksheet.pdf>`_
+* :file:`CSW-RTEMSISVV-2022-TCS-02711_9-rtems-smp-isvv-iva-test-specification-worksheet.pdf`
 
-* `CSW-RTEMSISVV-2022-TCS-02711_9-rtems-smp-isvv-iva-test-specification-worksheet.xlsx>`_
+* :file:`CSW-RTEMSISVV-2022-TCS-02711_9-rtems-smp-isvv-iva-test-specification-worksheet.xlsx`
 
-* `CSW-RTEMSISVV-2023-LST-01297_3-rtems-smp-isvv-all-findings-except-for-code-analysis.pdf>`_
+* :file:`CSW-RTEMSISVV-2023-LST-01297_3-rtems-smp-isvv-all-findings-except-for-code-analysis.pdf`
 
-* `CSW-RTEMSISVV-2023-LST-01297_3-rtems-smp-isvv-all-findings-except-for-code-analysis.xlsx>`_
+* :file:`CSW-RTEMSISVV-2023-LST-01297_3-rtems-smp-isvv-all-findings-except-for-code-analysis.xlsx`
 
 may be reproduced in whole or in part, or stored in a retrieval system,
 or transmitted in any form, or by any means electronic, mechanical,
