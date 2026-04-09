@@ -111,7 +111,7 @@ are within the specified margins (``P``) or not (``F``).
 
 ${.:/performance-summary}
 
-* **Reviewer:** Frank Kühndel (:term:`EB`)
+* **Reviewer:** Frank Kühndel (embedded brains)
 * **Review Date:** 2021-12-08, review 2021-10-21 opened `Issue #770`_
 * **Input Item:** Table *Performance Requirement Status* above for a
   GR712RC :term:`SMP` build with tests on the simulator only
